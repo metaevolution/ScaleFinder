@@ -1,0 +1,1068 @@
+{'formula': '1 2 4 5 6', 'notes': ['A', 'B', 'D', 'E', 'F#'], 'scale': 'ritusen', 'root_note': 'A'}
+{'formula': '1 2 4 5 6', 'notes': ['A#', 'C', 'D#', 'F', 'G'], 'scale': 'ritusen', 'root_note': 'A#'}
+{'formula': '1 2 4 5 6', 'notes': ['B', 'C#', 'E', 'F#', 'G#'], 'scale': 'ritusen', 'root_note': 'B'}
+{'formula': '1 2 4 5 6', 'notes': ['C', 'D', 'F', 'G', 'A'], 'scale': 'ritusen', 'root_note': 'C'}
+{'formula': '1 2 4 5 6', 'notes': ['C#', 'D#', 'F#', 'G#', 'A#'], 'scale': 'ritusen', 'root_note': 'C#'}
+{'formula': '1 2 4 5 6', 'notes': ['D', 'E', 'G', 'A', 'B'], 'scale': 'ritusen', 'root_note': 'D'}
+{'formula': '1 2 4 5 6', 'notes': ['D#', 'F', 'G#', 'A#', 'C'], 'scale': 'ritusen', 'root_note': 'D#'}
+{'formula': '1 2 4 5 6', 'notes': ['E', 'F#', 'A', 'B', 'C#'], 'scale': 'ritusen', 'root_note': 'E'}
+{'formula': '1 2 4 5 6', 'notes': ['F', 'G', 'A#', 'C', 'D'], 'scale': 'ritusen', 'root_note': 'F'}
+{'formula': '1 2 4 5 6', 'notes': ['F#', 'G#', 'B', 'C#', 'D#'], 'scale': 'ritusen', 'root_note': 'F#'}
+{'formula': '1 2 4 5 6', 'notes': ['G', 'A', 'C', 'D', 'E'], 'scale': 'ritusen', 'root_note': 'G'}
+{'formula': '1 2 4 5 6', 'notes': ['G#', 'A#', 'C#', 'D#', 'F'], 'scale': 'ritusen', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['A', 'B', 'C#', 'D', 'D#', 'F', 'G'], 'scale': 'locrian major', 'root_note': 'A'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['A#', 'C', 'D', 'D#', 'E', 'F#', 'G#'], 'scale': 'locrian major', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['B', 'C#', 'D#', 'E', 'F', 'G', 'A'], 'scale': 'locrian major', 'root_note': 'B'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['C', 'D', 'E', 'F', 'F#', 'G#', 'A#'], 'scale': 'locrian major', 'root_note': 'C'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['C#', 'D#', 'F', 'F#', 'G', 'A', 'B'], 'scale': 'locrian major', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['D', 'E', 'F#', 'G', 'G#', 'A#', 'C'], 'scale': 'locrian major', 'root_note': 'D'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['D#', 'F', 'G', 'G#', 'A', 'B', 'C#'], 'scale': 'locrian major', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['E', 'F#', 'G#', 'A', 'A#', 'C', 'D'], 'scale': 'locrian major', 'root_note': 'E'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['F', 'G', 'A', 'A#', 'B', 'C#', 'D#'], 'scale': 'locrian major', 'root_note': 'F'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['F#', 'G#', 'A#', 'B', 'C', 'D', 'E'], 'scale': 'locrian major', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['G', 'A', 'B', 'C', 'C#', 'D#', 'F'], 'scale': 'locrian major', 'root_note': 'G'}
+{'formula': '1 2 3 4 5b 6b 7b', 'notes': ['G#', 'A#', 'C', 'C#', 'D', 'E', 'F#'], 'scale': 'locrian major', 'root_note': 'G#'}
+{'formula': '1 3 4 5 7b', 'notes': ['A', 'C#', 'D', 'E', 'G'], 'scale': 'mixolydian pentatonic', 'root_note': 'A'}
+{'formula': '1 3 4 5 7b', 'notes': ['A#', 'D', 'D#', 'F', 'G#'], 'scale': 'mixolydian pentatonic', 'root_note': 'A#'}
+{'formula': '1 3 4 5 7b', 'notes': ['B', 'D#', 'E', 'F#', 'A'], 'scale': 'mixolydian pentatonic', 'root_note': 'B'}
+{'formula': '1 3 4 5 7b', 'notes': ['C', 'E', 'F', 'G', 'A#'], 'scale': 'mixolydian pentatonic', 'root_note': 'C'}
+{'formula': '1 3 4 5 7b', 'notes': ['C#', 'F', 'F#', 'G#', 'B'], 'scale': 'mixolydian pentatonic', 'root_note': 'C#'}
+{'formula': '1 3 4 5 7b', 'notes': ['D', 'F#', 'G', 'A', 'C'], 'scale': 'mixolydian pentatonic', 'root_note': 'D'}
+{'formula': '1 3 4 5 7b', 'notes': ['D#', 'G', 'G#', 'A#', 'C#'], 'scale': 'mixolydian pentatonic', 'root_note': 'D#'}
+{'formula': '1 3 4 5 7b', 'notes': ['E', 'G#', 'A', 'B', 'D'], 'scale': 'mixolydian pentatonic', 'root_note': 'E'}
+{'formula': '1 3 4 5 7b', 'notes': ['F', 'A', 'A#', 'C', 'D#'], 'scale': 'mixolydian pentatonic', 'root_note': 'F'}
+{'formula': '1 3 4 5 7b', 'notes': ['F#', 'A#', 'B', 'C#', 'E'], 'scale': 'mixolydian pentatonic', 'root_note': 'F#'}
+{'formula': '1 3 4 5 7b', 'notes': ['G', 'B', 'C', 'D', 'F'], 'scale': 'mixolydian pentatonic', 'root_note': 'G'}
+{'formula': '1 3 4 5 7b', 'notes': ['G#', 'C', 'C#', 'D#', 'F#'], 'scale': 'mixolydian pentatonic', 'root_note': 'G#'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['A', 'C#', 'D#', 'F', 'G'], 'scale': 'whole tone pentatonic', 'root_note': 'A'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['A#', 'D', 'E', 'F#', 'G#'], 'scale': 'whole tone pentatonic', 'root_note': 'A#'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['B', 'D#', 'F', 'G', 'A'], 'scale': 'whole tone pentatonic', 'root_note': 'B'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['C', 'E', 'F#', 'G#', 'A#'], 'scale': 'whole tone pentatonic', 'root_note': 'C'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['C#', 'F', 'G', 'A', 'B'], 'scale': 'whole tone pentatonic', 'root_note': 'C#'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['D', 'F#', 'G#', 'A#', 'C'], 'scale': 'whole tone pentatonic', 'root_note': 'D'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['D#', 'G', 'A', 'B', 'C#'], 'scale': 'whole tone pentatonic', 'root_note': 'D#'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['E', 'G#', 'A#', 'C', 'D'], 'scale': 'whole tone pentatonic', 'root_note': 'E'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['F', 'A', 'B', 'C#', 'D#'], 'scale': 'whole tone pentatonic', 'root_note': 'F'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['F#', 'A#', 'C', 'D', 'E'], 'scale': 'whole tone pentatonic', 'root_note': 'F#'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['G', 'B', 'C#', 'D#', 'F'], 'scale': 'whole tone pentatonic', 'root_note': 'G'}
+{'formula': '1 3 5b 6b 7b', 'notes': ['G#', 'C', 'D', 'E', 'F#'], 'scale': 'whole tone pentatonic', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['A', 'A#', 'C', 'D', 'D#', 'E', 'F', 'G'], 'scale': 'bebop locrian', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['A#', 'B', 'C#', 'D#', 'E', 'F', 'F#', 'G#'], 'scale': 'bebop locrian', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['B', 'C', 'D', 'E', 'F', 'F#', 'G', 'A'], 'scale': 'bebop locrian', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['C', 'C#', 'D#', 'F', 'F#', 'G', 'G#', 'A#'], 'scale': 'bebop locrian', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['C#', 'D', 'E', 'F#', 'G', 'G#', 'A', 'B'], 'scale': 'bebop locrian', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['D', 'D#', 'F', 'G', 'G#', 'A', 'A#', 'C'], 'scale': 'bebop locrian', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['D#', 'E', 'F#', 'G#', 'A', 'A#', 'B', 'C#'], 'scale': 'bebop locrian', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['E', 'F', 'G', 'A', 'A#', 'B', 'C', 'D'], 'scale': 'bebop locrian', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['F', 'F#', 'G#', 'A#', 'B', 'C', 'C#', 'D#'], 'scale': 'bebop locrian', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['F#', 'G', 'A', 'B', 'C', 'C#', 'D', 'E'], 'scale': 'bebop locrian', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['G', 'G#', 'A#', 'C', 'C#', 'D', 'D#', 'F'], 'scale': 'bebop locrian', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5b 5 6b 7b', 'notes': ['G#', 'A', 'B', 'C#', 'D', 'D#', 'E', 'F#'], 'scale': 'bebop locrian', 'root_note': 'G#'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['A', 'B', 'C', 'C#', 'E', 'F#'], 'scale': 'major blues', 'root_note': 'A'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['A#', 'C', 'C#', 'D', 'F', 'G'], 'scale': 'major blues', 'root_note': 'A#'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['B', 'C#', 'D', 'D#', 'F#', 'G#'], 'scale': 'major blues', 'root_note': 'B'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['C', 'D', 'D#', 'E', 'G', 'A'], 'scale': 'major blues', 'root_note': 'C'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['C#', 'D#', 'E', 'F', 'G#', 'A#'], 'scale': 'major blues', 'root_note': 'C#'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['D', 'E', 'F', 'F#', 'A', 'B'], 'scale': 'major blues', 'root_note': 'D'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['D#', 'F', 'F#', 'G', 'A#', 'C'], 'scale': 'major blues', 'root_note': 'D#'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['E', 'F#', 'G', 'G#', 'B', 'C#'], 'scale': 'major blues', 'root_note': 'E'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['F', 'G', 'G#', 'A', 'C', 'D'], 'scale': 'major blues', 'root_note': 'F'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['F#', 'G#', 'A', 'A#', 'C#', 'D#'], 'scale': 'major blues', 'root_note': 'F#'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['G', 'A', 'A#', 'B', 'D', 'E'], 'scale': 'major blues', 'root_note': 'G'}
+{'formula': '1 2 3b 3 5 6', 'notes': ['G#', 'A#', 'B', 'C', 'D#', 'F'], 'scale': 'major blues', 'root_note': 'G#'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['A', 'B', 'C#', 'D#', 'E', 'G', 'G#'], 'scale': 'leading whole tone', 'root_note': 'A'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['A#', 'C', 'D', 'E', 'F', 'G#', 'A'], 'scale': 'leading whole tone', 'root_note': 'A#'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['B', 'C#', 'D#', 'F', 'F#', 'A', 'A#'], 'scale': 'leading whole tone', 'root_note': 'B'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['C', 'D', 'E', 'F#', 'G', 'A#', 'B'], 'scale': 'leading whole tone', 'root_note': 'C'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['C#', 'D#', 'F', 'G', 'G#', 'B', 'C'], 'scale': 'leading whole tone', 'root_note': 'C#'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['D', 'E', 'F#', 'G#', 'A', 'C', 'C#'], 'scale': 'leading whole tone', 'root_note': 'D'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['D#', 'F', 'G', 'A', 'A#', 'C#', 'D'], 'scale': 'leading whole tone', 'root_note': 'D#'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['E', 'F#', 'G#', 'A#', 'B', 'D', 'D#'], 'scale': 'leading whole tone', 'root_note': 'E'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['F', 'G', 'A', 'B', 'C', 'D#', 'E'], 'scale': 'leading whole tone', 'root_note': 'F'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['F#', 'G#', 'A#', 'C', 'C#', 'E', 'F'], 'scale': 'leading whole tone', 'root_note': 'F#'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['G', 'A', 'B', 'C#', 'D', 'F', 'F#'], 'scale': 'leading whole tone', 'root_note': 'G'}
+{'formula': '1 2 3 4# 5A 7b 7', 'notes': ['G#', 'A#', 'C', 'D', 'D#', 'F#', 'G'], 'scale': 'leading whole tone', 'root_note': 'G#'}
+{'formula': '1 3 4# 5 7b', 'notes': ['A', 'C#', 'D#', 'E', 'G'], 'scale': 'lydian dominant pentatonic', 'root_note': 'A'}
+{'formula': '1 3 4# 5 7b', 'notes': ['A#', 'D', 'E', 'F', 'G#'], 'scale': 'lydian dominant pentatonic', 'root_note': 'A#'}
+{'formula': '1 3 4# 5 7b', 'notes': ['B', 'D#', 'F', 'F#', 'A'], 'scale': 'lydian dominant pentatonic', 'root_note': 'B'}
+{'formula': '1 3 4# 5 7b', 'notes': ['C', 'E', 'F#', 'G', 'A#'], 'scale': 'lydian dominant pentatonic', 'root_note': 'C'}
+{'formula': '1 3 4# 5 7b', 'notes': ['C#', 'F', 'G', 'G#', 'B'], 'scale': 'lydian dominant pentatonic', 'root_note': 'C#'}
+{'formula': '1 3 4# 5 7b', 'notes': ['D', 'F#', 'G#', 'A', 'C'], 'scale': 'lydian dominant pentatonic', 'root_note': 'D'}
+{'formula': '1 3 4# 5 7b', 'notes': ['D#', 'G', 'A', 'A#', 'C#'], 'scale': 'lydian dominant pentatonic', 'root_note': 'D#'}
+{'formula': '1 3 4# 5 7b', 'notes': ['E', 'G#', 'A#', 'B', 'D'], 'scale': 'lydian dominant pentatonic', 'root_note': 'E'}
+{'formula': '1 3 4# 5 7b', 'notes': ['F', 'A', 'B', 'C', 'D#'], 'scale': 'lydian dominant pentatonic', 'root_note': 'F'}
+{'formula': '1 3 4# 5 7b', 'notes': ['F#', 'A#', 'C', 'C#', 'E'], 'scale': 'lydian dominant pentatonic', 'root_note': 'F#'}
+{'formula': '1 3 4# 5 7b', 'notes': ['G', 'B', 'C#', 'D', 'F'], 'scale': 'lydian dominant pentatonic', 'root_note': 'G'}
+{'formula': '1 3 4# 5 7b', 'notes': ['G#', 'C', 'D', 'D#', 'F#'], 'scale': 'lydian dominant pentatonic', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['A', 'B', 'C#', 'D', 'E', 'F#', 'G', 'G#'], 'scale': 'bebop dominant', 'root_note': 'A'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'G', 'G#', 'A'], 'scale': 'bebop dominant', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A', 'A#'], 'scale': 'bebop dominant', 'root_note': 'B'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['C', 'D', 'E', 'F', 'G', 'A', 'A#', 'B'], 'scale': 'bebop dominant', 'root_note': 'C'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'B', 'C'], 'scale': 'bebop dominant', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['D', 'E', 'F#', 'G', 'A', 'B', 'C', 'C#'], 'scale': 'bebop dominant', 'root_note': 'D'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'C', 'C#', 'D'], 'scale': 'bebop dominant', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D', 'D#'], 'scale': 'bebop dominant', 'root_note': 'E'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['F', 'G', 'A', 'A#', 'C', 'D', 'D#', 'E'], 'scale': 'bebop dominant', 'root_note': 'F'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'D#', 'E', 'F'], 'scale': 'bebop dominant', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['G', 'A', 'B', 'C', 'D', 'E', 'F', 'F#'], 'scale': 'bebop dominant', 'root_note': 'G'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'F', 'F#', 'G'], 'scale': 'bebop dominant', 'root_note': 'G#'}
+{'formula': '1 2b 3 5 6', 'notes': ['A', 'A#', 'C#', 'E', 'F#'], 'scale': 'major flat two pentatonic', 'root_note': 'A'}
+{'formula': '1 2b 3 5 6', 'notes': ['A#', 'B', 'D', 'F', 'G'], 'scale': 'major flat two pentatonic', 'root_note': 'A#'}
+{'formula': '1 2b 3 5 6', 'notes': ['B', 'C', 'D#', 'F#', 'G#'], 'scale': 'major flat two pentatonic', 'root_note': 'B'}
+{'formula': '1 2b 3 5 6', 'notes': ['C', 'C#', 'E', 'G', 'A'], 'scale': 'major flat two pentatonic', 'root_note': 'C'}
+{'formula': '1 2b 3 5 6', 'notes': ['C#', 'D', 'F', 'G#', 'A#'], 'scale': 'major flat two pentatonic', 'root_note': 'C#'}
+{'formula': '1 2b 3 5 6', 'notes': ['D', 'D#', 'F#', 'A', 'B'], 'scale': 'major flat two pentatonic', 'root_note': 'D'}
+{'formula': '1 2b 3 5 6', 'notes': ['D#', 'E', 'G', 'A#', 'C'], 'scale': 'major flat two pentatonic', 'root_note': 'D#'}
+{'formula': '1 2b 3 5 6', 'notes': ['E', 'F', 'G#', 'B', 'C#'], 'scale': 'major flat two pentatonic', 'root_note': 'E'}
+{'formula': '1 2b 3 5 6', 'notes': ['F', 'F#', 'A', 'C', 'D'], 'scale': 'major flat two pentatonic', 'root_note': 'F'}
+{'formula': '1 2b 3 5 6', 'notes': ['F#', 'G', 'A#', 'C#', 'D#'], 'scale': 'major flat two pentatonic', 'root_note': 'F#'}
+{'formula': '1 2b 3 5 6', 'notes': ['G', 'G#', 'B', 'D', 'E'], 'scale': 'major flat two pentatonic', 'root_note': 'G'}
+{'formula': '1 2b 3 5 6', 'notes': ['G#', 'A', 'C', 'D#', 'F'], 'scale': 'major flat two pentatonic', 'root_note': 'G#'}
+{'formula': '1 2 4 5 7b', 'notes': ['A', 'B', 'D', 'E', 'G'], 'scale': 'egyptian', 'root_note': 'A'}
+{'formula': '1 2 4 5 7b', 'notes': ['A#', 'C', 'D#', 'F', 'G#'], 'scale': 'egyptian', 'root_note': 'A#'}
+{'formula': '1 2 4 5 7b', 'notes': ['B', 'C#', 'E', 'F#', 'A'], 'scale': 'egyptian', 'root_note': 'B'}
+{'formula': '1 2 4 5 7b', 'notes': ['C', 'D', 'F', 'G', 'A#'], 'scale': 'egyptian', 'root_note': 'C'}
+{'formula': '1 2 4 5 7b', 'notes': ['C#', 'D#', 'F#', 'G#', 'B'], 'scale': 'egyptian', 'root_note': 'C#'}
+{'formula': '1 2 4 5 7b', 'notes': ['D', 'E', 'G', 'A', 'C'], 'scale': 'egyptian', 'root_note': 'D'}
+{'formula': '1 2 4 5 7b', 'notes': ['D#', 'F', 'G#', 'A#', 'C#'], 'scale': 'egyptian', 'root_note': 'D#'}
+{'formula': '1 2 4 5 7b', 'notes': ['E', 'F#', 'A', 'B', 'D'], 'scale': 'egyptian', 'root_note': 'E'}
+{'formula': '1 2 4 5 7b', 'notes': ['F', 'G', 'A#', 'C', 'D#'], 'scale': 'egyptian', 'root_note': 'F'}
+{'formula': '1 2 4 5 7b', 'notes': ['F#', 'G#', 'B', 'C#', 'E'], 'scale': 'egyptian', 'root_note': 'F#'}
+{'formula': '1 2 4 5 7b', 'notes': ['G', 'A', 'C', 'D', 'F'], 'scale': 'egyptian', 'root_note': 'G'}
+{'formula': '1 2 4 5 7b', 'notes': ['G#', 'A#', 'C#', 'D#', 'F#'], 'scale': 'egyptian', 'root_note': 'G#'}
+{'formula': '1 3 4 5b 7b', 'notes': ['A', 'C#', 'D', 'D#', 'G'], 'scale': 'neopolitan major pentatonic', 'root_note': 'A'}
+{'formula': '1 3 4 5b 7b', 'notes': ['A#', 'D', 'D#', 'E', 'G#'], 'scale': 'neopolitan major pentatonic', 'root_note': 'A#'}
+{'formula': '1 3 4 5b 7b', 'notes': ['B', 'D#', 'E', 'F', 'A'], 'scale': 'neopolitan major pentatonic', 'root_note': 'B'}
+{'formula': '1 3 4 5b 7b', 'notes': ['C', 'E', 'F', 'F#', 'A#'], 'scale': 'neopolitan major pentatonic', 'root_note': 'C'}
+{'formula': '1 3 4 5b 7b', 'notes': ['C#', 'F', 'F#', 'G', 'B'], 'scale': 'neopolitan major pentatonic', 'root_note': 'C#'}
+{'formula': '1 3 4 5b 7b', 'notes': ['D', 'F#', 'G', 'G#', 'C'], 'scale': 'neopolitan major pentatonic', 'root_note': 'D'}
+{'formula': '1 3 4 5b 7b', 'notes': ['D#', 'G', 'G#', 'A', 'C#'], 'scale': 'neopolitan major pentatonic', 'root_note': 'D#'}
+{'formula': '1 3 4 5b 7b', 'notes': ['E', 'G#', 'A', 'A#', 'D'], 'scale': 'neopolitan major pentatonic', 'root_note': 'E'}
+{'formula': '1 3 4 5b 7b', 'notes': ['F', 'A', 'A#', 'B', 'D#'], 'scale': 'neopolitan major pentatonic', 'root_note': 'F'}
+{'formula': '1 3 4 5b 7b', 'notes': ['F#', 'A#', 'B', 'C', 'E'], 'scale': 'neopolitan major pentatonic', 'root_note': 'F#'}
+{'formula': '1 3 4 5b 7b', 'notes': ['G', 'B', 'C', 'C#', 'F'], 'scale': 'neopolitan major pentatonic', 'root_note': 'G'}
+{'formula': '1 3 4 5b 7b', 'notes': ['G#', 'C', 'C#', 'D', 'F#'], 'scale': 'neopolitan major pentatonic', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'G#'], 'scale': 'minor bebop', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['A#', 'C', 'C#', 'D#', 'F', 'F#', 'G#', 'A'], 'scale': 'minor bebop', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['B', 'C#', 'D', 'E', 'F#', 'G', 'A', 'A#'], 'scale': 'minor bebop', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['C', 'D', 'D#', 'F', 'G', 'G#', 'A#', 'B'], 'scale': 'minor bebop', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['C#', 'D#', 'E', 'F#', 'G#', 'A', 'B', 'C'], 'scale': 'minor bebop', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['D', 'E', 'F', 'G', 'A', 'A#', 'C', 'C#'], 'scale': 'minor bebop', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['D#', 'F', 'F#', 'G#', 'A#', 'B', 'C#', 'D'], 'scale': 'minor bebop', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['E', 'F#', 'G', 'A', 'B', 'C', 'D', 'D#'], 'scale': 'minor bebop', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['F', 'G', 'G#', 'A#', 'C', 'C#', 'D#', 'E'], 'scale': 'minor bebop', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['F#', 'G#', 'A', 'B', 'C#', 'D', 'E', 'F'], 'scale': 'minor bebop', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['G', 'A', 'A#', 'C', 'D', 'D#', 'F', 'F#'], 'scale': 'minor bebop', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5 6b 7b 7', 'notes': ['G#', 'A#', 'B', 'C#', 'D#', 'E', 'F#', 'G'], 'scale': 'minor bebop', 'root_note': 'G#'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['A', 'A#', 'C#', 'D#', 'E', 'F', 'G#'], 'scale': 'double harmonic lydian', 'root_note': 'A'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['A#', 'B', 'D', 'E', 'F', 'F#', 'A'], 'scale': 'double harmonic lydian', 'root_note': 'A#'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['B', 'C', 'D#', 'F', 'F#', 'G', 'A#'], 'scale': 'double harmonic lydian', 'root_note': 'B'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['C', 'C#', 'E', 'F#', 'G', 'G#', 'B'], 'scale': 'double harmonic lydian', 'root_note': 'C'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['C#', 'D', 'F', 'G', 'G#', 'A', 'C'], 'scale': 'double harmonic lydian', 'root_note': 'C#'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['D', 'D#', 'F#', 'G#', 'A', 'A#', 'C#'], 'scale': 'double harmonic lydian', 'root_note': 'D'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['D#', 'E', 'G', 'A', 'A#', 'B', 'D'], 'scale': 'double harmonic lydian', 'root_note': 'D#'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['E', 'F', 'G#', 'A#', 'B', 'C', 'D#'], 'scale': 'double harmonic lydian', 'root_note': 'E'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['F', 'F#', 'A', 'B', 'C', 'C#', 'E'], 'scale': 'double harmonic lydian', 'root_note': 'F'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['F#', 'G', 'A#', 'C', 'C#', 'D', 'F'], 'scale': 'double harmonic lydian', 'root_note': 'F#'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['G', 'G#', 'B', 'C#', 'D', 'D#', 'F#'], 'scale': 'double harmonic lydian', 'root_note': 'G'}
+{'formula': '1 2b 3 4# 5 6b 7', 'notes': ['G#', 'A', 'C', 'D', 'D#', 'E', 'G'], 'scale': 'double harmonic lydian', 'root_note': 'G#'}
+{'formula': '1 3 4# 5 7', 'notes': ['A', 'C#', 'D#', 'E', 'G#'], 'scale': 'lydian pentatonic', 'root_note': 'A'}
+{'formula': '1 3 4# 5 7', 'notes': ['A#', 'D', 'E', 'F', 'A'], 'scale': 'lydian pentatonic', 'root_note': 'A#'}
+{'formula': '1 3 4# 5 7', 'notes': ['B', 'D#', 'F', 'F#', 'A#'], 'scale': 'lydian pentatonic', 'root_note': 'B'}
+{'formula': '1 3 4# 5 7', 'notes': ['C', 'E', 'F#', 'G', 'B'], 'scale': 'lydian pentatonic', 'root_note': 'C'}
+{'formula': '1 3 4# 5 7', 'notes': ['C#', 'F', 'G', 'G#', 'C'], 'scale': 'lydian pentatonic', 'root_note': 'C#'}
+{'formula': '1 3 4# 5 7', 'notes': ['D', 'F#', 'G#', 'A', 'C#'], 'scale': 'lydian pentatonic', 'root_note': 'D'}
+{'formula': '1 3 4# 5 7', 'notes': ['D#', 'G', 'A', 'A#', 'D'], 'scale': 'lydian pentatonic', 'root_note': 'D#'}
+{'formula': '1 3 4# 5 7', 'notes': ['E', 'G#', 'A#', 'B', 'D#'], 'scale': 'lydian pentatonic', 'root_note': 'E'}
+{'formula': '1 3 4# 5 7', 'notes': ['F', 'A', 'B', 'C', 'E'], 'scale': 'lydian pentatonic', 'root_note': 'F'}
+{'formula': '1 3 4# 5 7', 'notes': ['F#', 'A#', 'C', 'C#', 'F'], 'scale': 'lydian pentatonic', 'root_note': 'F#'}
+{'formula': '1 3 4# 5 7', 'notes': ['G', 'B', 'C#', 'D', 'F#'], 'scale': 'lydian pentatonic', 'root_note': 'G'}
+{'formula': '1 3 4# 5 7', 'notes': ['G#', 'C', 'D', 'D#', 'G'], 'scale': 'lydian pentatonic', 'root_note': 'G#'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['A', 'C', 'C#', 'D', 'E', 'F#', 'G', 'G#'], 'scale': 'kafi raga', 'root_note': 'A'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['A#', 'C#', 'D', 'D#', 'F', 'G', 'G#', 'A'], 'scale': 'kafi raga', 'root_note': 'A#'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['B', 'D', 'D#', 'E', 'F#', 'G#', 'A', 'A#'], 'scale': 'kafi raga', 'root_note': 'B'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['C', 'D#', 'E', 'F', 'G', 'A', 'A#', 'B'], 'scale': 'kafi raga', 'root_note': 'C'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['C#', 'E', 'F', 'F#', 'G#', 'A#', 'B', 'C'], 'scale': 'kafi raga', 'root_note': 'C#'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['D', 'F', 'F#', 'G', 'A', 'B', 'C', 'C#'], 'scale': 'kafi raga', 'root_note': 'D'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['D#', 'F#', 'G', 'G#', 'A#', 'C', 'C#', 'D'], 'scale': 'kafi raga', 'root_note': 'D#'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['E', 'G', 'G#', 'A', 'B', 'C#', 'D', 'D#'], 'scale': 'kafi raga', 'root_note': 'E'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['F', 'G#', 'A', 'A#', 'C', 'D', 'D#', 'E'], 'scale': 'kafi raga', 'root_note': 'F'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['F#', 'A', 'A#', 'B', 'C#', 'D#', 'E', 'F'], 'scale': 'kafi raga', 'root_note': 'F#'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['G', 'A#', 'B', 'C', 'D', 'E', 'F', 'F#'], 'scale': 'kafi raga', 'root_note': 'G'}
+{'formula': '1 3b 3 4 5 6 7b 7', 'notes': ['G#', 'B', 'C', 'C#', 'D#', 'F', 'F#', 'G'], 'scale': 'kafi raga', 'root_note': 'G#'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['A', 'C', 'D', 'D#', 'E', 'G'], 'scale': 'minor blues', 'root_note': 'A'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['A#', 'C#', 'D#', 'E', 'F', 'G#'], 'scale': 'minor blues', 'root_note': 'A#'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['B', 'D', 'E', 'F', 'F#', 'A'], 'scale': 'minor blues', 'root_note': 'B'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['C', 'D#', 'F', 'F#', 'G', 'A#'], 'scale': 'minor blues', 'root_note': 'C'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['C#', 'E', 'F#', 'G', 'G#', 'B'], 'scale': 'minor blues', 'root_note': 'C#'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['D', 'F', 'G', 'G#', 'A', 'C'], 'scale': 'minor blues', 'root_note': 'D'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['D#', 'F#', 'G#', 'A', 'A#', 'C#'], 'scale': 'minor blues', 'root_note': 'D#'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['E', 'G', 'A', 'A#', 'B', 'D'], 'scale': 'minor blues', 'root_note': 'E'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['F', 'G#', 'A#', 'B', 'C', 'D#'], 'scale': 'minor blues', 'root_note': 'F'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['F#', 'A', 'B', 'C', 'C#', 'E'], 'scale': 'minor blues', 'root_note': 'F#'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['G', 'A#', 'C', 'C#', 'D', 'F'], 'scale': 'minor blues', 'root_note': 'G'}
+{'formula': '1 3b 4 5b 5 7b', 'notes': ['G#', 'B', 'C#', 'D', 'D#', 'F#'], 'scale': 'minor blues', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['A', 'A#', 'C', 'D', 'D#', 'F', 'G'], 'scale': 'locrian', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['A#', 'B', 'C#', 'D#', 'E', 'F#', 'G#'], 'scale': 'locrian', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['B', 'C', 'D', 'E', 'F', 'G', 'A'], 'scale': 'locrian', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['C', 'C#', 'D#', 'F', 'F#', 'G#', 'A#'], 'scale': 'locrian', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['C#', 'D', 'E', 'F#', 'G', 'A', 'B'], 'scale': 'locrian', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['D', 'D#', 'F', 'G', 'G#', 'A#', 'C'], 'scale': 'locrian', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['D#', 'E', 'F#', 'G#', 'A', 'B', 'C#'], 'scale': 'locrian', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['E', 'F', 'G', 'A', 'A#', 'C', 'D'], 'scale': 'locrian', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['F', 'F#', 'G#', 'A#', 'B', 'C#', 'D#'], 'scale': 'locrian', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['F#', 'G', 'A', 'B', 'C', 'D', 'E'], 'scale': 'locrian', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['G', 'G#', 'A#', 'C', 'C#', 'D#', 'F'], 'scale': 'locrian', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5b 6b 7b', 'notes': ['G#', 'A', 'B', 'C#', 'D', 'E', 'F#'], 'scale': 'locrian', 'root_note': 'G#'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['A', 'B', 'C#', 'D#', 'E', 'G'], 'scale': 'whole tone', 'root_note': 'A'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['A#', 'C', 'D', 'E', 'F', 'G#'], 'scale': 'whole tone', 'root_note': 'A#'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['B', 'C#', 'D#', 'F', 'F#', 'A'], 'scale': 'whole tone', 'root_note': 'B'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['C', 'D', 'E', 'F#', 'G', 'A#'], 'scale': 'whole tone', 'root_note': 'C'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['C#', 'D#', 'F', 'G', 'G#', 'B'], 'scale': 'whole tone', 'root_note': 'C#'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['D', 'E', 'F#', 'G#', 'A', 'C'], 'scale': 'whole tone', 'root_note': 'D'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['D#', 'F', 'G', 'A', 'A#', 'C#'], 'scale': 'whole tone', 'root_note': 'D#'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['E', 'F#', 'G#', 'A#', 'B', 'D'], 'scale': 'whole tone', 'root_note': 'E'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['F', 'G', 'A', 'B', 'C', 'D#'], 'scale': 'whole tone', 'root_note': 'F'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['F#', 'G#', 'A#', 'C', 'C#', 'E'], 'scale': 'whole tone', 'root_note': 'F#'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['G', 'A', 'B', 'C#', 'D', 'F'], 'scale': 'whole tone', 'root_note': 'G'}
+{'formula': '1 2 3 4# 5A 7b', 'notes': ['G#', 'A#', 'C', 'D', 'D#', 'F#'], 'scale': 'whole tone', 'root_note': 'G#'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['A', 'A#', 'C#', 'D#', 'F', 'G', 'G#'], 'scale': 'enigmatic', 'root_note': 'A'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['A#', 'B', 'D', 'E', 'F#', 'G#', 'A'], 'scale': 'enigmatic', 'root_note': 'A#'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['B', 'C', 'D#', 'F', 'G', 'A', 'A#'], 'scale': 'enigmatic', 'root_note': 'B'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['C', 'C#', 'E', 'F#', 'G#', 'A#', 'B'], 'scale': 'enigmatic', 'root_note': 'C'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['C#', 'D', 'F', 'G', 'A', 'B', 'C'], 'scale': 'enigmatic', 'root_note': 'C#'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['D', 'D#', 'F#', 'G#', 'A#', 'C', 'C#'], 'scale': 'enigmatic', 'root_note': 'D'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['D#', 'E', 'G', 'A', 'B', 'C#', 'D'], 'scale': 'enigmatic', 'root_note': 'D#'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['E', 'F', 'G#', 'A#', 'C', 'D', 'D#'], 'scale': 'enigmatic', 'root_note': 'E'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['F', 'F#', 'A', 'B', 'C#', 'D#', 'E'], 'scale': 'enigmatic', 'root_note': 'F'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['F#', 'G', 'A#', 'C', 'D', 'E', 'F'], 'scale': 'enigmatic', 'root_note': 'F#'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['G', 'G#', 'B', 'C#', 'D#', 'F', 'F#'], 'scale': 'enigmatic', 'root_note': 'G'}
+{'formula': '1 2b 3 5b 6b 7b 7', 'notes': ['G#', 'A', 'C', 'D', 'E', 'F#', 'G'], 'scale': 'enigmatic', 'root_note': 'G#'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['A', 'A#', 'C', 'E', 'F'], 'scale': 'pelog', 'root_note': 'A'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['A#', 'B', 'C#', 'F', 'F#'], 'scale': 'pelog', 'root_note': 'A#'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['B', 'C', 'D', 'F#', 'G'], 'scale': 'pelog', 'root_note': 'B'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['C', 'C#', 'D#', 'G', 'G#'], 'scale': 'pelog', 'root_note': 'C'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['C#', 'D', 'E', 'G#', 'A'], 'scale': 'pelog', 'root_note': 'C#'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['D', 'D#', 'F', 'A', 'A#'], 'scale': 'pelog', 'root_note': 'D'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['D#', 'E', 'F#', 'A#', 'B'], 'scale': 'pelog', 'root_note': 'D#'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['E', 'F', 'G', 'B', 'C'], 'scale': 'pelog', 'root_note': 'E'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['F', 'F#', 'G#', 'C', 'C#'], 'scale': 'pelog', 'root_note': 'F'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['F#', 'G', 'A', 'C#', 'D'], 'scale': 'pelog', 'root_note': 'F#'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['G', 'G#', 'A#', 'D', 'D#'], 'scale': 'pelog', 'root_note': 'G'}
+{'formula': '1 2b 3b 5 6b', 'notes': ['G#', 'A', 'B', 'D#', 'E'], 'scale': 'pelog', 'root_note': 'G#'}
+{'formula': '1 3b 4 5 6', 'notes': ['A', 'C', 'D', 'E', 'F#'], 'scale': 'minor six pentatonic', 'root_note': 'A'}
+{'formula': '1 3b 4 5 6', 'notes': ['A#', 'C#', 'D#', 'F', 'G'], 'scale': 'minor six pentatonic', 'root_note': 'A#'}
+{'formula': '1 3b 4 5 6', 'notes': ['B', 'D', 'E', 'F#', 'G#'], 'scale': 'minor six pentatonic', 'root_note': 'B'}
+{'formula': '1 3b 4 5 6', 'notes': ['C', 'D#', 'F', 'G', 'A'], 'scale': 'minor six pentatonic', 'root_note': 'C'}
+{'formula': '1 3b 4 5 6', 'notes': ['C#', 'E', 'F#', 'G#', 'A#'], 'scale': 'minor six pentatonic', 'root_note': 'C#'}
+{'formula': '1 3b 4 5 6', 'notes': ['D', 'F', 'G', 'A', 'B'], 'scale': 'minor six pentatonic', 'root_note': 'D'}
+{'formula': '1 3b 4 5 6', 'notes': ['D#', 'F#', 'G#', 'A#', 'C'], 'scale': 'minor six pentatonic', 'root_note': 'D#'}
+{'formula': '1 3b 4 5 6', 'notes': ['E', 'G', 'A', 'B', 'C#'], 'scale': 'minor six pentatonic', 'root_note': 'E'}
+{'formula': '1 3b 4 5 6', 'notes': ['F', 'G#', 'A#', 'C', 'D'], 'scale': 'minor six pentatonic', 'root_note': 'F'}
+{'formula': '1 3b 4 5 6', 'notes': ['F#', 'A', 'B', 'C#', 'D#'], 'scale': 'minor six pentatonic', 'root_note': 'F#'}
+{'formula': '1 3b 4 5 6', 'notes': ['G', 'A#', 'C', 'D', 'E'], 'scale': 'minor six pentatonic', 'root_note': 'G'}
+{'formula': '1 3b 4 5 6', 'notes': ['G#', 'B', 'C#', 'D#', 'F'], 'scale': 'minor six pentatonic', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['A', 'A#', 'C', 'D', 'E', 'F', 'G#'], 'scale': 'neopolitan', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['A#', 'B', 'C#', 'D#', 'F', 'F#', 'A'], 'scale': 'neopolitan', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['B', 'C', 'D', 'E', 'F#', 'G', 'A#'], 'scale': 'neopolitan', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['C', 'C#', 'D#', 'F', 'G', 'G#', 'B'], 'scale': 'neopolitan', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['C#', 'D', 'E', 'F#', 'G#', 'A', 'C'], 'scale': 'neopolitan', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['D', 'D#', 'F', 'G', 'A', 'A#', 'C#'], 'scale': 'neopolitan', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['D#', 'E', 'F#', 'G#', 'A#', 'B', 'D'], 'scale': 'neopolitan', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['E', 'F', 'G', 'A', 'B', 'C', 'D#'], 'scale': 'neopolitan', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['F', 'F#', 'G#', 'A#', 'C', 'C#', 'E'], 'scale': 'neopolitan', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['F#', 'G', 'A', 'B', 'C#', 'D', 'F'], 'scale': 'neopolitan', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['G', 'G#', 'A#', 'C', 'D', 'D#', 'F#'], 'scale': 'neopolitan', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['G#', 'A', 'B', 'C#', 'D#', 'E', 'G'], 'scale': 'neopolitan', 'root_note': 'G#'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['A', 'B', 'C#', 'D#', 'E', 'F#', 'G#'], 'scale': 'lydian', 'root_note': 'A'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['A#', 'C', 'D', 'E', 'F', 'G', 'A'], 'scale': 'lydian', 'root_note': 'A#'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['B', 'C#', 'D#', 'F', 'F#', 'G#', 'A#'], 'scale': 'lydian', 'root_note': 'B'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['C', 'D', 'E', 'F#', 'G', 'A', 'B'], 'scale': 'lydian', 'root_note': 'C'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['C#', 'D#', 'F', 'G', 'G#', 'A#', 'C'], 'scale': 'lydian', 'root_note': 'C#'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['D', 'E', 'F#', 'G#', 'A', 'B', 'C#'], 'scale': 'lydian', 'root_note': 'D'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['D#', 'F', 'G', 'A', 'A#', 'C', 'D'], 'scale': 'lydian', 'root_note': 'D#'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['E', 'F#', 'G#', 'A#', 'B', 'C#', 'D#'], 'scale': 'lydian', 'root_note': 'E'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['F', 'G', 'A', 'B', 'C', 'D', 'E'], 'scale': 'lydian', 'root_note': 'F'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['F#', 'G#', 'A#', 'C', 'C#', 'D#', 'F'], 'scale': 'lydian', 'root_note': 'F#'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['G', 'A', 'B', 'C#', 'D', 'E', 'F#'], 'scale': 'lydian', 'root_note': 'G'}
+{'formula': '1 2 3 4# 5 6 7', 'notes': ['G#', 'A#', 'C', 'D', 'D#', 'F', 'G'], 'scale': 'lydian', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['A', 'B', 'C', 'D', 'E', 'F#', 'G'], 'scale': 'dorian', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['A#', 'C', 'C#', 'D#', 'F', 'G', 'G#'], 'scale': 'dorian', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['B', 'C#', 'D', 'E', 'F#', 'G#', 'A'], 'scale': 'dorian', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['C', 'D', 'D#', 'F', 'G', 'A', 'A#'], 'scale': 'dorian', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['C#', 'D#', 'E', 'F#', 'G#', 'A#', 'B'], 'scale': 'dorian', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['D', 'E', 'F', 'G', 'A', 'B', 'C'], 'scale': 'dorian', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['D#', 'F', 'F#', 'G#', 'A#', 'C', 'C#'], 'scale': 'dorian', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['E', 'F#', 'G', 'A', 'B', 'C#', 'D'], 'scale': 'dorian', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['F', 'G', 'G#', 'A#', 'C', 'D', 'D#'], 'scale': 'dorian', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['F#', 'G#', 'A', 'B', 'C#', 'D#', 'E'], 'scale': 'dorian', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['G', 'A', 'A#', 'C', 'D', 'E', 'F'], 'scale': 'dorian', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5 6 7b', 'notes': ['G#', 'A#', 'B', 'C#', 'D#', 'F', 'F#'], 'scale': 'dorian', 'root_note': 'G#'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['A', 'A#', 'C#', 'D#', 'E', 'F#', 'G#'], 'scale': 'lydian #9', 'root_note': 'A'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['A#', 'B', 'D', 'E', 'F', 'G', 'A'], 'scale': 'lydian #9', 'root_note': 'A#'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['B', 'C', 'D#', 'F', 'F#', 'G#', 'A#'], 'scale': 'lydian #9', 'root_note': 'B'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['C', 'C#', 'E', 'F#', 'G', 'A', 'B'], 'scale': 'lydian #9', 'root_note': 'C'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['C#', 'D', 'F', 'G', 'G#', 'A#', 'C'], 'scale': 'lydian #9', 'root_note': 'C#'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['D', 'D#', 'F#', 'G#', 'A', 'B', 'C#'], 'scale': 'lydian #9', 'root_note': 'D'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['D#', 'E', 'G', 'A', 'A#', 'C', 'D'], 'scale': 'lydian #9', 'root_note': 'D#'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['E', 'F', 'G#', 'A#', 'B', 'C#', 'D#'], 'scale': 'lydian #9', 'root_note': 'E'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['F', 'F#', 'A', 'B', 'C', 'D', 'E'], 'scale': 'lydian #9', 'root_note': 'F'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['F#', 'G', 'A#', 'C', 'C#', 'D#', 'F'], 'scale': 'lydian #9', 'root_note': 'F#'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['G', 'G#', 'B', 'C#', 'D', 'E', 'F#'], 'scale': 'lydian #9', 'root_note': 'G'}
+{'formula': '1 2b 3 4# 5 6 7', 'notes': ['G#', 'A', 'C', 'D', 'D#', 'F', 'G'], 'scale': 'lydian #9', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['A', 'B', 'C', 'D', 'E', 'F', 'F#', 'G#'], 'scale': 'minor six diminished', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['A#', 'C', 'C#', 'D#', 'F', 'F#', 'G', 'A'], 'scale': 'minor six diminished', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['B', 'C#', 'D', 'E', 'F#', 'G', 'G#', 'A#'], 'scale': 'minor six diminished', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['C', 'D', 'D#', 'F', 'G', 'G#', 'A', 'B'], 'scale': 'minor six diminished', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['C#', 'D#', 'E', 'F#', 'G#', 'A', 'A#', 'C'], 'scale': 'minor six diminished', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['D', 'E', 'F', 'G', 'A', 'A#', 'B', 'C#'], 'scale': 'minor six diminished', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['D#', 'F', 'F#', 'G#', 'A#', 'B', 'C', 'D'], 'scale': 'minor six diminished', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['E', 'F#', 'G', 'A', 'B', 'C', 'C#', 'D#'], 'scale': 'minor six diminished', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['F', 'G', 'G#', 'A#', 'C', 'C#', 'D', 'E'], 'scale': 'minor six diminished', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['F#', 'G#', 'A', 'B', 'C#', 'D', 'D#', 'F'], 'scale': 'minor six diminished', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['G', 'A', 'A#', 'C', 'D', 'D#', 'E', 'F#'], 'scale': 'minor six diminished', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5 6b 6 7', 'notes': ['G#', 'A#', 'B', 'C#', 'D#', 'E', 'F', 'G'], 'scale': 'minor six diminished', 'root_note': 'G#'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['A', 'A#', 'C#', 'D', 'D#', 'F#', 'G'], 'scale': 'oriental', 'root_note': 'A'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['A#', 'B', 'D', 'D#', 'E', 'G', 'G#'], 'scale': 'oriental', 'root_note': 'A#'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['B', 'C', 'D#', 'E', 'F', 'G#', 'A'], 'scale': 'oriental', 'root_note': 'B'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['C', 'C#', 'E', 'F', 'F#', 'A', 'A#'], 'scale': 'oriental', 'root_note': 'C'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['C#', 'D', 'F', 'F#', 'G', 'A#', 'B'], 'scale': 'oriental', 'root_note': 'C#'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['D', 'D#', 'F#', 'G', 'G#', 'B', 'C'], 'scale': 'oriental', 'root_note': 'D'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['D#', 'E', 'G', 'G#', 'A', 'C', 'C#'], 'scale': 'oriental', 'root_note': 'D#'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['E', 'F', 'G#', 'A', 'A#', 'C#', 'D'], 'scale': 'oriental', 'root_note': 'E'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['F', 'F#', 'A', 'A#', 'B', 'D', 'D#'], 'scale': 'oriental', 'root_note': 'F'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['F#', 'G', 'A#', 'B', 'C', 'D#', 'E'], 'scale': 'oriental', 'root_note': 'F#'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['G', 'G#', 'B', 'C', 'C#', 'E', 'F'], 'scale': 'oriental', 'root_note': 'G'}
+{'formula': '1 2b 3 4 5b 6 7b', 'notes': ['G#', 'A', 'C', 'C#', 'D', 'F', 'F#'], 'scale': 'oriental', 'root_note': 'G#'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['A', 'C', 'D', 'D#', 'G'], 'scale': 'super locrian pentatonic', 'root_note': 'A'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['A#', 'C#', 'D#', 'E', 'G#'], 'scale': 'super locrian pentatonic', 'root_note': 'A#'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['B', 'D', 'E', 'F', 'A'], 'scale': 'super locrian pentatonic', 'root_note': 'B'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['C', 'D#', 'F', 'F#', 'A#'], 'scale': 'super locrian pentatonic', 'root_note': 'C'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['C#', 'E', 'F#', 'G', 'B'], 'scale': 'super locrian pentatonic', 'root_note': 'C#'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['D', 'F', 'G', 'G#', 'C'], 'scale': 'super locrian pentatonic', 'root_note': 'D'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['D#', 'F#', 'G#', 'A', 'C#'], 'scale': 'super locrian pentatonic', 'root_note': 'D#'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['E', 'G', 'A', 'A#', 'D'], 'scale': 'super locrian pentatonic', 'root_note': 'E'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['F', 'G#', 'A#', 'B', 'D#'], 'scale': 'super locrian pentatonic', 'root_note': 'F'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['F#', 'A', 'B', 'C', 'E'], 'scale': 'super locrian pentatonic', 'root_note': 'F#'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['G', 'A#', 'C', 'C#', 'F'], 'scale': 'super locrian pentatonic', 'root_note': 'G'}
+{'formula': '1 3b 4d 5b 7b', 'notes': ['G#', 'B', 'C#', 'D', 'F#'], 'scale': 'super locrian pentatonic', 'root_note': 'G#'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['A', 'A#', 'C#', 'D', 'E', 'F', 'G#'], 'scale': 'double harmonic major', 'root_note': 'A'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['A#', 'B', 'D', 'D#', 'F', 'F#', 'A'], 'scale': 'double harmonic major', 'root_note': 'A#'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['B', 'C', 'D#', 'E', 'F#', 'G', 'A#'], 'scale': 'double harmonic major', 'root_note': 'B'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['C', 'C#', 'E', 'F', 'G', 'G#', 'B'], 'scale': 'double harmonic major', 'root_note': 'C'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['C#', 'D', 'F', 'F#', 'G#', 'A', 'C'], 'scale': 'double harmonic major', 'root_note': 'C#'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['D', 'D#', 'F#', 'G', 'A', 'A#', 'C#'], 'scale': 'double harmonic major', 'root_note': 'D'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['D#', 'E', 'G', 'G#', 'A#', 'B', 'D'], 'scale': 'double harmonic major', 'root_note': 'D#'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['E', 'F', 'G#', 'A', 'B', 'C', 'D#'], 'scale': 'double harmonic major', 'root_note': 'E'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['F', 'F#', 'A', 'A#', 'C', 'C#', 'E'], 'scale': 'double harmonic major', 'root_note': 'F'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['F#', 'G', 'A#', 'B', 'C#', 'D', 'F'], 'scale': 'double harmonic major', 'root_note': 'F#'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['G', 'G#', 'B', 'C', 'D', 'D#', 'F#'], 'scale': 'double harmonic major', 'root_note': 'G'}
+{'formula': '1 2b 3 4 5 6b 7', 'notes': ['G#', 'A', 'C', 'C#', 'D#', 'E', 'G'], 'scale': 'double harmonic major', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['A', 'A#', 'C', 'D', 'E', 'F', 'G'], 'scale': 'neopolitan minor', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['A#', 'B', 'C#', 'D#', 'F', 'F#', 'G#'], 'scale': 'neopolitan minor', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['B', 'C', 'D', 'E', 'F#', 'G', 'A'], 'scale': 'neopolitan minor', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['C', 'C#', 'D#', 'F', 'G', 'G#', 'A#'], 'scale': 'neopolitan minor', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['C#', 'D', 'E', 'F#', 'G#', 'A', 'B'], 'scale': 'neopolitan minor', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['D', 'D#', 'F', 'G', 'A', 'A#', 'C'], 'scale': 'neopolitan minor', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['D#', 'E', 'F#', 'G#', 'A#', 'B', 'C#'], 'scale': 'neopolitan minor', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['E', 'F', 'G', 'A', 'B', 'C', 'D'], 'scale': 'neopolitan minor', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['F', 'F#', 'G#', 'A#', 'C', 'C#', 'D#'], 'scale': 'neopolitan minor', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['F#', 'G', 'A', 'B', 'C#', 'D', 'E'], 'scale': 'neopolitan minor', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['G', 'G#', 'A#', 'C', 'D', 'D#', 'F'], 'scale': 'neopolitan minor', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['G#', 'A', 'B', 'C#', 'D#', 'E', 'F#'], 'scale': 'neopolitan minor', 'root_note': 'G#'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['A', 'B', 'C', 'D#', 'E', 'F#', 'G'], 'scale': 'dorian #4', 'root_note': 'A'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['A#', 'C', 'C#', 'E', 'F', 'G', 'G#'], 'scale': 'dorian #4', 'root_note': 'A#'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['B', 'C#', 'D', 'F', 'F#', 'G#', 'A'], 'scale': 'dorian #4', 'root_note': 'B'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['C', 'D', 'D#', 'F#', 'G', 'A', 'A#'], 'scale': 'dorian #4', 'root_note': 'C'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['C#', 'D#', 'E', 'G', 'G#', 'A#', 'B'], 'scale': 'dorian #4', 'root_note': 'C#'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['D', 'E', 'F', 'G#', 'A', 'B', 'C'], 'scale': 'dorian #4', 'root_note': 'D'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['D#', 'F', 'F#', 'A', 'A#', 'C', 'C#'], 'scale': 'dorian #4', 'root_note': 'D#'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['E', 'F#', 'G', 'A#', 'B', 'C#', 'D'], 'scale': 'dorian #4', 'root_note': 'E'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['F', 'G', 'G#', 'B', 'C', 'D', 'D#'], 'scale': 'dorian #4', 'root_note': 'F'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['F#', 'G#', 'A', 'C', 'C#', 'D#', 'E'], 'scale': 'dorian #4', 'root_note': 'F#'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['G', 'A', 'A#', 'C#', 'D', 'E', 'F'], 'scale': 'dorian #4', 'root_note': 'G'}
+{'formula': '1 2 3b 4# 5 6 7b', 'notes': ['G#', 'A#', 'B', 'D', 'D#', 'F', 'F#'], 'scale': 'dorian #4', 'root_note': 'G#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['A', 'C', 'D', 'E', 'G'], 'scale': 'minor pentatonic', 'root_note': 'A'}
+{'formula': '1 3b 4 5 7b', 'notes': ['A#', 'C#', 'D#', 'F', 'G#'], 'scale': 'minor pentatonic', 'root_note': 'A#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['B', 'D', 'E', 'F#', 'A'], 'scale': 'minor pentatonic', 'root_note': 'B'}
+{'formula': '1 3b 4 5 7b', 'notes': ['C', 'D#', 'F', 'G', 'A#'], 'scale': 'minor pentatonic', 'root_note': 'C'}
+{'formula': '1 3b 4 5 7b', 'notes': ['C#', 'E', 'F#', 'G#', 'B'], 'scale': 'minor pentatonic', 'root_note': 'C#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['D', 'F', 'G', 'A', 'C'], 'scale': 'minor pentatonic', 'root_note': 'D'}
+{'formula': '1 3b 4 5 7b', 'notes': ['D#', 'F#', 'G#', 'A#', 'C#'], 'scale': 'minor pentatonic', 'root_note': 'D#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['E', 'G', 'A', 'B', 'D'], 'scale': 'minor pentatonic', 'root_note': 'E'}
+{'formula': '1 3b 4 5 7b', 'notes': ['F', 'G#', 'A#', 'C', 'D#'], 'scale': 'minor pentatonic', 'root_note': 'F'}
+{'formula': '1 3b 4 5 7b', 'notes': ['F#', 'A', 'B', 'C#', 'E'], 'scale': 'minor pentatonic', 'root_note': 'F#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['G', 'A#', 'C', 'D', 'F'], 'scale': 'minor pentatonic', 'root_note': 'G'}
+{'formula': '1 3b 4 5 7b', 'notes': ['G#', 'B', 'C#', 'D#', 'F#'], 'scale': 'minor pentatonic', 'root_note': 'G#'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['A', 'C', 'D', 'D#', 'G'], 'scale': 'locrian pentatonic', 'root_note': 'A'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['A#', 'C#', 'D#', 'E', 'G#'], 'scale': 'locrian pentatonic', 'root_note': 'A#'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['B', 'D', 'E', 'F', 'A'], 'scale': 'locrian pentatonic', 'root_note': 'B'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['C', 'D#', 'F', 'F#', 'A#'], 'scale': 'locrian pentatonic', 'root_note': 'C'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['C#', 'E', 'F#', 'G', 'B'], 'scale': 'locrian pentatonic', 'root_note': 'C#'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['D', 'F', 'G', 'G#', 'C'], 'scale': 'locrian pentatonic', 'root_note': 'D'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['D#', 'F#', 'G#', 'A', 'C#'], 'scale': 'locrian pentatonic', 'root_note': 'D#'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['E', 'G', 'A', 'A#', 'D'], 'scale': 'locrian pentatonic', 'root_note': 'E'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['F', 'G#', 'A#', 'B', 'D#'], 'scale': 'locrian pentatonic', 'root_note': 'F'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['F#', 'A', 'B', 'C', 'E'], 'scale': 'locrian pentatonic', 'root_note': 'F#'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['G', 'A#', 'C', 'C#', 'F'], 'scale': 'locrian pentatonic', 'root_note': 'G'}
+{'formula': '1 3b 4 5b 7b', 'notes': ['G#', 'B', 'C#', 'D', 'F#'], 'scale': 'locrian pentatonic', 'root_note': 'G#'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['A', 'B', 'D', 'E', 'F#', 'G'], 'scale': 'piongio', 'root_note': 'A'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['A#', 'C', 'D#', 'F', 'G', 'G#'], 'scale': 'piongio', 'root_note': 'A#'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['B', 'C#', 'E', 'F#', 'G#', 'A'], 'scale': 'piongio', 'root_note': 'B'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['C', 'D', 'F', 'G', 'A', 'A#'], 'scale': 'piongio', 'root_note': 'C'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['C#', 'D#', 'F#', 'G#', 'A#', 'B'], 'scale': 'piongio', 'root_note': 'C#'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['D', 'E', 'G', 'A', 'B', 'C'], 'scale': 'piongio', 'root_note': 'D'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['D#', 'F', 'G#', 'A#', 'C', 'C#'], 'scale': 'piongio', 'root_note': 'D#'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['E', 'F#', 'A', 'B', 'C#', 'D'], 'scale': 'piongio', 'root_note': 'E'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['F', 'G', 'A#', 'C', 'D', 'D#'], 'scale': 'piongio', 'root_note': 'F'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['F#', 'G#', 'B', 'C#', 'D#', 'E'], 'scale': 'piongio', 'root_note': 'F#'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['G', 'A', 'C', 'D', 'E', 'F'], 'scale': 'piongio', 'root_note': 'G'}
+{'formula': '1 2 4 5 6 7b', 'notes': ['G#', 'A#', 'C#', 'D#', 'F', 'F#'], 'scale': 'piongio', 'root_note': 'G#'}
+{'formula': '1 3b 4 5 7', 'notes': ['A', 'C', 'D', 'E', 'G#'], 'scale': 'minor #7 pentatonic', 'root_note': 'A'}
+{'formula': '1 3b 4 5 7', 'notes': ['A#', 'C#', 'D#', 'F', 'A'], 'scale': 'minor #7 pentatonic', 'root_note': 'A#'}
+{'formula': '1 3b 4 5 7', 'notes': ['B', 'D', 'E', 'F#', 'A#'], 'scale': 'minor #7 pentatonic', 'root_note': 'B'}
+{'formula': '1 3b 4 5 7', 'notes': ['C', 'D#', 'F', 'G', 'B'], 'scale': 'minor #7 pentatonic', 'root_note': 'C'}
+{'formula': '1 3b 4 5 7', 'notes': ['C#', 'E', 'F#', 'G#', 'C'], 'scale': 'minor #7 pentatonic', 'root_note': 'C#'}
+{'formula': '1 3b 4 5 7', 'notes': ['D', 'F', 'G', 'A', 'C#'], 'scale': 'minor #7 pentatonic', 'root_note': 'D'}
+{'formula': '1 3b 4 5 7', 'notes': ['D#', 'F#', 'G#', 'A#', 'D'], 'scale': 'minor #7 pentatonic', 'root_note': 'D#'}
+{'formula': '1 3b 4 5 7', 'notes': ['E', 'G', 'A', 'B', 'D#'], 'scale': 'minor #7 pentatonic', 'root_note': 'E'}
+{'formula': '1 3b 4 5 7', 'notes': ['F', 'G#', 'A#', 'C', 'E'], 'scale': 'minor #7 pentatonic', 'root_note': 'F'}
+{'formula': '1 3b 4 5 7', 'notes': ['F#', 'A', 'B', 'C#', 'F'], 'scale': 'minor #7 pentatonic', 'root_note': 'F#'}
+{'formula': '1 3b 4 5 7', 'notes': ['G', 'A#', 'C', 'D', 'F#'], 'scale': 'minor #7 pentatonic', 'root_note': 'G'}
+{'formula': '1 3b 4 5 7', 'notes': ['G#', 'B', 'C#', 'D#', 'G'], 'scale': 'minor #7 pentatonic', 'root_note': 'G#'}
+{'formula': '1 2 3 5 6', 'notes': ['A', 'B', 'C#', 'E', 'F#'], 'scale': 'major pentatonic', 'root_note': 'A'}
+{'formula': '1 2 3 5 6', 'notes': ['A#', 'C', 'D', 'F', 'G'], 'scale': 'major pentatonic', 'root_note': 'A#'}
+{'formula': '1 2 3 5 6', 'notes': ['B', 'C#', 'D#', 'F#', 'G#'], 'scale': 'major pentatonic', 'root_note': 'B'}
+{'formula': '1 2 3 5 6', 'notes': ['C', 'D', 'E', 'G', 'A'], 'scale': 'major pentatonic', 'root_note': 'C'}
+{'formula': '1 2 3 5 6', 'notes': ['C#', 'D#', 'F', 'G#', 'A#'], 'scale': 'major pentatonic', 'root_note': 'C#'}
+{'formula': '1 2 3 5 6', 'notes': ['D', 'E', 'F#', 'A', 'B'], 'scale': 'major pentatonic', 'root_note': 'D'}
+{'formula': '1 2 3 5 6', 'notes': ['D#', 'F', 'G', 'A#', 'C'], 'scale': 'major pentatonic', 'root_note': 'D#'}
+{'formula': '1 2 3 5 6', 'notes': ['E', 'F#', 'G#', 'B', 'C#'], 'scale': 'major pentatonic', 'root_note': 'E'}
+{'formula': '1 2 3 5 6', 'notes': ['F', 'G', 'A', 'C', 'D'], 'scale': 'major pentatonic', 'root_note': 'F'}
+{'formula': '1 2 3 5 6', 'notes': ['F#', 'G#', 'A#', 'C#', 'D#'], 'scale': 'major pentatonic', 'root_note': 'F#'}
+{'formula': '1 2 3 5 6', 'notes': ['G', 'A', 'B', 'D', 'E'], 'scale': 'major pentatonic', 'root_note': 'G'}
+{'formula': '1 2 3 5 6', 'notes': ['G#', 'A#', 'C', 'D#', 'F'], 'scale': 'major pentatonic', 'root_note': 'G#'}
+{'formula': '1 2b 4 5 6b', 'notes': ['A', 'A#', 'D', 'E', 'F'], 'scale': 'kumoijoshi', 'root_note': 'A'}
+{'formula': '1 2b 4 5 6b', 'notes': ['A#', 'B', 'D#', 'F', 'F#'], 'scale': 'kumoijoshi', 'root_note': 'A#'}
+{'formula': '1 2b 4 5 6b', 'notes': ['B', 'C', 'E', 'F#', 'G'], 'scale': 'kumoijoshi', 'root_note': 'B'}
+{'formula': '1 2b 4 5 6b', 'notes': ['C', 'C#', 'F', 'G', 'G#'], 'scale': 'kumoijoshi', 'root_note': 'C'}
+{'formula': '1 2b 4 5 6b', 'notes': ['C#', 'D', 'F#', 'G#', 'A'], 'scale': 'kumoijoshi', 'root_note': 'C#'}
+{'formula': '1 2b 4 5 6b', 'notes': ['D', 'D#', 'G', 'A', 'A#'], 'scale': 'kumoijoshi', 'root_note': 'D'}
+{'formula': '1 2b 4 5 6b', 'notes': ['D#', 'E', 'G#', 'A#', 'B'], 'scale': 'kumoijoshi', 'root_note': 'D#'}
+{'formula': '1 2b 4 5 6b', 'notes': ['E', 'F', 'A', 'B', 'C'], 'scale': 'kumoijoshi', 'root_note': 'E'}
+{'formula': '1 2b 4 5 6b', 'notes': ['F', 'F#', 'A#', 'C', 'C#'], 'scale': 'kumoijoshi', 'root_note': 'F'}
+{'formula': '1 2b 4 5 6b', 'notes': ['F#', 'G', 'B', 'C#', 'D'], 'scale': 'kumoijoshi', 'root_note': 'F#'}
+{'formula': '1 2b 4 5 6b', 'notes': ['G', 'G#', 'C', 'D', 'D#'], 'scale': 'kumoijoshi', 'root_note': 'G'}
+{'formula': '1 2b 4 5 6b', 'notes': ['G#', 'A', 'C#', 'D#', 'E'], 'scale': 'kumoijoshi', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['A', 'B', 'C', 'D', 'D#', 'F', 'F#', 'G#'], 'scale': 'diminished', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['A#', 'C', 'C#', 'D#', 'E', 'F#', 'G', 'A'], 'scale': 'diminished', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['B', 'C#', 'D', 'E', 'F', 'G', 'G#', 'A#'], 'scale': 'diminished', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['C', 'D', 'D#', 'F', 'F#', 'G#', 'A', 'B'], 'scale': 'diminished', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['C#', 'D#', 'E', 'F#', 'G', 'A', 'A#', 'C'], 'scale': 'diminished', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['D', 'E', 'F', 'G', 'G#', 'A#', 'B', 'C#'], 'scale': 'diminished', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['D#', 'F', 'F#', 'G#', 'A', 'B', 'C', 'D'], 'scale': 'diminished', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['E', 'F#', 'G', 'A', 'A#', 'C', 'C#', 'D#'], 'scale': 'diminished', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['F', 'G', 'G#', 'A#', 'B', 'C#', 'D', 'E'], 'scale': 'diminished', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['F#', 'G#', 'A', 'B', 'C', 'D', 'D#', 'F'], 'scale': 'diminished', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['G', 'A', 'A#', 'C', 'C#', 'D#', 'E', 'F#'], 'scale': 'diminished', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5b 6b 6 7', 'notes': ['G#', 'A#', 'B', 'C#', 'D', 'E', 'F', 'G'], 'scale': 'diminished', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['A', 'B', 'C', 'D', 'D#', 'F', 'G'], 'scale': 'locrian #2', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['A#', 'C', 'C#', 'D#', 'E', 'F#', 'G#'], 'scale': 'locrian #2', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['B', 'C#', 'D', 'E', 'F', 'G', 'A'], 'scale': 'locrian #2', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['C', 'D', 'D#', 'F', 'F#', 'G#', 'A#'], 'scale': 'locrian #2', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['C#', 'D#', 'E', 'F#', 'G', 'A', 'B'], 'scale': 'locrian #2', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['D', 'E', 'F', 'G', 'G#', 'A#', 'C'], 'scale': 'locrian #2', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['D#', 'F', 'F#', 'G#', 'A', 'B', 'C#'], 'scale': 'locrian #2', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['E', 'F#', 'G', 'A', 'A#', 'C', 'D'], 'scale': 'locrian #2', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['F', 'G', 'G#', 'A#', 'B', 'C#', 'D#'], 'scale': 'locrian #2', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['F#', 'G#', 'A', 'B', 'C', 'D', 'E'], 'scale': 'locrian #2', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['G', 'A', 'A#', 'C', 'C#', 'D#', 'F'], 'scale': 'locrian #2', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5b 6b 7b', 'notes': ['G#', 'A#', 'B', 'C#', 'D', 'E', 'F#'], 'scale': 'locrian #2', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'], 'scale': 'major', 'root_note': 'A'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'G', 'A'], 'scale': 'major', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'], 'scale': 'major', 'root_note': 'B'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['C', 'D', 'E', 'F', 'G', 'A', 'B'], 'scale': 'major', 'root_note': 'C'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'C'], 'scale': 'major', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['D', 'E', 'F#', 'G', 'A', 'B', 'C#'], 'scale': 'major', 'root_note': 'D'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'C', 'D'], 'scale': 'major', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#'], 'scale': 'major', 'root_note': 'E'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['F', 'G', 'A', 'A#', 'C', 'D', 'E'], 'scale': 'major', 'root_note': 'F'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'D#', 'F'], 'scale': 'major', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['G', 'A', 'B', 'C', 'D', 'E', 'F#'], 'scale': 'major', 'root_note': 'G'}
+{'formula': '1 2 3 4 5 6 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'F', 'G'], 'scale': 'major', 'root_note': 'G#'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['A', 'B', 'C#', 'D#', 'E', 'F#', 'G'], 'scale': 'hungarian major', 'root_note': 'A'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['A#', 'C', 'D', 'E', 'F', 'G', 'G#'], 'scale': 'hungarian major', 'root_note': 'A#'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['B', 'C#', 'D#', 'F', 'F#', 'G#', 'A'], 'scale': 'hungarian major', 'root_note': 'B'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['C', 'D', 'E', 'F#', 'G', 'A', 'A#'], 'scale': 'hungarian major', 'root_note': 'C'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['C#', 'D#', 'F', 'G', 'G#', 'A#', 'B'], 'scale': 'hungarian major', 'root_note': 'C#'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['D', 'E', 'F#', 'G#', 'A', 'B', 'C'], 'scale': 'hungarian major', 'root_note': 'D'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['D#', 'F', 'G', 'A', 'A#', 'C', 'C#'], 'scale': 'hungarian major', 'root_note': 'D#'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['E', 'F#', 'G#', 'A#', 'B', 'C#', 'D'], 'scale': 'hungarian major', 'root_note': 'E'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['F', 'G', 'A', 'B', 'C', 'D', 'D#'], 'scale': 'hungarian major', 'root_note': 'F'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['F#', 'G#', 'A#', 'C', 'C#', 'D#', 'E'], 'scale': 'hungarian major', 'root_note': 'F#'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['G', 'A', 'B', 'C#', 'D', 'E', 'F'], 'scale': 'hungarian major', 'root_note': 'G'}
+{'formula': '1 2A 3 4# 5 6 7b', 'notes': ['G#', 'A#', 'C', 'D', 'D#', 'F', 'F#'], 'scale': 'hungarian major', 'root_note': 'G#'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['A', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F#', 'G'], 'scale': 'composite blues', 'root_note': 'A'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['A#', 'C', 'C#', 'D', 'D#', 'E', 'F', 'G', 'G#'], 'scale': 'composite blues', 'root_note': 'A#'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['B', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G#', 'A'], 'scale': 'composite blues', 'root_note': 'B'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['C', 'D', 'D#', 'E', 'F', 'F#', 'G', 'A', 'A#'], 'scale': 'composite blues', 'root_note': 'C'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['C#', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A#', 'B'], 'scale': 'composite blues', 'root_note': 'C#'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['D', 'E', 'F', 'F#', 'G', 'G#', 'A', 'B', 'C'], 'scale': 'composite blues', 'root_note': 'D'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['D#', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'C', 'C#'], 'scale': 'composite blues', 'root_note': 'D#'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['E', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'C#', 'D'], 'scale': 'composite blues', 'root_note': 'E'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['F', 'G', 'G#', 'A', 'A#', 'B', 'C', 'D', 'D#'], 'scale': 'composite blues', 'root_note': 'F'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['F#', 'G#', 'A', 'A#', 'B', 'C', 'C#', 'D#', 'E'], 'scale': 'composite blues', 'root_note': 'F#'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['G', 'A', 'A#', 'B', 'C', 'C#', 'D', 'E', 'F'], 'scale': 'composite blues', 'root_note': 'G'}
+{'formula': '1 2 3b 3 4 5b 5 6 7b', 'notes': ['G#', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'F', 'F#'], 'scale': 'composite blues', 'root_note': 'G#'}
+{'formula': '1 2b 4 5 7b', 'notes': ['A', 'A#', 'D', 'E', 'G'], 'scale': 'in-sen', 'root_note': 'A'}
+{'formula': '1 2b 4 5 7b', 'notes': ['A#', 'B', 'D#', 'F', 'G#'], 'scale': 'in-sen', 'root_note': 'A#'}
+{'formula': '1 2b 4 5 7b', 'notes': ['B', 'C', 'E', 'F#', 'A'], 'scale': 'in-sen', 'root_note': 'B'}
+{'formula': '1 2b 4 5 7b', 'notes': ['C', 'C#', 'F', 'G', 'A#'], 'scale': 'in-sen', 'root_note': 'C'}
+{'formula': '1 2b 4 5 7b', 'notes': ['C#', 'D', 'F#', 'G#', 'B'], 'scale': 'in-sen', 'root_note': 'C#'}
+{'formula': '1 2b 4 5 7b', 'notes': ['D', 'D#', 'G', 'A', 'C'], 'scale': 'in-sen', 'root_note': 'D'}
+{'formula': '1 2b 4 5 7b', 'notes': ['D#', 'E', 'G#', 'A#', 'C#'], 'scale': 'in-sen', 'root_note': 'D#'}
+{'formula': '1 2b 4 5 7b', 'notes': ['E', 'F', 'A', 'B', 'D'], 'scale': 'in-sen', 'root_note': 'E'}
+{'formula': '1 2b 4 5 7b', 'notes': ['F', 'F#', 'A#', 'C', 'D#'], 'scale': 'in-sen', 'root_note': 'F'}
+{'formula': '1 2b 4 5 7b', 'notes': ['F#', 'G', 'B', 'C#', 'E'], 'scale': 'in-sen', 'root_note': 'F#'}
+{'formula': '1 2b 4 5 7b', 'notes': ['G', 'G#', 'C', 'D', 'F'], 'scale': 'in-sen', 'root_note': 'G'}
+{'formula': '1 2b 4 5 7b', 'notes': ['G#', 'A', 'C#', 'D#', 'F#'], 'scale': 'in-sen', 'root_note': 'G#'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['A', 'A#', 'C#', 'D', 'E', 'F', 'G'], 'scale': 'spanish', 'root_note': 'A'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['A#', 'B', 'D', 'D#', 'F', 'F#', 'G#'], 'scale': 'spanish', 'root_note': 'A#'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['B', 'C', 'D#', 'E', 'F#', 'G', 'A'], 'scale': 'spanish', 'root_note': 'B'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['C', 'C#', 'E', 'F', 'G', 'G#', 'A#'], 'scale': 'spanish', 'root_note': 'C'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['C#', 'D', 'F', 'F#', 'G#', 'A', 'B'], 'scale': 'spanish', 'root_note': 'C#'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['D', 'D#', 'F#', 'G', 'A', 'A#', 'C'], 'scale': 'spanish', 'root_note': 'D'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['D#', 'E', 'G', 'G#', 'A#', 'B', 'C#'], 'scale': 'spanish', 'root_note': 'D#'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['E', 'F', 'G#', 'A', 'B', 'C', 'D'], 'scale': 'spanish', 'root_note': 'E'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['F', 'F#', 'A', 'A#', 'C', 'C#', 'D#'], 'scale': 'spanish', 'root_note': 'F'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['F#', 'G', 'A#', 'B', 'C#', 'D', 'E'], 'scale': 'spanish', 'root_note': 'F#'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['G', 'G#', 'B', 'C', 'D', 'D#', 'F'], 'scale': 'spanish', 'root_note': 'G'}
+{'formula': '1 2b 3 4 5 6b 7b', 'notes': ['G#', 'A', 'C', 'C#', 'D#', 'E', 'F#'], 'scale': 'spanish', 'root_note': 'G#'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['A', 'B', 'C', 'D#', 'E', 'F#', 'G'], 'scale': 'romanian minor', 'root_note': 'A'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['A#', 'C', 'C#', 'E', 'F', 'G', 'G#'], 'scale': 'romanian minor', 'root_note': 'A#'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['B', 'C#', 'D', 'F', 'F#', 'G#', 'A'], 'scale': 'romanian minor', 'root_note': 'B'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['C', 'D', 'D#', 'F#', 'G', 'A', 'A#'], 'scale': 'romanian minor', 'root_note': 'C'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['C#', 'D#', 'E', 'G', 'G#', 'A#', 'B'], 'scale': 'romanian minor', 'root_note': 'C#'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['D', 'E', 'F', 'G#', 'A', 'B', 'C'], 'scale': 'romanian minor', 'root_note': 'D'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['D#', 'F', 'F#', 'A', 'A#', 'C', 'C#'], 'scale': 'romanian minor', 'root_note': 'D#'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['E', 'F#', 'G', 'A#', 'B', 'C#', 'D'], 'scale': 'romanian minor', 'root_note': 'E'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['F', 'G', 'G#', 'B', 'C', 'D', 'D#'], 'scale': 'romanian minor', 'root_note': 'F'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['F#', 'G#', 'A', 'C', 'C#', 'D#', 'E'], 'scale': 'romanian minor', 'root_note': 'F#'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['G', 'A', 'A#', 'C#', 'D', 'E', 'F'], 'scale': 'romanian minor', 'root_note': 'G'}
+{'formula': '1 2 3b 5b 5 6 7b', 'notes': ['G#', 'A#', 'B', 'D', 'D#', 'F', 'F#'], 'scale': 'romanian minor', 'root_note': 'G#'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['A', 'A#', 'C#', 'D', 'E', 'F#'], 'scale': 'six tone symmetric', 'root_note': 'A'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['A#', 'B', 'D', 'D#', 'F', 'G'], 'scale': 'six tone symmetric', 'root_note': 'A#'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['B', 'C', 'D#', 'E', 'F#', 'G#'], 'scale': 'six tone symmetric', 'root_note': 'B'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['C', 'C#', 'E', 'F', 'G', 'A'], 'scale': 'six tone symmetric', 'root_note': 'C'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['C#', 'D', 'F', 'F#', 'G#', 'A#'], 'scale': 'six tone symmetric', 'root_note': 'C#'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['D', 'D#', 'F#', 'G', 'A', 'B'], 'scale': 'six tone symmetric', 'root_note': 'D'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['D#', 'E', 'G', 'G#', 'A#', 'C'], 'scale': 'six tone symmetric', 'root_note': 'D#'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['E', 'F', 'G#', 'A', 'B', 'C#'], 'scale': 'six tone symmetric', 'root_note': 'E'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['F', 'F#', 'A', 'A#', 'C', 'D'], 'scale': 'six tone symmetric', 'root_note': 'F'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['F#', 'G', 'A#', 'B', 'C#', 'D#'], 'scale': 'six tone symmetric', 'root_note': 'F#'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['G', 'G#', 'B', 'C', 'D', 'E'], 'scale': 'six tone symmetric', 'root_note': 'G'}
+{'formula': '1 2b 3 4 5A 6', 'notes': ['G#', 'A', 'C', 'C#', 'D#', 'F'], 'scale': 'six tone symmetric', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['A', 'A#', 'C', 'D', 'E', 'F#', 'G#'], 'scale': 'neopolitan major', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['A#', 'B', 'C#', 'D#', 'F', 'G', 'A'], 'scale': 'neopolitan major', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['B', 'C', 'D', 'E', 'F#', 'G#', 'A#'], 'scale': 'neopolitan major', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['C', 'C#', 'D#', 'F', 'G', 'A', 'B'], 'scale': 'neopolitan major', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['C#', 'D', 'E', 'F#', 'G#', 'A#', 'C'], 'scale': 'neopolitan major', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['D', 'D#', 'F', 'G', 'A', 'B', 'C#'], 'scale': 'neopolitan major', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['D#', 'E', 'F#', 'G#', 'A#', 'C', 'D'], 'scale': 'neopolitan major', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['E', 'F', 'G', 'A', 'B', 'C#', 'D#'], 'scale': 'neopolitan major', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['F', 'F#', 'G#', 'A#', 'C', 'D', 'E'], 'scale': 'neopolitan major', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['F#', 'G', 'A', 'B', 'C#', 'D#', 'F'], 'scale': 'neopolitan major', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['G', 'G#', 'A#', 'C', 'D', 'E', 'F#'], 'scale': 'neopolitan major', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5 6 7', 'notes': ['G#', 'A', 'B', 'C#', 'D#', 'F', 'G'], 'scale': 'neopolitan major', 'root_note': 'G#'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['A', 'A#', 'C#', 'D#', 'F#', 'G'], 'scale': 'prometheus neopolitan', 'root_note': 'A'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['A#', 'B', 'D', 'E', 'G', 'G#'], 'scale': 'prometheus neopolitan', 'root_note': 'A#'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['B', 'C', 'D#', 'F', 'G#', 'A'], 'scale': 'prometheus neopolitan', 'root_note': 'B'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['C', 'C#', 'E', 'F#', 'A', 'A#'], 'scale': 'prometheus neopolitan', 'root_note': 'C'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['C#', 'D', 'F', 'G', 'A#', 'B'], 'scale': 'prometheus neopolitan', 'root_note': 'C#'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['D', 'D#', 'F#', 'G#', 'B', 'C'], 'scale': 'prometheus neopolitan', 'root_note': 'D'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['D#', 'E', 'G', 'A', 'C', 'C#'], 'scale': 'prometheus neopolitan', 'root_note': 'D#'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['E', 'F', 'G#', 'A#', 'C#', 'D'], 'scale': 'prometheus neopolitan', 'root_note': 'E'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['F', 'F#', 'A', 'B', 'D', 'D#'], 'scale': 'prometheus neopolitan', 'root_note': 'F'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['F#', 'G', 'A#', 'C', 'D#', 'E'], 'scale': 'prometheus neopolitan', 'root_note': 'F#'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['G', 'G#', 'B', 'C#', 'E', 'F'], 'scale': 'prometheus neopolitan', 'root_note': 'G'}
+{'formula': '1 2b 3 4# 6 7b', 'notes': ['G#', 'A', 'C', 'D', 'F', 'F#'], 'scale': 'prometheus neopolitan', 'root_note': 'G#'}
+{'formula': '1 2b 3 5 6', 'notes': ['A', 'A#', 'C#', 'E', 'F#'], 'scale': 'scriabin', 'root_note': 'A'}
+{'formula': '1 2b 3 5 6', 'notes': ['A#', 'B', 'D', 'F', 'G'], 'scale': 'scriabin', 'root_note': 'A#'}
+{'formula': '1 2b 3 5 6', 'notes': ['B', 'C', 'D#', 'F#', 'G#'], 'scale': 'scriabin', 'root_note': 'B'}
+{'formula': '1 2b 3 5 6', 'notes': ['C', 'C#', 'E', 'G', 'A'], 'scale': 'scriabin', 'root_note': 'C'}
+{'formula': '1 2b 3 5 6', 'notes': ['C#', 'D', 'F', 'G#', 'A#'], 'scale': 'scriabin', 'root_note': 'C#'}
+{'formula': '1 2b 3 5 6', 'notes': ['D', 'D#', 'F#', 'A', 'B'], 'scale': 'scriabin', 'root_note': 'D'}
+{'formula': '1 2b 3 5 6', 'notes': ['D#', 'E', 'G', 'A#', 'C'], 'scale': 'scriabin', 'root_note': 'D#'}
+{'formula': '1 2b 3 5 6', 'notes': ['E', 'F', 'G#', 'B', 'C#'], 'scale': 'scriabin', 'root_note': 'E'}
+{'formula': '1 2b 3 5 6', 'notes': ['F', 'F#', 'A', 'C', 'D'], 'scale': 'scriabin', 'root_note': 'F'}
+{'formula': '1 2b 3 5 6', 'notes': ['F#', 'G', 'A#', 'C#', 'D#'], 'scale': 'scriabin', 'root_note': 'F#'}
+{'formula': '1 2b 3 5 6', 'notes': ['G', 'G#', 'B', 'D', 'E'], 'scale': 'scriabin', 'root_note': 'G'}
+{'formula': '1 2b 3 5 6', 'notes': ['G#', 'A', 'C', 'D#', 'F'], 'scale': 'scriabin', 'root_note': 'G#'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['A', 'B', 'C', 'D#', 'E', 'F#', 'G#'], 'scale': 'lydian diminished', 'root_note': 'A'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['A#', 'C', 'C#', 'E', 'F', 'G', 'A'], 'scale': 'lydian diminished', 'root_note': 'A#'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['B', 'C#', 'D', 'F', 'F#', 'G#', 'A#'], 'scale': 'lydian diminished', 'root_note': 'B'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['C', 'D', 'D#', 'F#', 'G', 'A', 'B'], 'scale': 'lydian diminished', 'root_note': 'C'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['C#', 'D#', 'E', 'G', 'G#', 'A#', 'C'], 'scale': 'lydian diminished', 'root_note': 'C#'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['D', 'E', 'F', 'G#', 'A', 'B', 'C#'], 'scale': 'lydian diminished', 'root_note': 'D'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['D#', 'F', 'F#', 'A', 'A#', 'C', 'D'], 'scale': 'lydian diminished', 'root_note': 'D#'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['E', 'F#', 'G', 'A#', 'B', 'C#', 'D#'], 'scale': 'lydian diminished', 'root_note': 'E'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['F', 'G', 'G#', 'B', 'C', 'D', 'E'], 'scale': 'lydian diminished', 'root_note': 'F'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['F#', 'G#', 'A', 'C', 'C#', 'D#', 'F'], 'scale': 'lydian diminished', 'root_note': 'F#'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['G', 'A', 'A#', 'C#', 'D', 'E', 'F#'], 'scale': 'lydian diminished', 'root_note': 'G'}
+{'formula': '1 2 3b 4# 5 6 7', 'notes': ['G#', 'A#', 'B', 'D', 'D#', 'F', 'G'], 'scale': 'lydian diminished', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['A', 'A#', 'C', 'D', 'E', 'F', 'G#'], 'scale': 'balinese', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['A#', 'B', 'C#', 'D#', 'F', 'F#', 'A'], 'scale': 'balinese', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['B', 'C', 'D', 'E', 'F#', 'G', 'A#'], 'scale': 'balinese', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['C', 'C#', 'D#', 'F', 'G', 'G#', 'B'], 'scale': 'balinese', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['C#', 'D', 'E', 'F#', 'G#', 'A', 'C'], 'scale': 'balinese', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['D', 'D#', 'F', 'G', 'A', 'A#', 'C#'], 'scale': 'balinese', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['D#', 'E', 'F#', 'G#', 'A#', 'B', 'D'], 'scale': 'balinese', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['E', 'F', 'G', 'A', 'B', 'C', 'D#'], 'scale': 'balinese', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['F', 'F#', 'G#', 'A#', 'C', 'C#', 'E'], 'scale': 'balinese', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['F#', 'G', 'A', 'B', 'C#', 'D', 'F'], 'scale': 'balinese', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['G', 'G#', 'A#', 'C', 'D', 'D#', 'F#'], 'scale': 'balinese', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5 6b 7', 'notes': ['G#', 'A', 'B', 'C#', 'D#', 'E', 'G'], 'scale': 'balinese', 'root_note': 'G#'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['A', 'B', 'C#', 'D#', 'E', 'F#', 'G'], 'scale': 'lydian dominant', 'root_note': 'A'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['A#', 'C', 'D', 'E', 'F', 'G', 'G#'], 'scale': 'lydian dominant', 'root_note': 'A#'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['B', 'C#', 'D#', 'F', 'F#', 'G#', 'A'], 'scale': 'lydian dominant', 'root_note': 'B'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['C', 'D', 'E', 'F#', 'G', 'A', 'A#'], 'scale': 'lydian dominant', 'root_note': 'C'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['C#', 'D#', 'F', 'G', 'G#', 'A#', 'B'], 'scale': 'lydian dominant', 'root_note': 'C#'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['D', 'E', 'F#', 'G#', 'A', 'B', 'C'], 'scale': 'lydian dominant', 'root_note': 'D'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['D#', 'F', 'G', 'A', 'A#', 'C', 'C#'], 'scale': 'lydian dominant', 'root_note': 'D#'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['E', 'F#', 'G#', 'A#', 'B', 'C#', 'D'], 'scale': 'lydian dominant', 'root_note': 'E'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['F', 'G', 'A', 'B', 'C', 'D', 'D#'], 'scale': 'lydian dominant', 'root_note': 'F'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['F#', 'G#', 'A#', 'C', 'C#', 'D#', 'E'], 'scale': 'lydian dominant', 'root_note': 'F#'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['G', 'A', 'B', 'C#', 'D', 'E', 'F'], 'scale': 'lydian dominant', 'root_note': 'G'}
+{'formula': '1 2 3 4# 5 6 7b', 'notes': ['G#', 'A#', 'C', 'D', 'D#', 'F', 'F#'], 'scale': 'lydian dominant', 'root_note': 'G#'}
+{'formula': '1 3b 4 5 6b', 'notes': ['A', 'C', 'D', 'E', 'F'], 'scale': 'vietnamese 1', 'root_note': 'A'}
+{'formula': '1 3b 4 5 6b', 'notes': ['A#', 'C#', 'D#', 'F', 'F#'], 'scale': 'vietnamese 1', 'root_note': 'A#'}
+{'formula': '1 3b 4 5 6b', 'notes': ['B', 'D', 'E', 'F#', 'G'], 'scale': 'vietnamese 1', 'root_note': 'B'}
+{'formula': '1 3b 4 5 6b', 'notes': ['C', 'D#', 'F', 'G', 'G#'], 'scale': 'vietnamese 1', 'root_note': 'C'}
+{'formula': '1 3b 4 5 6b', 'notes': ['C#', 'E', 'F#', 'G#', 'A'], 'scale': 'vietnamese 1', 'root_note': 'C#'}
+{'formula': '1 3b 4 5 6b', 'notes': ['D', 'F', 'G', 'A', 'A#'], 'scale': 'vietnamese 1', 'root_note': 'D'}
+{'formula': '1 3b 4 5 6b', 'notes': ['D#', 'F#', 'G#', 'A#', 'B'], 'scale': 'vietnamese 1', 'root_note': 'D#'}
+{'formula': '1 3b 4 5 6b', 'notes': ['E', 'G', 'A', 'B', 'C'], 'scale': 'vietnamese 1', 'root_note': 'E'}
+{'formula': '1 3b 4 5 6b', 'notes': ['F', 'G#', 'A#', 'C', 'C#'], 'scale': 'vietnamese 1', 'root_note': 'F'}
+{'formula': '1 3b 4 5 6b', 'notes': ['F#', 'A', 'B', 'C#', 'D'], 'scale': 'vietnamese 1', 'root_note': 'F#'}
+{'formula': '1 3b 4 5 6b', 'notes': ['G', 'A#', 'C', 'D', 'D#'], 'scale': 'vietnamese 1', 'root_note': 'G'}
+{'formula': '1 3b 4 5 6b', 'notes': ['G#', 'B', 'C#', 'D#', 'E'], 'scale': 'vietnamese 1', 'root_note': 'G#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['A', 'C', 'D', 'E', 'G'], 'scale': 'vietnamese 2', 'root_note': 'A'}
+{'formula': '1 3b 4 5 7b', 'notes': ['A#', 'C#', 'D#', 'F', 'G#'], 'scale': 'vietnamese 2', 'root_note': 'A#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['B', 'D', 'E', 'F#', 'A'], 'scale': 'vietnamese 2', 'root_note': 'B'}
+{'formula': '1 3b 4 5 7b', 'notes': ['C', 'D#', 'F', 'G', 'A#'], 'scale': 'vietnamese 2', 'root_note': 'C'}
+{'formula': '1 3b 4 5 7b', 'notes': ['C#', 'E', 'F#', 'G#', 'B'], 'scale': 'vietnamese 2', 'root_note': 'C#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['D', 'F', 'G', 'A', 'C'], 'scale': 'vietnamese 2', 'root_note': 'D'}
+{'formula': '1 3b 4 5 7b', 'notes': ['D#', 'F#', 'G#', 'A#', 'C#'], 'scale': 'vietnamese 2', 'root_note': 'D#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['E', 'G', 'A', 'B', 'D'], 'scale': 'vietnamese 2', 'root_note': 'E'}
+{'formula': '1 3b 4 5 7b', 'notes': ['F', 'G#', 'A#', 'C', 'D#'], 'scale': 'vietnamese 2', 'root_note': 'F'}
+{'formula': '1 3b 4 5 7b', 'notes': ['F#', 'A', 'B', 'C#', 'E'], 'scale': 'vietnamese 2', 'root_note': 'F#'}
+{'formula': '1 3b 4 5 7b', 'notes': ['G', 'A#', 'C', 'D', 'F'], 'scale': 'vietnamese 2', 'root_note': 'G'}
+{'formula': '1 3b 4 5 7b', 'notes': ['G#', 'B', 'C#', 'D#', 'F#'], 'scale': 'vietnamese 2', 'root_note': 'G#'}
+{'formula': '1 2 3b 5 6', 'notes': ['A', 'B', 'C', 'E', 'F#'], 'scale': 'flat three pentatonic', 'root_note': 'A'}
+{'formula': '1 2 3b 5 6', 'notes': ['A#', 'C', 'C#', 'F', 'G'], 'scale': 'flat three pentatonic', 'root_note': 'A#'}
+{'formula': '1 2 3b 5 6', 'notes': ['B', 'C#', 'D', 'F#', 'G#'], 'scale': 'flat three pentatonic', 'root_note': 'B'}
+{'formula': '1 2 3b 5 6', 'notes': ['C', 'D', 'D#', 'G', 'A'], 'scale': 'flat three pentatonic', 'root_note': 'C'}
+{'formula': '1 2 3b 5 6', 'notes': ['C#', 'D#', 'E', 'G#', 'A#'], 'scale': 'flat three pentatonic', 'root_note': 'C#'}
+{'formula': '1 2 3b 5 6', 'notes': ['D', 'E', 'F', 'A', 'B'], 'scale': 'flat three pentatonic', 'root_note': 'D'}
+{'formula': '1 2 3b 5 6', 'notes': ['D#', 'F', 'F#', 'A#', 'C'], 'scale': 'flat three pentatonic', 'root_note': 'D#'}
+{'formula': '1 2 3b 5 6', 'notes': ['E', 'F#', 'G', 'B', 'C#'], 'scale': 'flat three pentatonic', 'root_note': 'E'}
+{'formula': '1 2 3b 5 6', 'notes': ['F', 'G', 'G#', 'C', 'D'], 'scale': 'flat three pentatonic', 'root_note': 'F'}
+{'formula': '1 2 3b 5 6', 'notes': ['F#', 'G#', 'A', 'C#', 'D#'], 'scale': 'flat three pentatonic', 'root_note': 'F#'}
+{'formula': '1 2 3b 5 6', 'notes': ['G', 'A', 'A#', 'D', 'E'], 'scale': 'flat three pentatonic', 'root_note': 'G'}
+{'formula': '1 2 3b 5 6', 'notes': ['G#', 'A#', 'B', 'D#', 'F'], 'scale': 'flat three pentatonic', 'root_note': 'G#'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['A', 'B', 'C#', 'D#', 'F#', 'G'], 'scale': 'prometheus', 'root_note': 'A'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['A#', 'C', 'D', 'E', 'G', 'G#'], 'scale': 'prometheus', 'root_note': 'A#'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['B', 'C#', 'D#', 'F', 'G#', 'A'], 'scale': 'prometheus', 'root_note': 'B'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['C', 'D', 'E', 'F#', 'A', 'A#'], 'scale': 'prometheus', 'root_note': 'C'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['C#', 'D#', 'F', 'G', 'A#', 'B'], 'scale': 'prometheus', 'root_note': 'C#'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['D', 'E', 'F#', 'G#', 'B', 'C'], 'scale': 'prometheus', 'root_note': 'D'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['D#', 'F', 'G', 'A', 'C', 'C#'], 'scale': 'prometheus', 'root_note': 'D#'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['E', 'F#', 'G#', 'A#', 'C#', 'D'], 'scale': 'prometheus', 'root_note': 'E'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['F', 'G', 'A', 'B', 'D', 'D#'], 'scale': 'prometheus', 'root_note': 'F'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['F#', 'G#', 'A#', 'C', 'D#', 'E'], 'scale': 'prometheus', 'root_note': 'F#'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['G', 'A', 'B', 'C#', 'E', 'F'], 'scale': 'prometheus', 'root_note': 'G'}
+{'formula': '1 2 3 4# 6 7b', 'notes': ['G#', 'A#', 'C', 'D', 'F', 'F#'], 'scale': 'prometheus', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['A', 'B', 'C#', 'D', 'E', 'F', 'G'], 'scale': 'melodic minor fifth mode', 'root_note': 'A'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'F#', 'G#'], 'scale': 'melodic minor fifth mode', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'G', 'A'], 'scale': 'melodic minor fifth mode', 'root_note': 'B'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['C', 'D', 'E', 'F', 'G', 'G#', 'A#'], 'scale': 'melodic minor fifth mode', 'root_note': 'C'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'A', 'B'], 'scale': 'melodic minor fifth mode', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['D', 'E', 'F#', 'G', 'A', 'A#', 'C'], 'scale': 'melodic minor fifth mode', 'root_note': 'D'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'B', 'C#'], 'scale': 'melodic minor fifth mode', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'C', 'D'], 'scale': 'melodic minor fifth mode', 'root_note': 'E'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['F', 'G', 'A', 'A#', 'C', 'C#', 'D#'], 'scale': 'melodic minor fifth mode', 'root_note': 'F'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'D', 'E'], 'scale': 'melodic minor fifth mode', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['G', 'A', 'B', 'C', 'D', 'D#', 'F'], 'scale': 'melodic minor fifth mode', 'root_note': 'G'}
+{'formula': '1 2 3 4 5 6b 7b', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'E', 'F#'], 'scale': 'melodic minor fifth mode', 'root_note': 'G#'}
+{'formula': '1 3 4 5 7', 'notes': ['A', 'C#', 'D', 'E', 'G#'], 'scale': 'ionian pentatonic', 'root_note': 'A'}
+{'formula': '1 3 4 5 7', 'notes': ['A#', 'D', 'D#', 'F', 'A'], 'scale': 'ionian pentatonic', 'root_note': 'A#'}
+{'formula': '1 3 4 5 7', 'notes': ['B', 'D#', 'E', 'F#', 'A#'], 'scale': 'ionian pentatonic', 'root_note': 'B'}
+{'formula': '1 3 4 5 7', 'notes': ['C', 'E', 'F', 'G', 'B'], 'scale': 'ionian pentatonic', 'root_note': 'C'}
+{'formula': '1 3 4 5 7', 'notes': ['C#', 'F', 'F#', 'G#', 'C'], 'scale': 'ionian pentatonic', 'root_note': 'C#'}
+{'formula': '1 3 4 5 7', 'notes': ['D', 'F#', 'G', 'A', 'C#'], 'scale': 'ionian pentatonic', 'root_note': 'D'}
+{'formula': '1 3 4 5 7', 'notes': ['D#', 'G', 'G#', 'A#', 'D'], 'scale': 'ionian pentatonic', 'root_note': 'D#'}
+{'formula': '1 3 4 5 7', 'notes': ['E', 'G#', 'A', 'B', 'D#'], 'scale': 'ionian pentatonic', 'root_note': 'E'}
+{'formula': '1 3 4 5 7', 'notes': ['F', 'A', 'A#', 'C', 'E'], 'scale': 'ionian pentatonic', 'root_note': 'F'}
+{'formula': '1 3 4 5 7', 'notes': ['F#', 'A#', 'B', 'C#', 'F'], 'scale': 'ionian pentatonic', 'root_note': 'F#'}
+{'formula': '1 3 4 5 7', 'notes': ['G', 'B', 'C', 'D', 'F#'], 'scale': 'ionian pentatonic', 'root_note': 'G'}
+{'formula': '1 3 4 5 7', 'notes': ['G#', 'C', 'C#', 'D#', 'G'], 'scale': 'ionian pentatonic', 'root_note': 'G#'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['A', 'A#', 'C#', 'D', 'D#', 'F', 'G#'], 'scale': 'persian', 'root_note': 'A'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['A#', 'B', 'D', 'D#', 'E', 'F#', 'A'], 'scale': 'persian', 'root_note': 'A#'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['B', 'C', 'D#', 'E', 'F', 'G', 'A#'], 'scale': 'persian', 'root_note': 'B'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['C', 'C#', 'E', 'F', 'F#', 'G#', 'B'], 'scale': 'persian', 'root_note': 'C'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['C#', 'D', 'F', 'F#', 'G', 'A', 'C'], 'scale': 'persian', 'root_note': 'C#'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['D', 'D#', 'F#', 'G', 'G#', 'A#', 'C#'], 'scale': 'persian', 'root_note': 'D'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['D#', 'E', 'G', 'G#', 'A', 'B', 'D'], 'scale': 'persian', 'root_note': 'D#'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['E', 'F', 'G#', 'A', 'A#', 'C', 'D#'], 'scale': 'persian', 'root_note': 'E'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['F', 'F#', 'A', 'A#', 'B', 'C#', 'E'], 'scale': 'persian', 'root_note': 'F'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['F#', 'G', 'A#', 'B', 'C', 'D', 'F'], 'scale': 'persian', 'root_note': 'F#'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['G', 'G#', 'B', 'C', 'C#', 'D#', 'F#'], 'scale': 'persian', 'root_note': 'G'}
+{'formula': '1 2b 3 4 5b 6b 7', 'notes': ['G#', 'A', 'C', 'C#', 'D', 'E', 'G'], 'scale': 'persian', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['A', 'B', 'C', 'D', 'E', 'F#', 'G#'], 'scale': 'melodic minor', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['A#', 'C', 'C#', 'D#', 'F', 'G', 'A'], 'scale': 'melodic minor', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['B', 'C#', 'D', 'E', 'F#', 'G#', 'A#'], 'scale': 'melodic minor', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['C', 'D', 'D#', 'F', 'G', 'A', 'B'], 'scale': 'melodic minor', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['C#', 'D#', 'E', 'F#', 'G#', 'A#', 'C'], 'scale': 'melodic minor', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['D', 'E', 'F', 'G', 'A', 'B', 'C#'], 'scale': 'melodic minor', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['D#', 'F', 'F#', 'G#', 'A#', 'C', 'D'], 'scale': 'melodic minor', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['E', 'F#', 'G', 'A', 'B', 'C#', 'D#'], 'scale': 'melodic minor', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['F', 'G', 'G#', 'A#', 'C', 'D', 'E'], 'scale': 'melodic minor', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['F#', 'G#', 'A', 'B', 'C#', 'D#', 'F'], 'scale': 'melodic minor', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['G', 'A', 'A#', 'C', 'D', 'E', 'F#'], 'scale': 'melodic minor', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5 6 7', 'notes': ['G#', 'A#', 'B', 'C#', 'D#', 'F', 'G'], 'scale': 'melodic minor', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['A', 'B', 'C#', 'D', 'E', 'F', 'G#'], 'scale': 'harmonic major', 'root_note': 'A'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'F#', 'A'], 'scale': 'harmonic major', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'G', 'A#'], 'scale': 'harmonic major', 'root_note': 'B'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['C', 'D', 'E', 'F', 'G', 'G#', 'B'], 'scale': 'harmonic major', 'root_note': 'C'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'A', 'C'], 'scale': 'harmonic major', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['D', 'E', 'F#', 'G', 'A', 'A#', 'C#'], 'scale': 'harmonic major', 'root_note': 'D'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'B', 'D'], 'scale': 'harmonic major', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'C', 'D#'], 'scale': 'harmonic major', 'root_note': 'E'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['F', 'G', 'A', 'A#', 'C', 'C#', 'E'], 'scale': 'harmonic major', 'root_note': 'F'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'D', 'F'], 'scale': 'harmonic major', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['G', 'A', 'B', 'C', 'D', 'D#', 'F#'], 'scale': 'harmonic major', 'root_note': 'G'}
+{'formula': '1 2 3 4 5 6b 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'E', 'G'], 'scale': 'harmonic major', 'root_note': 'G#'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['A', 'B', 'C#', 'D#', 'E', 'F#', 'G#'], 'scale': 'lydian augmented', 'root_note': 'A'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['A#', 'C', 'D', 'E', 'F', 'G', 'A'], 'scale': 'lydian augmented', 'root_note': 'A#'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['B', 'C#', 'D#', 'F', 'F#', 'G#', 'A#'], 'scale': 'lydian augmented', 'root_note': 'B'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['C', 'D', 'E', 'F#', 'G', 'A', 'B'], 'scale': 'lydian augmented', 'root_note': 'C'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['C#', 'D#', 'F', 'G', 'G#', 'A#', 'C'], 'scale': 'lydian augmented', 'root_note': 'C#'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['D', 'E', 'F#', 'G#', 'A', 'B', 'C#'], 'scale': 'lydian augmented', 'root_note': 'D'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['D#', 'F', 'G', 'A', 'A#', 'C', 'D'], 'scale': 'lydian augmented', 'root_note': 'D#'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['E', 'F#', 'G#', 'A#', 'B', 'C#', 'D#'], 'scale': 'lydian augmented', 'root_note': 'E'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['F', 'G', 'A', 'B', 'C', 'D', 'E'], 'scale': 'lydian augmented', 'root_note': 'F'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['F#', 'G#', 'A#', 'C', 'C#', 'D#', 'F'], 'scale': 'lydian augmented', 'root_note': 'F#'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['G', 'A', 'B', 'C#', 'D', 'E', 'F#'], 'scale': 'lydian augmented', 'root_note': 'G'}
+{'formula': '1 2 3 4# 5A 6 7', 'notes': ['G#', 'A#', 'C', 'D', 'D#', 'F', 'G'], 'scale': 'lydian augmented', 'root_note': 'G#'}
+{'formula': '1 3 4# 5A 7', 'notes': ['A', 'C#', 'D#', 'E', 'G#'], 'scale': 'lydian #5 pentatonic', 'root_note': 'A'}
+{'formula': '1 3 4# 5A 7', 'notes': ['A#', 'D', 'E', 'F', 'A'], 'scale': 'lydian #5 pentatonic', 'root_note': 'A#'}
+{'formula': '1 3 4# 5A 7', 'notes': ['B', 'D#', 'F', 'F#', 'A#'], 'scale': 'lydian #5 pentatonic', 'root_note': 'B'}
+{'formula': '1 3 4# 5A 7', 'notes': ['C', 'E', 'F#', 'G', 'B'], 'scale': 'lydian #5 pentatonic', 'root_note': 'C'}
+{'formula': '1 3 4# 5A 7', 'notes': ['C#', 'F', 'G', 'G#', 'C'], 'scale': 'lydian #5 pentatonic', 'root_note': 'C#'}
+{'formula': '1 3 4# 5A 7', 'notes': ['D', 'F#', 'G#', 'A', 'C#'], 'scale': 'lydian #5 pentatonic', 'root_note': 'D'}
+{'formula': '1 3 4# 5A 7', 'notes': ['D#', 'G', 'A', 'A#', 'D'], 'scale': 'lydian #5 pentatonic', 'root_note': 'D#'}
+{'formula': '1 3 4# 5A 7', 'notes': ['E', 'G#', 'A#', 'B', 'D#'], 'scale': 'lydian #5 pentatonic', 'root_note': 'E'}
+{'formula': '1 3 4# 5A 7', 'notes': ['F', 'A', 'B', 'C', 'E'], 'scale': 'lydian #5 pentatonic', 'root_note': 'F'}
+{'formula': '1 3 4# 5A 7', 'notes': ['F#', 'A#', 'C', 'C#', 'F'], 'scale': 'lydian #5 pentatonic', 'root_note': 'F#'}
+{'formula': '1 3 4# 5A 7', 'notes': ['G', 'B', 'C#', 'D', 'F#'], 'scale': 'lydian #5 pentatonic', 'root_note': 'G'}
+{'formula': '1 3 4# 5A 7', 'notes': ['G#', 'C', 'D', 'D#', 'G'], 'scale': 'lydian #5 pentatonic', 'root_note': 'G#'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['A', 'A#', 'C#', 'D', 'D#', 'E', 'F', 'G#'], 'scale': 'purvi raga', 'root_note': 'A'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['A#', 'B', 'D', 'D#', 'E', 'F', 'F#', 'A'], 'scale': 'purvi raga', 'root_note': 'A#'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['B', 'C', 'D#', 'E', 'F', 'F#', 'G', 'A#'], 'scale': 'purvi raga', 'root_note': 'B'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['C', 'C#', 'E', 'F', 'F#', 'G', 'G#', 'B'], 'scale': 'purvi raga', 'root_note': 'C'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['C#', 'D', 'F', 'F#', 'G', 'G#', 'A', 'C'], 'scale': 'purvi raga', 'root_note': 'C#'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['D', 'D#', 'F#', 'G', 'G#', 'A', 'A#', 'C#'], 'scale': 'purvi raga', 'root_note': 'D'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['D#', 'E', 'G', 'G#', 'A', 'A#', 'B', 'D'], 'scale': 'purvi raga', 'root_note': 'D#'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['E', 'F', 'G#', 'A', 'A#', 'B', 'C', 'D#'], 'scale': 'purvi raga', 'root_note': 'E'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['F', 'F#', 'A', 'A#', 'B', 'C', 'C#', 'E'], 'scale': 'purvi raga', 'root_note': 'F'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['F#', 'G', 'A#', 'B', 'C', 'C#', 'D', 'F'], 'scale': 'purvi raga', 'root_note': 'F#'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['G', 'G#', 'B', 'C', 'C#', 'D', 'D#', 'F#'], 'scale': 'purvi raga', 'root_note': 'G'}
+{'formula': '1 2b 3 4 4# 5 6b 7', 'notes': ['G#', 'A', 'C', 'C#', 'D', 'D#', 'E', 'G'], 'scale': 'purvi raga', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['A', 'A#', 'C', 'D', 'E', 'F#', 'G'], 'scale': 'melodic minor second mode', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['A#', 'B', 'C#', 'D#', 'F', 'G', 'G#'], 'scale': 'melodic minor second mode', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['B', 'C', 'D', 'E', 'F#', 'G#', 'A'], 'scale': 'melodic minor second mode', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['C', 'C#', 'D#', 'F', 'G', 'A', 'A#'], 'scale': 'melodic minor second mode', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['C#', 'D', 'E', 'F#', 'G#', 'A#', 'B'], 'scale': 'melodic minor second mode', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['D', 'D#', 'F', 'G', 'A', 'B', 'C'], 'scale': 'melodic minor second mode', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['D#', 'E', 'F#', 'G#', 'A#', 'C', 'C#'], 'scale': 'melodic minor second mode', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['E', 'F', 'G', 'A', 'B', 'C#', 'D'], 'scale': 'melodic minor second mode', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['F', 'F#', 'G#', 'A#', 'C', 'D', 'D#'], 'scale': 'melodic minor second mode', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['F#', 'G', 'A', 'B', 'C#', 'D#', 'E'], 'scale': 'melodic minor second mode', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['G', 'G#', 'A#', 'C', 'D', 'E', 'F'], 'scale': 'melodic minor second mode', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5 6 7b', 'notes': ['G#', 'A', 'B', 'C#', 'D#', 'F', 'F#'], 'scale': 'melodic minor second mode', 'root_note': 'G#'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['A', 'B', 'C', 'D#', 'E', 'F', 'G#'], 'scale': 'hungarian minor', 'root_note': 'A'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['A#', 'C', 'C#', 'E', 'F', 'F#', 'A'], 'scale': 'hungarian minor', 'root_note': 'A#'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['B', 'C#', 'D', 'F', 'F#', 'G', 'A#'], 'scale': 'hungarian minor', 'root_note': 'B'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['C', 'D', 'D#', 'F#', 'G', 'G#', 'B'], 'scale': 'hungarian minor', 'root_note': 'C'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['C#', 'D#', 'E', 'G', 'G#', 'A', 'C'], 'scale': 'hungarian minor', 'root_note': 'C#'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['D', 'E', 'F', 'G#', 'A', 'A#', 'C#'], 'scale': 'hungarian minor', 'root_note': 'D'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['D#', 'F', 'F#', 'A', 'A#', 'B', 'D'], 'scale': 'hungarian minor', 'root_note': 'D#'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['E', 'F#', 'G', 'A#', 'B', 'C', 'D#'], 'scale': 'hungarian minor', 'root_note': 'E'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['F', 'G', 'G#', 'B', 'C', 'C#', 'E'], 'scale': 'hungarian minor', 'root_note': 'F'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['F#', 'G#', 'A', 'C', 'C#', 'D', 'F'], 'scale': 'hungarian minor', 'root_note': 'F#'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['G', 'A', 'A#', 'C#', 'D', 'D#', 'F#'], 'scale': 'hungarian minor', 'root_note': 'G'}
+{'formula': '1 2 3b 4# 5 6b 7', 'notes': ['G#', 'A#', 'B', 'D', 'D#', 'E', 'G'], 'scale': 'hungarian minor', 'root_note': 'G#'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['A', 'A#', 'C', 'C#', 'D#', 'E', 'G'], 'scale': 'flamenco', 'root_note': 'A'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['A#', 'B', 'C#', 'D', 'E', 'F', 'G#'], 'scale': 'flamenco', 'root_note': 'A#'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['B', 'C', 'D', 'D#', 'F', 'F#', 'A'], 'scale': 'flamenco', 'root_note': 'B'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['C', 'C#', 'D#', 'E', 'F#', 'G', 'A#'], 'scale': 'flamenco', 'root_note': 'C'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['C#', 'D', 'E', 'F', 'G', 'G#', 'B'], 'scale': 'flamenco', 'root_note': 'C#'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['D', 'D#', 'F', 'F#', 'G#', 'A', 'C'], 'scale': 'flamenco', 'root_note': 'D'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['D#', 'E', 'F#', 'G', 'A', 'A#', 'C#'], 'scale': 'flamenco', 'root_note': 'D#'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['E', 'F', 'G', 'G#', 'A#', 'B', 'D'], 'scale': 'flamenco', 'root_note': 'E'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['F', 'F#', 'G#', 'A', 'B', 'C', 'D#'], 'scale': 'flamenco', 'root_note': 'F'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['F#', 'G', 'A', 'A#', 'C', 'C#', 'E'], 'scale': 'flamenco', 'root_note': 'F#'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['G', 'G#', 'A#', 'B', 'C#', 'D', 'F'], 'scale': 'flamenco', 'root_note': 'G'}
+{'formula': '1 2b 3b 3 4# 5 7b', 'notes': ['G#', 'A', 'B', 'C', 'D', 'D#', 'F#'], 'scale': 'flamenco', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['A', 'B', 'C', 'D', 'E', 'G#'], 'scale': 'minor hexatonic', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['A#', 'C', 'C#', 'D#', 'F', 'A'], 'scale': 'minor hexatonic', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['B', 'C#', 'D', 'E', 'F#', 'A#'], 'scale': 'minor hexatonic', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['C', 'D', 'D#', 'F', 'G', 'B'], 'scale': 'minor hexatonic', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['C#', 'D#', 'E', 'F#', 'G#', 'C'], 'scale': 'minor hexatonic', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['D', 'E', 'F', 'G', 'A', 'C#'], 'scale': 'minor hexatonic', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['D#', 'F', 'F#', 'G#', 'A#', 'D'], 'scale': 'minor hexatonic', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['E', 'F#', 'G', 'A', 'B', 'D#'], 'scale': 'minor hexatonic', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['F', 'G', 'G#', 'A#', 'C', 'E'], 'scale': 'minor hexatonic', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['F#', 'G#', 'A', 'B', 'C#', 'F'], 'scale': 'minor hexatonic', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['G', 'A', 'A#', 'C', 'D', 'F#'], 'scale': 'minor hexatonic', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5 7', 'notes': ['G#', 'A#', 'B', 'C#', 'D#', 'G'], 'scale': 'minor hexatonic', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['A', 'B', 'C', 'D', 'E', 'F', 'G#'], 'scale': 'harmonic minor', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['A#', 'C', 'C#', 'D#', 'F', 'F#', 'A'], 'scale': 'harmonic minor', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['B', 'C#', 'D', 'E', 'F#', 'G', 'A#'], 'scale': 'harmonic minor', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['C', 'D', 'D#', 'F', 'G', 'G#', 'B'], 'scale': 'harmonic minor', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['C#', 'D#', 'E', 'F#', 'G#', 'A', 'C'], 'scale': 'harmonic minor', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['D', 'E', 'F', 'G', 'A', 'A#', 'C#'], 'scale': 'harmonic minor', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['D#', 'F', 'F#', 'G#', 'A#', 'B', 'D'], 'scale': 'harmonic minor', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['E', 'F#', 'G', 'A', 'B', 'C', 'D#'], 'scale': 'harmonic minor', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['F', 'G', 'G#', 'A#', 'C', 'C#', 'E'], 'scale': 'harmonic minor', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['F#', 'G#', 'A', 'B', 'C#', 'D', 'F'], 'scale': 'harmonic minor', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['G', 'A', 'A#', 'C', 'D', 'D#', 'F#'], 'scale': 'harmonic minor', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5 6b 7', 'notes': ['G#', 'A#', 'B', 'C#', 'D#', 'E', 'G'], 'scale': 'harmonic minor', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'], 'scale': 'ionian augmented', 'root_note': 'A'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'G', 'A'], 'scale': 'ionian augmented', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'], 'scale': 'ionian augmented', 'root_note': 'B'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['C', 'D', 'E', 'F', 'G', 'A', 'B'], 'scale': 'ionian augmented', 'root_note': 'C'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'C'], 'scale': 'ionian augmented', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['D', 'E', 'F#', 'G', 'A', 'B', 'C#'], 'scale': 'ionian augmented', 'root_note': 'D'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'C', 'D'], 'scale': 'ionian augmented', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#'], 'scale': 'ionian augmented', 'root_note': 'E'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['F', 'G', 'A', 'A#', 'C', 'D', 'E'], 'scale': 'ionian augmented', 'root_note': 'F'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'D#', 'F'], 'scale': 'ionian augmented', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['G', 'A', 'B', 'C', 'D', 'E', 'F#'], 'scale': 'ionian augmented', 'root_note': 'G'}
+{'formula': '1 2 3 4 5A 6 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'F', 'G'], 'scale': 'ionian augmented', 'root_note': 'G#'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['A', 'A#', 'C', 'C#', 'D', 'E', 'F', 'G'], 'scale': 'spanish heptatonic', 'root_note': 'A'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['A#', 'B', 'C#', 'D', 'D#', 'F', 'F#', 'G#'], 'scale': 'spanish heptatonic', 'root_note': 'A#'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['B', 'C', 'D', 'D#', 'E', 'F#', 'G', 'A'], 'scale': 'spanish heptatonic', 'root_note': 'B'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['C', 'C#', 'D#', 'E', 'F', 'G', 'G#', 'A#'], 'scale': 'spanish heptatonic', 'root_note': 'C'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['C#', 'D', 'E', 'F', 'F#', 'G#', 'A', 'B'], 'scale': 'spanish heptatonic', 'root_note': 'C#'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['D', 'D#', 'F', 'F#', 'G', 'A', 'A#', 'C'], 'scale': 'spanish heptatonic', 'root_note': 'D'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['D#', 'E', 'F#', 'G', 'G#', 'A#', 'B', 'C#'], 'scale': 'spanish heptatonic', 'root_note': 'D#'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['E', 'F', 'G', 'G#', 'A', 'B', 'C', 'D'], 'scale': 'spanish heptatonic', 'root_note': 'E'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['F', 'F#', 'G#', 'A', 'A#', 'C', 'C#', 'D#'], 'scale': 'spanish heptatonic', 'root_note': 'F'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['F#', 'G', 'A', 'A#', 'B', 'C#', 'D', 'E'], 'scale': 'spanish heptatonic', 'root_note': 'F#'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['G', 'G#', 'A#', 'B', 'C', 'D', 'D#', 'F'], 'scale': 'spanish heptatonic', 'root_note': 'G'}
+{'formula': '1 2b 3b 3 4 5 6b 7b', 'notes': ['G#', 'A', 'B', 'C', 'C#', 'D#', 'E', 'F#'], 'scale': 'spanish heptatonic', 'root_note': 'G#'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['A', 'B', 'C#', 'D#', 'E', 'F', 'G'], 'scale': 'lydian minor', 'root_note': 'A'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['A#', 'C', 'D', 'E', 'F', 'F#', 'G#'], 'scale': 'lydian minor', 'root_note': 'A#'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['B', 'C#', 'D#', 'F', 'F#', 'G', 'A'], 'scale': 'lydian minor', 'root_note': 'B'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['C', 'D', 'E', 'F#', 'G', 'G#', 'A#'], 'scale': 'lydian minor', 'root_note': 'C'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['C#', 'D#', 'F', 'G', 'G#', 'A', 'B'], 'scale': 'lydian minor', 'root_note': 'C#'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['D', 'E', 'F#', 'G#', 'A', 'A#', 'C'], 'scale': 'lydian minor', 'root_note': 'D'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['D#', 'F', 'G', 'A', 'A#', 'B', 'C#'], 'scale': 'lydian minor', 'root_note': 'D#'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['E', 'F#', 'G#', 'A#', 'B', 'C', 'D'], 'scale': 'lydian minor', 'root_note': 'E'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['F', 'G', 'A', 'B', 'C', 'C#', 'D#'], 'scale': 'lydian minor', 'root_note': 'F'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['F#', 'G#', 'A#', 'C', 'C#', 'D', 'E'], 'scale': 'lydian minor', 'root_note': 'F#'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['G', 'A', 'B', 'C#', 'D', 'D#', 'F'], 'scale': 'lydian minor', 'root_note': 'G'}
+{'formula': '1 2 3 4# 5 6b 7b', 'notes': ['G#', 'A#', 'C', 'D', 'D#', 'E', 'F#'], 'scale': 'lydian minor', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['A', 'B', 'C#', 'D', 'E', 'F#', 'G', 'G#'], 'scale': 'bebop', 'root_note': 'A'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'G', 'G#', 'A'], 'scale': 'bebop', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A', 'A#'], 'scale': 'bebop', 'root_note': 'B'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['C', 'D', 'E', 'F', 'G', 'A', 'A#', 'B'], 'scale': 'bebop', 'root_note': 'C'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'B', 'C'], 'scale': 'bebop', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['D', 'E', 'F#', 'G', 'A', 'B', 'C', 'C#'], 'scale': 'bebop', 'root_note': 'D'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'C', 'C#', 'D'], 'scale': 'bebop', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D', 'D#'], 'scale': 'bebop', 'root_note': 'E'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['F', 'G', 'A', 'A#', 'C', 'D', 'D#', 'E'], 'scale': 'bebop', 'root_note': 'F'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'D#', 'E', 'F'], 'scale': 'bebop', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['G', 'A', 'B', 'C', 'D', 'E', 'F', 'F#'], 'scale': 'bebop', 'root_note': 'G'}
+{'formula': '1 2 3 4 5 6 7b 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'F', 'F#', 'G'], 'scale': 'bebop', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['A', 'A#', 'C', 'D#', 'E', 'F', 'G#'], 'scale': 'todi raga', 'root_note': 'A'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['A#', 'B', 'C#', 'E', 'F', 'F#', 'A'], 'scale': 'todi raga', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['B', 'C', 'D', 'F', 'F#', 'G', 'A#'], 'scale': 'todi raga', 'root_note': 'B'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['C', 'C#', 'D#', 'F#', 'G', 'G#', 'B'], 'scale': 'todi raga', 'root_note': 'C'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['C#', 'D', 'E', 'G', 'G#', 'A', 'C'], 'scale': 'todi raga', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['D', 'D#', 'F', 'G#', 'A', 'A#', 'C#'], 'scale': 'todi raga', 'root_note': 'D'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['D#', 'E', 'F#', 'A', 'A#', 'B', 'D'], 'scale': 'todi raga', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['E', 'F', 'G', 'A#', 'B', 'C', 'D#'], 'scale': 'todi raga', 'root_note': 'E'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['F', 'F#', 'G#', 'B', 'C', 'C#', 'E'], 'scale': 'todi raga', 'root_note': 'F'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['F#', 'G', 'A', 'C', 'C#', 'D', 'F'], 'scale': 'todi raga', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['G', 'G#', 'A#', 'C#', 'D', 'D#', 'F#'], 'scale': 'todi raga', 'root_note': 'G'}
+{'formula': '1 2b 3b 4# 5 6b 7', 'notes': ['G#', 'A', 'B', 'D', 'D#', 'E', 'G'], 'scale': 'todi raga', 'root_note': 'G#'}
+{'formula': '1 2 3 5 6b', 'notes': ['A', 'B', 'C#', 'E', 'F'], 'scale': 'flat six pentatonic', 'root_note': 'A'}
+{'formula': '1 2 3 5 6b', 'notes': ['A#', 'C', 'D', 'F', 'F#'], 'scale': 'flat six pentatonic', 'root_note': 'A#'}
+{'formula': '1 2 3 5 6b', 'notes': ['B', 'C#', 'D#', 'F#', 'G'], 'scale': 'flat six pentatonic', 'root_note': 'B'}
+{'formula': '1 2 3 5 6b', 'notes': ['C', 'D', 'E', 'G', 'G#'], 'scale': 'flat six pentatonic', 'root_note': 'C'}
+{'formula': '1 2 3 5 6b', 'notes': ['C#', 'D#', 'F', 'G#', 'A'], 'scale': 'flat six pentatonic', 'root_note': 'C#'}
+{'formula': '1 2 3 5 6b', 'notes': ['D', 'E', 'F#', 'A', 'A#'], 'scale': 'flat six pentatonic', 'root_note': 'D'}
+{'formula': '1 2 3 5 6b', 'notes': ['D#', 'F', 'G', 'A#', 'B'], 'scale': 'flat six pentatonic', 'root_note': 'D#'}
+{'formula': '1 2 3 5 6b', 'notes': ['E', 'F#', 'G#', 'B', 'C'], 'scale': 'flat six pentatonic', 'root_note': 'E'}
+{'formula': '1 2 3 5 6b', 'notes': ['F', 'G', 'A', 'C', 'C#'], 'scale': 'flat six pentatonic', 'root_note': 'F'}
+{'formula': '1 2 3 5 6b', 'notes': ['F#', 'G#', 'A#', 'C#', 'D'], 'scale': 'flat six pentatonic', 'root_note': 'F#'}
+{'formula': '1 2 3 5 6b', 'notes': ['G', 'A', 'B', 'D', 'D#'], 'scale': 'flat six pentatonic', 'root_note': 'G'}
+{'formula': '1 2 3 5 6b', 'notes': ['G#', 'A#', 'C', 'D#', 'E'], 'scale': 'flat six pentatonic', 'root_note': 'G#'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['A', 'A#', 'C', 'C#', 'D#', 'F', 'G'], 'scale': 'altered', 'root_note': 'A'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['A#', 'B', 'C#', 'D', 'E', 'F#', 'G#'], 'scale': 'altered', 'root_note': 'A#'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['B', 'C', 'D', 'D#', 'F', 'G', 'A'], 'scale': 'altered', 'root_note': 'B'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['C', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'], 'scale': 'altered', 'root_note': 'C'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['C#', 'D', 'E', 'F', 'G', 'A', 'B'], 'scale': 'altered', 'root_note': 'C#'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['D', 'D#', 'F', 'F#', 'G#', 'A#', 'C'], 'scale': 'altered', 'root_note': 'D'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['D#', 'E', 'F#', 'G', 'A', 'B', 'C#'], 'scale': 'altered', 'root_note': 'D#'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['E', 'F', 'G', 'G#', 'A#', 'C', 'D'], 'scale': 'altered', 'root_note': 'E'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['F', 'F#', 'G#', 'A', 'B', 'C#', 'D#'], 'scale': 'altered', 'root_note': 'F'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['F#', 'G', 'A', 'A#', 'C', 'D', 'E'], 'scale': 'altered', 'root_note': 'F#'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['G', 'G#', 'A#', 'B', 'C#', 'D#', 'F'], 'scale': 'altered', 'root_note': 'G'}
+{'formula': '1 2b 3b 3 5b 6b 7b', 'notes': ['G#', 'A', 'B', 'C', 'D', 'E', 'F#'], 'scale': 'altered', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['A', 'B', 'C#', 'D', 'E', 'F#', 'G'], 'scale': 'mixolydian', 'root_note': 'A'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'G', 'G#'], 'scale': 'mixolydian', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A'], 'scale': 'mixolydian', 'root_note': 'B'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['C', 'D', 'E', 'F', 'G', 'A', 'A#'], 'scale': 'mixolydian', 'root_note': 'C'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'B'], 'scale': 'mixolydian', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['D', 'E', 'F#', 'G', 'A', 'B', 'C'], 'scale': 'mixolydian', 'root_note': 'D'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'C', 'C#'], 'scale': 'mixolydian', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D'], 'scale': 'mixolydian', 'root_note': 'E'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['F', 'G', 'A', 'A#', 'C', 'D', 'D#'], 'scale': 'mixolydian', 'root_note': 'F'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'D#', 'E'], 'scale': 'mixolydian', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['G', 'A', 'B', 'C', 'D', 'E', 'F'], 'scale': 'mixolydian', 'root_note': 'G'}
+{'formula': '1 2 3 4 5 6 7b', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'F', 'F#'], 'scale': 'mixolydian', 'root_note': 'G#'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['A', 'C', 'D', 'F', 'G'], 'scale': 'malkos raga', 'root_note': 'A'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['A#', 'C#', 'D#', 'F#', 'G#'], 'scale': 'malkos raga', 'root_note': 'A#'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['B', 'D', 'E', 'G', 'A'], 'scale': 'malkos raga', 'root_note': 'B'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['C', 'D#', 'F', 'G#', 'A#'], 'scale': 'malkos raga', 'root_note': 'C'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['C#', 'E', 'F#', 'A', 'B'], 'scale': 'malkos raga', 'root_note': 'C#'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['D', 'F', 'G', 'A#', 'C'], 'scale': 'malkos raga', 'root_note': 'D'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['D#', 'F#', 'G#', 'B', 'C#'], 'scale': 'malkos raga', 'root_note': 'D#'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['E', 'G', 'A', 'C', 'D'], 'scale': 'malkos raga', 'root_note': 'E'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['F', 'G#', 'A#', 'C#', 'D#'], 'scale': 'malkos raga', 'root_note': 'F'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['F#', 'A', 'B', 'D', 'E'], 'scale': 'malkos raga', 'root_note': 'F#'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['G', 'A#', 'C', 'D#', 'F'], 'scale': 'malkos raga', 'root_note': 'G'}
+{'formula': '1 3b 4 6b 7b', 'notes': ['G#', 'B', 'C#', 'E', 'F#'], 'scale': 'malkos raga', 'root_note': 'G#'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['A', 'B', 'C', 'C#', 'D', 'E', 'F#', 'G'], 'scale': 'bebop minor', 'root_note': 'A'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['A#', 'C', 'C#', 'D', 'D#', 'F', 'G', 'G#'], 'scale': 'bebop minor', 'root_note': 'A#'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['B', 'C#', 'D', 'D#', 'E', 'F#', 'G#', 'A'], 'scale': 'bebop minor', 'root_note': 'B'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['C', 'D', 'D#', 'E', 'F', 'G', 'A', 'A#'], 'scale': 'bebop minor', 'root_note': 'C'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['C#', 'D#', 'E', 'F', 'F#', 'G#', 'A#', 'B'], 'scale': 'bebop minor', 'root_note': 'C#'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['D', 'E', 'F', 'F#', 'G', 'A', 'B', 'C'], 'scale': 'bebop minor', 'root_note': 'D'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['D#', 'F', 'F#', 'G', 'G#', 'A#', 'C', 'C#'], 'scale': 'bebop minor', 'root_note': 'D#'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['E', 'F#', 'G', 'G#', 'A', 'B', 'C#', 'D'], 'scale': 'bebop minor', 'root_note': 'E'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['F', 'G', 'G#', 'A', 'A#', 'C', 'D', 'D#'], 'scale': 'bebop minor', 'root_note': 'F'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['F#', 'G#', 'A', 'A#', 'B', 'C#', 'D#', 'E'], 'scale': 'bebop minor', 'root_note': 'F#'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['G', 'A', 'A#', 'B', 'C', 'D', 'E', 'F'], 'scale': 'bebop minor', 'root_note': 'G'}
+{'formula': '1 2 3b 3 4 5 6 7b', 'notes': ['G#', 'A#', 'B', 'C', 'C#', 'D#', 'F', 'F#'], 'scale': 'bebop minor', 'root_note': 'G#'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['A', 'A#', 'D', 'D#', 'G'], 'scale': 'iwato', 'root_note': 'A'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['A#', 'B', 'D#', 'E', 'G#'], 'scale': 'iwato', 'root_note': 'A#'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['B', 'C', 'E', 'F', 'A'], 'scale': 'iwato', 'root_note': 'B'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['C', 'C#', 'F', 'F#', 'A#'], 'scale': 'iwato', 'root_note': 'C'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['C#', 'D', 'F#', 'G', 'B'], 'scale': 'iwato', 'root_note': 'C#'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['D', 'D#', 'G', 'G#', 'C'], 'scale': 'iwato', 'root_note': 'D'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['D#', 'E', 'G#', 'A', 'C#'], 'scale': 'iwato', 'root_note': 'D#'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['E', 'F', 'A', 'A#', 'D'], 'scale': 'iwato', 'root_note': 'E'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['F', 'F#', 'A#', 'B', 'D#'], 'scale': 'iwato', 'root_note': 'F'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['F#', 'G', 'B', 'C', 'E'], 'scale': 'iwato', 'root_note': 'F#'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['G', 'G#', 'C', 'C#', 'F'], 'scale': 'iwato', 'root_note': 'G'}
+{'formula': '1 2b 4 5b 7b', 'notes': ['G#', 'A', 'C#', 'D', 'F#'], 'scale': 'iwato', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['A', 'B', 'C#', 'D', 'E', 'E', 'F#', 'G#'], 'scale': 'bebop major', 'root_note': 'A'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'F', 'G', 'A'], 'scale': 'bebop major', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'F#', 'G#', 'A#'], 'scale': 'bebop major', 'root_note': 'B'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['C', 'D', 'E', 'F', 'G', 'G', 'A', 'B'], 'scale': 'bebop major', 'root_note': 'C'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'G#', 'A#', 'C'], 'scale': 'bebop major', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['D', 'E', 'F#', 'G', 'A', 'A', 'B', 'C#'], 'scale': 'bebop major', 'root_note': 'D'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'A#', 'C', 'D'], 'scale': 'bebop major', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'B', 'C#', 'D#'], 'scale': 'bebop major', 'root_note': 'E'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['F', 'G', 'A', 'A#', 'C', 'C', 'D', 'E'], 'scale': 'bebop major', 'root_note': 'F'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'C#', 'D#', 'F'], 'scale': 'bebop major', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['G', 'A', 'B', 'C', 'D', 'D', 'E', 'F#'], 'scale': 'bebop major', 'root_note': 'G'}
+{'formula': '1 2 3 4 5 5A 6 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'D#', 'F', 'G'], 'scale': 'bebop major', 'root_note': 'G#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['A', 'A#', 'C', 'D', 'E', 'F', 'G'], 'scale': 'phrygian', 'root_note': 'A'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['A#', 'B', 'C#', 'D#', 'F', 'F#', 'G#'], 'scale': 'phrygian', 'root_note': 'A#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['B', 'C', 'D', 'E', 'F#', 'G', 'A'], 'scale': 'phrygian', 'root_note': 'B'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['C', 'C#', 'D#', 'F', 'G', 'G#', 'A#'], 'scale': 'phrygian', 'root_note': 'C'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['C#', 'D', 'E', 'F#', 'G#', 'A', 'B'], 'scale': 'phrygian', 'root_note': 'C#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['D', 'D#', 'F', 'G', 'A', 'A#', 'C'], 'scale': 'phrygian', 'root_note': 'D'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['D#', 'E', 'F#', 'G#', 'A#', 'B', 'C#'], 'scale': 'phrygian', 'root_note': 'D#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['E', 'F', 'G', 'A', 'B', 'C', 'D'], 'scale': 'phrygian', 'root_note': 'E'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['F', 'F#', 'G#', 'A#', 'C', 'C#', 'D#'], 'scale': 'phrygian', 'root_note': 'F'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['F#', 'G', 'A', 'B', 'C#', 'D', 'E'], 'scale': 'phrygian', 'root_note': 'F#'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['G', 'G#', 'A#', 'C', 'D', 'D#', 'F'], 'scale': 'phrygian', 'root_note': 'G'}
+{'formula': '1 2b 3b 4 5 6b 7b', 'notes': ['G#', 'A', 'B', 'C#', 'D#', 'E', 'F#'], 'scale': 'phrygian', 'root_note': 'G#'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['A', 'B', 'C#', 'D', 'D#', 'E', 'F#', 'G#'], 'scale': 'ichikosucho', 'root_note': 'A'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['A#', 'C', 'D', 'D#', 'E', 'F', 'G', 'A'], 'scale': 'ichikosucho', 'root_note': 'A#'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['B', 'C#', 'D#', 'E', 'F', 'F#', 'G#', 'A#'], 'scale': 'ichikosucho', 'root_note': 'B'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['C', 'D', 'E', 'F', 'F#', 'G', 'A', 'B'], 'scale': 'ichikosucho', 'root_note': 'C'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G', 'G#', 'A#', 'C'], 'scale': 'ichikosucho', 'root_note': 'C#'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['D', 'E', 'F#', 'G', 'G#', 'A', 'B', 'C#'], 'scale': 'ichikosucho', 'root_note': 'D'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['D#', 'F', 'G', 'G#', 'A', 'A#', 'C', 'D'], 'scale': 'ichikosucho', 'root_note': 'D#'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['E', 'F#', 'G#', 'A', 'A#', 'B', 'C#', 'D#'], 'scale': 'ichikosucho', 'root_note': 'E'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['F', 'G', 'A', 'A#', 'B', 'C', 'D', 'E'], 'scale': 'ichikosucho', 'root_note': 'F'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C', 'C#', 'D#', 'F'], 'scale': 'ichikosucho', 'root_note': 'F#'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['G', 'A', 'B', 'C', 'C#', 'D', 'E', 'F#'], 'scale': 'ichikosucho', 'root_note': 'G'}
+{'formula': '1 2 3 4 5b 5 6 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D', 'D#', 'F', 'G'], 'scale': 'ichikosucho', 'root_note': 'G#'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['A', 'A#', 'C#', 'D#', 'F', 'G'], 'scale': 'mystery #1', 'root_note': 'A'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['A#', 'B', 'D', 'E', 'F#', 'G#'], 'scale': 'mystery #1', 'root_note': 'A#'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['B', 'C', 'D#', 'F', 'G', 'A'], 'scale': 'mystery #1', 'root_note': 'B'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['C', 'C#', 'E', 'F#', 'G#', 'A#'], 'scale': 'mystery #1', 'root_note': 'C'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['C#', 'D', 'F', 'G', 'A', 'B'], 'scale': 'mystery #1', 'root_note': 'C#'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['D', 'D#', 'F#', 'G#', 'A#', 'C'], 'scale': 'mystery #1', 'root_note': 'D'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['D#', 'E', 'G', 'A', 'B', 'C#'], 'scale': 'mystery #1', 'root_note': 'D#'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['E', 'F', 'G#', 'A#', 'C', 'D'], 'scale': 'mystery #1', 'root_note': 'E'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['F', 'F#', 'A', 'B', 'C#', 'D#'], 'scale': 'mystery #1', 'root_note': 'F'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['F#', 'G', 'A#', 'C', 'D', 'E'], 'scale': 'mystery #1', 'root_note': 'F#'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['G', 'G#', 'B', 'C#', 'D#', 'F'], 'scale': 'mystery #1', 'root_note': 'G'}
+{'formula': '1 2b 3 5b 6b 7b', 'notes': ['G#', 'A', 'C', 'D', 'E', 'F#'], 'scale': 'mystery #1', 'root_note': 'G#'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['A', 'B', 'C', 'D', 'E', 'F', 'G'], 'scale': 'aeolian', 'root_note': 'A'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['A#', 'C', 'C#', 'D#', 'F', 'F#', 'G#'], 'scale': 'aeolian', 'root_note': 'A#'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['B', 'C#', 'D', 'E', 'F#', 'G', 'A'], 'scale': 'aeolian', 'root_note': 'B'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['C', 'D', 'D#', 'F', 'G', 'G#', 'A#'], 'scale': 'aeolian', 'root_note': 'C'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['C#', 'D#', 'E', 'F#', 'G#', 'A', 'B'], 'scale': 'aeolian', 'root_note': 'C#'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['D', 'E', 'F', 'G', 'A', 'A#', 'C'], 'scale': 'aeolian', 'root_note': 'D'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['D#', 'F', 'F#', 'G#', 'A#', 'B', 'C#'], 'scale': 'aeolian', 'root_note': 'D#'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['E', 'F#', 'G', 'A', 'B', 'C', 'D'], 'scale': 'aeolian', 'root_note': 'E'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['F', 'G', 'G#', 'A#', 'C', 'C#', 'D#'], 'scale': 'aeolian', 'root_note': 'F'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['F#', 'G#', 'A', 'B', 'C#', 'D', 'E'], 'scale': 'aeolian', 'root_note': 'F#'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['G', 'A', 'A#', 'C', 'D', 'D#', 'F'], 'scale': 'aeolian', 'root_note': 'G'}
+{'formula': '1 2 3b 4 5 6b 7b', 'notes': ['G#', 'A#', 'B', 'C#', 'D#', 'E', 'F#'], 'scale': 'aeolian', 'root_note': 'G#'}
+{'formula': '1 2 3b 5 6b', 'notes': ['A', 'B', 'C', 'E', 'F'], 'scale': 'hirajoshi', 'root_note': 'A'}
+{'formula': '1 2 3b 5 6b', 'notes': ['A#', 'C', 'C#', 'F', 'F#'], 'scale': 'hirajoshi', 'root_note': 'A#'}
+{'formula': '1 2 3b 5 6b', 'notes': ['B', 'C#', 'D', 'F#', 'G'], 'scale': 'hirajoshi', 'root_note': 'B'}
+{'formula': '1 2 3b 5 6b', 'notes': ['C', 'D', 'D#', 'G', 'G#'], 'scale': 'hirajoshi', 'root_note': 'C'}
+{'formula': '1 2 3b 5 6b', 'notes': ['C#', 'D#', 'E', 'G#', 'A'], 'scale': 'hirajoshi', 'root_note': 'C#'}
+{'formula': '1 2 3b 5 6b', 'notes': ['D', 'E', 'F', 'A', 'A#'], 'scale': 'hirajoshi', 'root_note': 'D'}
+{'formula': '1 2 3b 5 6b', 'notes': ['D#', 'F', 'F#', 'A#', 'B'], 'scale': 'hirajoshi', 'root_note': 'D#'}
+{'formula': '1 2 3b 5 6b', 'notes': ['E', 'F#', 'G', 'B', 'C'], 'scale': 'hirajoshi', 'root_note': 'E'}
+{'formula': '1 2 3b 5 6b', 'notes': ['F', 'G', 'G#', 'C', 'C#'], 'scale': 'hirajoshi', 'root_note': 'F'}
+{'formula': '1 2 3b 5 6b', 'notes': ['F#', 'G#', 'A', 'C#', 'D'], 'scale': 'hirajoshi', 'root_note': 'F#'}
+{'formula': '1 2 3b 5 6b', 'notes': ['G', 'A', 'A#', 'D', 'D#'], 'scale': 'hirajoshi', 'root_note': 'G'}
+{'formula': '1 2 3b 5 6b', 'notes': ['G#', 'A#', 'B', 'D#', 'E'], 'scale': 'hirajoshi', 'root_note': 'G#'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['A', 'B', 'C#', 'D', 'E', 'E', 'G#'], 'scale': 'augmented heptatonic', 'root_note': 'A'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['A#', 'C', 'D', 'D#', 'F', 'F', 'A'], 'scale': 'augmented heptatonic', 'root_note': 'A#'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['B', 'C#', 'D#', 'E', 'F#', 'F#', 'A#'], 'scale': 'augmented heptatonic', 'root_note': 'B'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['C', 'D', 'E', 'F', 'G', 'G', 'B'], 'scale': 'augmented heptatonic', 'root_note': 'C'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['C#', 'D#', 'F', 'F#', 'G#', 'G#', 'C'], 'scale': 'augmented heptatonic', 'root_note': 'C#'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['D', 'E', 'F#', 'G', 'A', 'A', 'C#'], 'scale': 'augmented heptatonic', 'root_note': 'D'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['D#', 'F', 'G', 'G#', 'A#', 'A#', 'D'], 'scale': 'augmented heptatonic', 'root_note': 'D#'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['E', 'F#', 'G#', 'A', 'B', 'B', 'D#'], 'scale': 'augmented heptatonic', 'root_note': 'E'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['F', 'G', 'A', 'A#', 'C', 'C', 'E'], 'scale': 'augmented heptatonic', 'root_note': 'F'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['F#', 'G#', 'A#', 'B', 'C#', 'C#', 'F'], 'scale': 'augmented heptatonic', 'root_note': 'F#'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['G', 'A', 'B', 'C', 'D', 'D', 'F#'], 'scale': 'augmented heptatonic', 'root_note': 'G'}
+{'formula': '1 2A 3 4 5 5A 7', 'notes': ['G#', 'A#', 'C', 'C#', 'D#', 'D#', 'G'], 'scale': 'augmented heptatonic', 'root_note': 'G#'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['A', 'B', 'C#', 'E', 'E', 'G#'], 'scale': 'augmented', 'root_note': 'A'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['A#', 'C', 'D', 'F', 'F', 'A'], 'scale': 'augmented', 'root_note': 'A#'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['B', 'C#', 'D#', 'F#', 'F#', 'A#'], 'scale': 'augmented', 'root_note': 'B'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['C', 'D', 'E', 'G', 'G', 'B'], 'scale': 'augmented', 'root_note': 'C'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['C#', 'D#', 'F', 'G#', 'G#', 'C'], 'scale': 'augmented', 'root_note': 'C#'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['D', 'E', 'F#', 'A', 'A', 'C#'], 'scale': 'augmented', 'root_note': 'D'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['D#', 'F', 'G', 'A#', 'A#', 'D'], 'scale': 'augmented', 'root_note': 'D#'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['E', 'F#', 'G#', 'B', 'B', 'D#'], 'scale': 'augmented', 'root_note': 'E'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['F', 'G', 'A', 'C', 'C', 'E'], 'scale': 'augmented', 'root_note': 'F'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['F#', 'G#', 'A#', 'C#', 'C#', 'F'], 'scale': 'augmented', 'root_note': 'F#'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['G', 'A', 'B', 'D', 'D', 'F#'], 'scale': 'augmented', 'root_note': 'G'}
+{'formula': '1 2A 3 5 5A 7', 'notes': ['G#', 'A#', 'C', 'D#', 'D#', 'G'], 'scale': 'augmented', 'root_note': 'G#'}
