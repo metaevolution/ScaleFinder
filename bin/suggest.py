@@ -4,6 +4,7 @@ import sys
 import getopt
 
 from fretfinder.util import scale_candidate_iter
+from fretfinder.const import bcolors
 from fretfinder.fretboard import FretBoard
 from fretfinder.fretboard import Tuning
 from fretfinder.fretboard import TUNINGS
@@ -12,15 +13,16 @@ from fretfinder.fretboard import FretBoardASCIIRenderer
 
 if __name__ == "__main__":
     inverted = False
+    verbose = False
     notes = ""
 
     argumentList = sys.argv[1:]
     
     # Options
-    options = "h"
+    options = "vhin:m"
     
     # Long options
-    long_options = ["notes=", "invert", "help"]
+    long_options = ["notes=", "invert", "minesweeper", "verbose", "help"]
     
     try:
         # Parsing argument
@@ -35,29 +37,43 @@ if __name__ == "__main__":
             elif currentArgument in ("-n", "--notes"):
                 notes = currentValue.split(" ")
                 
-            elif currentArgument in ("-i", "--invert"):
-                print(("Enabling inveted output mode (% s)") % (currentValue))
+            elif currentArgument in ("-i", "--invert", ):
+                print(("Enabling inverted output mode (% s)") % (currentValue))
                 inverted = True
+
+            elif currentArgument in ("-m", "--minesweeper"):
+                print(("Enabling minesweeper output mode (% s)") % (currentValue))
+                inverted = True
+
+            elif currentArgument in ("-v", "--verbose"):
+                print(("Enabling verbose output mode (% s)") % (currentValue))
+                verbose = True
                 
     except getopt.error as err:
         # output error, and return with an error code
         print(str(err))
 
 
-    print("\r\n[*] Found the following scales that include the notes %s:\r\n" % (notes))
+    print(f"{bcolors.WARNING}\r\n[*] Found the following scales that include the notes %s:\r\n{bcolors.ENDC}" % (notes))
     n = 0 
     suggested_scales = []
     for i in scale_candidate_iter(notes):
         suggested_scales.append(i)
-        print("%s. %s %s \r\n  notes: %s\r\n" % (n, i['root_note'], i['scale'], i['notes']))
+        #print("%s. %s %s" % (n, i['root_note'], i['scale']))
+        if verbose:
+            print("%s. %s %s notes: %s formula: %s" % (n, i['root_note'], i['scale'], i['notes'], i['formula']))
+        else:
+            print("%s. %s %s" % (n, i['root_note'], i['scale']))
         n+=1
 
     if len(suggested_scales) == 0:
         print("[*] No scales found with notes: %s" % notes)
         sys.exit(0)
     else:
-        print("[*] %s scales found with notes: %s" % (len(suggested_scales),notes))
-        variable = input('[*] Please enter the number of the scale you want to see on the fretboard: ')
+        print(f"{bcolors.HEADER}\r\n[*] Found scales that include the notes %s:\r\n{bcolors.ENDC}" % (notes))
+        variable = input(f"{bcolors.WARNING}[*] Please enter the corresponding number for the scale you want to see on the fretboard, or 'n' to exit: {bcolors.ENDC}")
+        if variable == 'n':
+            sys.exit(0)
         scale = suggested_scales[int(variable)] 
 
     n = 0 
@@ -66,7 +82,7 @@ if __name__ == "__main__":
         print("%s. %s" % (n, t['name']))
         n += 1
     
-    variable = input('[*] Please select the tuning to use: ')
+    variable = input(f"{bcolors.WARNING}'\r\n[*] Please select the tuning to use:  {bcolors.ENDC}")
         
     t = TUNINGS[int(variable)]
     t1 = Tuning(t['name'])

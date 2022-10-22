@@ -2,16 +2,33 @@ import pprint
 
 from fretfinder.util import get_note_sequence
 from fretfinder.util import scale_from_pattern
-from fretfinder.util import SCALE_FORMULAS
+from fretfinder.const import SCALE_FORMULAS
+from fretfinder.const import bcolors
 
 TUNINGS = [
-    {'name': 'E standard', 'notes' : ['E', 'A', 'D', 'G', 'B', 'E']}, 
-    {'name': 'Drop D', 'notes' : ['D', 'A', 'D', 'G', 'B', 'E']}, 
-    {'name': 'D standard', 'notes' : ['D', 'G', 'C', 'F', 'A', 'D']}, 
-    {'name': 'Drop C', 'notes' : ['C', 'G', 'C', 'F', 'A', 'D']}, 
-    {'name': 'Drop A', 'notes' : ['A', 'G', 'C', 'F', 'A', 'D']}, 
-    {'name': '(7-String) Standard', 'notes' : ['B','E', 'A', 'D', 'G', 'B', 'E']},
-    {'name': '(7-String) Drop A', 'notes' : ['A','E', 'A', 'D', 'G', 'B', 'E']}
+    {'name': '(6-String Guitar) E standard', 'notes': ['E', 'A', 'D', 'G', 'B', 'E']}, 
+    {'name': '(6-String Guitar) Drop D', 'notes': ['D', 'A', 'D', 'G', 'B', 'E']}, 
+    {'name': '(6-String Guitar) D standard', 'notes': ['D', 'G', 'C', 'F', 'A', 'D']}, 
+    {'name': '(6-String Guitar) Drop C', 'notes': ['C', 'G', 'C', 'F', 'A', 'D']}, 
+    {'name': '(6-String Guitar) Drop B', 'notes': ['B', 'Gb', 'B', 'E', 'Ab', 'Db']}, 
+    {'name': '(6-String Guitar) Drop A', 'notes': ['A', 'G', 'C', 'F', 'A', 'D']}, 
+    {'name': '(6-String Guitar) Open D', 'notes': ['D', 'A', 'D', 'F#', 'A', 'D']},
+    {'name': '(6-String Guitar) Open G', 'notes': ['D', 'G', 'D', 'G', 'B', 'D']},
+    {'name': '(6-String Guitar) Open C', 'notes': ['C', 'G', 'C', 'G', 'C', 'E']},
+    {'name': '(7-String Guitar) Standard', 'notes': ['B', 'E', 'A', 'D', 'G', 'B', 'E']},
+    {'name': '(7-String Guitar) Drop A', 'notes': ['A', 'E', 'A', 'D', 'G', 'B', 'E']},
+    {'name': '(4-String Bass) E standard', 'notes': ['E', 'A', 'D', 'G']}, 
+    {'name': '(4-String Bass) Drop D', 'notes': ['D', 'A', 'D', 'G']}, 
+    {'name': '(4-String Bass) D standard', 'notes': ['D', 'G', 'C', 'F']}, 
+    {'name': '(4-String Bass) Drop C', 'notes': ['C', 'G', 'C', 'F']}, 
+    {'name': '(4-String Bass) Drop B', 'notes': ['B', 'Gb', 'B', 'E']}, 
+    {'name': '(4-String Bass) Drop A', 'notes': ['A', 'G', 'C', 'F']}, 
+    {'name': '(5-String Bass) E standard', 'notes': ['E', 'A', 'D', 'G', 'B']}, 
+    {'name': '(5-String Bass) Drop D', 'notes': ['D', 'A', 'D', 'G', 'B']}, 
+    {'name': '(5-String Bass) D standard', 'notes': ['D', 'G', 'C', 'F', 'A']}, 
+    {'name': '(5-String Bass) Drop C', 'notes': ['C', 'G', 'C', 'F', 'A']}, 
+    {'name': '(5-String Bass) Drop B', 'notes': ['B', 'Gb', 'B', 'E', 'Ab']}, 
+    {'name': '(5-String Bass) Drop A', 'notes': ['A', 'G', 'C', 'F', 'A']}, 
 ]
 
 
@@ -39,13 +56,14 @@ class Tuning():
 
 class FretBoardASCIIRenderer():
 
-    def __init__(self, fretboard, fret_width=6):
+    def __init__(self, fretboard, fret_width=6, show_tuning=True):
         self.row = "-"
         self.header_row = " "
         self.column = "|"
         self.nut = "|"
         self.corner = "+"
         self.header_corner = "|"
+        self.show_tune = show_tuning
         self.fret_width = fret_width
         self.strings = len(fretboard.tuning.strings)
         self.frets = fretboard.frets
@@ -63,11 +81,12 @@ class FretBoardASCIIRenderer():
     def render(self):
         self.fretboard.generate() 
         output = ""
-        self.fretboard.tuning.strings.reverse()
         output += "\r\n[Tuning: " + self.fretboard.tuning.name + "] " + str(self.fretboard.tuning.strings) + "\r"
         output += "\r\n[Scale: %s %s %s" % (self.fretboard.root_note, self.fretboard.scale_name, self.fretboard.scale_notes)+ "]\r\n\r\n"
-
-        header = self.header_corner
+        if not self.show_tune:
+            header = "|"
+        else:
+            header = self._center("Str" , self.fret_width, " ") + "|"
         for c in range(0, self.frets+1):
             if c == 1: # use a different symbol for nut.
                 s = self.nut
@@ -76,10 +95,14 @@ class FretBoardASCIIRenderer():
             header += self._center(c, self.fret_width, self.header_row) + s
 
         output += header + "\r\n"
+        n = 0
         for r in self.fretboard.fretboard: # TODO: Fix this awkward fretboard.fretboard reference.
             i = 0
-
-            line = self.corner
+            if not self.show_tune:
+                line = "|"
+            else:
+                line = self._center(f"-{self.fretboard.tuning.strings[n]}-", self.fret_width, " ") + "|"
+            n+=1
             for c in r:
                 if i == 0: # use a different symbol for nut.
                     s = self.nut
