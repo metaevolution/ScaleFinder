@@ -22,10 +22,10 @@ if __name__ == "__main__":
     argumentList = sys.argv[1:]
     
     # Options
-    options = "vhin:mdx"
+    options = "vhin:dx"
     
     # Long options
-    long_options = ["notes=", "invert", "minesweeper", "verbose", "help", "degrees", "xo_mode"]
+    long_options = ["notes=", "invert", "verbose", "help", "degrees", "xo_mode"]
     
     try:
         # Parsing argument
@@ -55,10 +55,6 @@ if __name__ == "__main__":
                 
             elif currentArgument in ("-i", "--invert", ):
                 print(("Enabling inverted output mode (% s)") % (currentValue))
-                inverted = True
-
-            elif currentArgument in ("-m", "--minesweeper"):
-                print(("Enabling minesweeper output mode (% s)") % (currentValue))
                 inverted = True
 
             elif currentArgument in ("-v", "--verbose"):
