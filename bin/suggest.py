@@ -35,7 +35,20 @@ if __name__ == "__main__":
         for currentArgument, currentValue in arguments:
     
             if currentArgument in ("-h", "--Help"):
-                print("Usage: %s --notes \"A B C D F#\"")
+                print(f"""Usage: {sys.argv[0]} --notes \"A B C D F#\
+                
+
+        -n, --notes:    Specify the notes you want to search relevant scales for. 
+                        Separate multiple notes with spaces and surround with double quotes \"\". 
+                        Use '#' for sharp, and 'b' for flat. e.g. 'Gb', 'A#' etc.
+        -d, --degrees:  Show scale degrees instead of note names. 
+        -i, --invert:   Shows notes that are NOT in the selected scale.
+        -x, --xo_mode:  Show 'O' instead of note letters, or pair with -i to show 'X' for notes not in the scale.
+        -v, --verbose:  Enable verbose output
+        -h, --help:     This help menu
+                
+                """)
+                sys.exit(1)
                 
             elif currentArgument in ("-n", "--notes"):
                 notes = currentValue.split(" ")
