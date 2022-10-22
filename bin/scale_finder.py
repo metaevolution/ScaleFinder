@@ -17,15 +17,16 @@ if __name__ == "__main__":
     degrees = False
     verbose = False
     xo_mode = False
+    filter_by_root_note = False
     notes = ""
 
     argumentList = sys.argv[1:]
     
     # Options
-    options = "vhin:dx"
+    options = "vhin:dxr:"
     
     # Long options
-    long_options = ["notes=", "invert", "verbose", "help", "degrees", "xo_mode"]
+    long_options = ["notes=", "invert", "verbose", "help", "degrees", "xo_mode", "root_note="]
     
     try:
         # Parsing argument
@@ -37,36 +38,47 @@ if __name__ == "__main__":
             if currentArgument in ("-h", "--Help"):
                 print(f"""Usage: {sys.argv[0]} --notes A B C D F#
                 
+        INPUTS:
 
-        -n, --notes:    Specify the notes you want to search relevant scales for. 
-                        Separate multiple notes with spaces and surround with double quotes \"\". 
-                        Use '#' for sharp, and 'b' for flat. e.g. 'Gb', 'A#' etc.
-        -d, --degrees:  Show scale degrees instead of note names. 
-        -i, --invert:   Shows notes that are NOT in the selected scale.
-        -x, --xo_mode:  Show 'O' instead of note letters, or pair with -i to show 'X' for notes not in the scale.
-        -v, --verbose:  Enable verbose output
-        -h, --help:     This help menu
+        -n, --notes:        Specify the notes you want to search relevant scales for. 
+                            Separate multiple notes with spaces and surround with double quotes \"\". 
+                            Use '#' for sharp, and 'b' for flat. e.g. 'Gb', 'A#' etc.
+        -r, --root_note:    Limit suggestions to scales with the provided root note.
+
+        DISPLAY:
+
+        -d, --degrees:      Show scale degrees instead of note names. 
+        -i, --invert:       Shows notes that are NOT in the selected scale.
+        -x, --xo_mode:      Show 'O' instead of note letters, or pair with -i to show 'X' for notes not in the scale.
+
+        MISC:
+
+        -v, --verbose:      Enable verbose output
+        -h, --help:         This help menu
                 
                 """)
                 sys.exit(1)
                 
             elif currentArgument in ("-n", "--notes"):
                 notes = currentValue.split(" ")
+
+            elif currentArgument in ("-r", "--root_note"):
+                filter_by_root_note = currentValue
                 
             elif currentArgument in ("-i", "--invert", ):
-                print(("Enabling inverted output mode (% s)") % (currentValue))
+                print(f"{bcolors.WARNING}Enabling inverted output mode{bcolors.ENDC}")
                 inverted = True
 
             elif currentArgument in ("-v", "--verbose"):
-                print(("Enabling verbose output mode (% s)") % (currentValue))
+                print(f"{bcolors.WARNING}Enabling verbose output mode{bcolors.ENDC}")
                 verbose = True
 
             elif currentArgument in ("-d", "--degrees"):
-                print(("Enabling scale degree output mode (% s)") % (currentValue))
+                print(f"{bcolors.WARNING}Enabling scale degree output mode{bcolors.ENDC}")
                 degrees = True
             
             elif currentArgument in ("-x", "--xo_mode"):
-                print(("Enabling XO output mode (% s)") % (currentValue))
+                print(f"{bcolors.WARNING}Enabling XO output mode{bcolors.ENDC}")
                 xo_mode = True
                 
     except getopt.error as err:
@@ -77,7 +89,7 @@ if __name__ == "__main__":
     print(f"{bcolors.WARNING}\r\n[*] Found the following scales that include the notes %s:\r\n{bcolors.ENDC}" % (notes))
     n = 0 
     suggested_scales = []
-    for i in scale_candidate_iter(notes):
+    for i in scale_candidate_iter(notes, filter_by_root_note):
         suggested_scales.append(i)
         #print("%s. %s %s" % (n, i['root_note'], i['scale']))
         if verbose:

@@ -143,13 +143,17 @@ def generate_scales(root_notes, scale_formulas):
     return scales
 
 
-def scale_candidate_iter(submitted_notes):
+def scale_candidate_iter(submitted_notes, root_note=None):
     """Find scales that contain all of the notes passed to function."""
     for k,v in SCALE_FORMULAS.items():
         for j in NOTES:
             notes = scale_from_pattern(j, k, v)
             if all(elem in notes  for elem in submitted_notes):
-                yield {'scale': k, 'formula': v, 'notes': notes, 'root_note': j}
+                if root_note:
+                    if j == root_note:
+                        yield {'scale': k, 'formula': v, 'notes': notes, 'root_note': j}
+                else:
+                    yield {'scale': k, 'formula': v, 'notes': notes, 'root_note': j}
 
 if __name__ == "__main__":
     import sys
