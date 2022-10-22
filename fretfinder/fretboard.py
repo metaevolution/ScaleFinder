@@ -9,7 +9,9 @@ TUNINGS = [
     {'name': 'Drop D', 'notes' : ['D', 'A', 'D', 'G', 'B', 'E']}, 
     {'name': 'D standard', 'notes' : ['D', 'G', 'C', 'F', 'A', 'D']}, 
     {'name': 'Drop C', 'notes' : ['C', 'G', 'C', 'F', 'A', 'D']}, 
-    {'name': 'Drop A', 'notes' : ['A', 'G', 'C', 'F', 'A', 'D']}
+    {'name': 'Drop A', 'notes' : ['A', 'G', 'C', 'F', 'A', 'D']}, 
+    {'name': '(7-String) Standard', 'notes' : ['B','E', 'A', 'D', 'G', 'B', 'E']},
+    {'name': '(7-String) Drop A', 'notes' : ['A','E', 'A', 'D', 'G', 'B', 'E']}
 ]
 
 
@@ -92,11 +94,12 @@ class FretBoardASCIIRenderer():
 
 class FretBoard():
 
-    def __init__(self, tuning, frets=24):
+    def __init__(self, tuning, frets=24, inverted=False):
         self.frets = frets
         self.tuning = tuning
         self.fretboard = []
         self.scale_notes = None
+        self.show_inverted = inverted
 
     def set_scale(self, root_note, scale_name):
         self.scale_name = scale_name
@@ -105,7 +108,7 @@ class FretBoard():
 
     def generate(self):
         for s in self.tuning.strings:
-            notes = get_note_sequence(s.pitch, self.frets, self.scale_notes)
+            notes = get_note_sequence(s.pitch, self.frets, self.scale_notes, self.show_inverted)
             self.fretboard.append(notes)   
         return self.fretboard
 
