@@ -117,12 +117,14 @@ class FretBoardASCIIRenderer():
 
 class FretBoard():
 
-    def __init__(self, tuning, frets=24, inverted=False):
+    def __init__(self, tuning, frets=24, inverted=False, degrees=False, xo_mode=False):
         self.frets = frets
         self.tuning = tuning
         self.fretboard = []
         self.scale_notes = None
         self.show_inverted = inverted
+        self.show_scale_degrees = degrees
+        self.xo_mode = xo_mode
 
     def set_scale(self, root_note, scale_name):
         self.scale_name = scale_name
@@ -131,7 +133,7 @@ class FretBoard():
 
     def generate(self):
         for s in self.tuning.strings:
-            notes = get_note_sequence(s.pitch, self.frets, self.scale_notes, self.show_inverted)
+            notes = get_note_sequence(s.pitch, self.frets, self.scale_notes, self.show_inverted, self.show_scale_degrees, self.xo_mode)
             self.fretboard.append(notes)   
         return self.fretboard
 

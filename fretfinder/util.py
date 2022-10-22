@@ -26,30 +26,41 @@ def get_next_note(note):
         position += 1
     return NOTES[position]
 
-def _note_in_list(note, include_list, inverted=False):
+def _note_in_list(note, include_list, inverted=False, degrees=False, xo_mode=False):
     if not inverted:
         if note in include_list:
-            return note
+            if degrees:
+                return include_list.index(note)+1
+            elif xo_mode:
+                return "O"
+            else:
+                return note
         else:
             return ""
     elif inverted:
         if note not in include_list:
-            return ""
+            if xo_mode:
+                return "X"
+            else:
+                return ""
         else:
-            return "(%s)" % note     
+            if xo_mode:
+                return ""
+            else:
+                return "(%s)" % note     
 
-def get_note_sequence(note, note_range, include_list=None, inverted=False):
+def get_note_sequence(note, note_range, include_list=None, inverted=False, degrees=False, xo_mode=False):
     """Return the next x number of notes in sequential order. Use 'include_list' to return only notes within a scale."""
     notes = []
     if include_list:
-        notes.append(_note_in_list(note, include_list, inverted))
+        notes.append(_note_in_list(note, include_list, inverted, degrees, xo_mode))
     else:
         notes.append(note)
 
     for i in range(1, note_range+1):
         note = get_next_note(note)
         if include_list:
-            notes.append(_note_in_list(note, include_list, inverted))
+            notes.append(_note_in_list(note, include_list, inverted, degrees, xo_mode))
         else:
             notes.append(note)
     return notes

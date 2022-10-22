@@ -12,17 +12,20 @@ from fretfinder.fretboard import String
 from fretfinder.fretboard import FretBoardASCIIRenderer
 
 if __name__ == "__main__":
+    # defaults
     inverted = False
+    degrees = False
     verbose = False
+    xo_mode = False
     notes = ""
 
     argumentList = sys.argv[1:]
     
     # Options
-    options = "vhin:m"
+    options = "vhin:mdx"
     
     # Long options
-    long_options = ["notes=", "invert", "minesweeper", "verbose", "help"]
+    long_options = ["notes=", "invert", "minesweeper", "verbose", "help", "degrees", "xo_mode"]
     
     try:
         # Parsing argument
@@ -48,6 +51,14 @@ if __name__ == "__main__":
             elif currentArgument in ("-v", "--verbose"):
                 print(("Enabling verbose output mode (% s)") % (currentValue))
                 verbose = True
+
+            elif currentArgument in ("-d", "--degrees"):
+                print(("Enabling scale degree output mode (% s)") % (currentValue))
+                degrees = True
+            
+            elif currentArgument in ("-x", "--xo_mode"):
+                print(("Enabling XO output mode (% s)") % (currentValue))
+                xo_mode = True
                 
     except getopt.error as err:
         # output error, and return with an error code
@@ -90,6 +101,6 @@ if __name__ == "__main__":
     for n in t['notes']:
         t1.add_string(String(n))
 
-    f1 = FretBoard(t1, 24, inverted)
+    f1 = FretBoard(t1, 24, inverted, degrees, xo_mode)
     f1.set_scale(scale['root_note'], scale['scale'])
     FretBoardASCIIRenderer(f1).render()
