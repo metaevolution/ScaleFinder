@@ -16,7 +16,7 @@ Python 3.x or higher
     python3 bin/scale_finder.py  -h        
 ```
 ```      
-    Usage: bin/scale_finder.py --notes A B C D F#
+    Usage: bin/scale_finder.py --notes "A B C D F#"
                 
 
         -n, --notes:    Specify the notes you want to search relevant scales for. 
