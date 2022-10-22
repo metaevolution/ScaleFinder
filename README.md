@@ -6,7 +6,9 @@ Python 3.x or higher
 
 # Setup 
 `   > git clone https://github.com/metaevolution/ScaleFinder.git
+
     > cd ScaleFinder
+
     > python3 setup.py install`
 
 # Usage
