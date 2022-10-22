@@ -81,7 +81,7 @@ class FretBoardASCIIRenderer():
     def render(self):
         self.fretboard.generate() 
         output = ""
-        output += f"{bcolors.OKGREEN}\r\n[Tuning: {self.fretboard.tuning.name}] {str(self.fretboard.tuning.strings)}\r{bcolors.ENDC}"
+        output += f"{bcolors.OKGREEN}\r\n[Tuning: {self.fretboard.tuning.name}] {str(self.fretboard.tuning.strings[::-1])}\r{bcolors.ENDC}"
         output += f"{bcolors.OKCYAN}\r\n[Scale: {self.fretboard.root_note} {self.fretboard.scale_name} {self.fretboard.scale_notes}]\r\n\r\n{bcolors.ENDC}"
         if not self.show_tune:
             header = "|"
