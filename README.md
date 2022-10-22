@@ -3,9 +3,9 @@
 
 # Example Output
 ```
-> python bin/scale_finder.py  -n "A B G# D"   
+> python bin/scale_finder.py  -n "A B G# D E" 
 
-[*] Found the following scales that include the notes ['A', 'B', 'G#', 'D']:
+[*] Found the following scales that include the notes ['A', 'B', 'G#', 'D', 'E']:
 
 0. D lydian
 1. A major
@@ -26,58 +26,41 @@
 16. B composite blues
 17. D composite blues
 18. E composite blues
-19. F composite blues
-20. B dorian #4
-21. D dorian #4
-22. D lydian diminished
-23. A harmonic minor
-24. F# harmonic minor
-25. C# neopolitan minor
-26. B romanian minor
-27. D romanian minor
-28. A diminished
-29. C diminished
-30. D# diminished
-31. F# diminished
-32. A harmonic major
-33. B hungarian major
-34. D hungarian major
-35. F hungarian major
-36. C# spanish
-37. E spanish
-38. C# spanish heptatonic
-39. E spanish heptatonic
-40. G# flamenco
-41. G# todi raga
-42. B kafi raga
-43. E kafi raga
-44. D# purvi raga
-45. D# persian
-46. A bebop
-47. E bebop
-48. A bebop dominant
-49. E bebop dominant
-50. B bebop minor
-51. E bebop minor
-52. A bebop major
-53. C bebop major
-54. C# bebop locrian
-55. G# bebop locrian
-56. A minor bebop
-57. F# minor bebop
-58. A# enigmatic
-59. A minor six diminished
-60. C minor six diminished
-61. F# minor six diminished
-62. A ionian augmented
-63. C ionian augmented
-64. D lydian #9
-65. A ichikosucho
-66. D ichikosucho
+19. D dorian #4
+20. D lydian diminished
+21. A harmonic minor
+22. C# neopolitan minor
+23. D romanian minor
+24. A harmonic major
+25. E spanish
+26. C# spanish heptatonic
+27. E spanish heptatonic
+28. G# todi raga
+29. B kafi raga
+30. E kafi raga
+31. D# purvi raga
+32. D# persian
+33. A bebop
+34. E bebop
+35. A bebop dominant
+36. E bebop dominant
+37. B bebop minor
+38. E bebop minor
+39. A bebop major
+40. C bebop major
+41. C# bebop locrian
+42. G# bebop locrian
+43. A minor bebop
+44. F# minor bebop
+45. A# enigmatic
+46. A minor six diminished
+47. C ionian augmented
+48. A ichikosucho
+49. D ichikosucho
 
-[*] Found scales that include the notes ['A', 'B', 'G#', 'D']:
+[*] Found scales that include the notes ['A', 'B', 'G#', 'D', 'E']:
 
-[*] Please enter the corresponding number for the scale you want to see on the fretboard, or 'n' to exit: 0
+[*] Please enter the corresponding number for the scale you want to see on the fretboard, or 'n' to exit: 10
 
 0. (6-String Guitar) E standard
 1. (6-String Guitar) Drop D
@@ -105,17 +88,16 @@
 '
 [*] Please select the tuning to use:  0
 
-[Tuning: (6-String Guitar) E standard] [E, B, G, D, A, E]
-[Scale: D lydian ['D', 'E', 'F#', 'G#', 'A', 'B', 'C#']]
+[Tuning: (6-String Guitar) E standard] [E, A, D, G, B, E]
+[Scale: D lydian dominant ['D', 'E', 'F#', 'G#', 'A', 'B', 'C']]
 
  Str  |  0   |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  10  |  11  |  12  |  13  |  14  |  15  |  16  |  17  |  18  |  19  |  20  |  21  |  22  |  23  |  24  |
- -E-  |--E---|------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+
- -B-  |--B---|------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+
- -G-  |------|--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+
- -D-  |--D---|------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+
- -A-  |--A---|------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+
- -E-  |--E---|------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+------+--C#--+--D---+------+--E---+
-
+ -E-  |--E---|------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+
+ -B-  |--B---|--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+
+ -G-  |------|--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+
+ -D-  |--D---|------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+
+ -A-  |--A---|------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+
+ -E-  |--E---|------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+
 ```
 
 # Requirments
