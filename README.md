@@ -12,8 +12,9 @@ Python 3.x or higher
 ```
 
 # Usage
-`python3 bin/scale_finder.py  -h              
-Usage: bin/scale_finder.py --notes A B C D F#
+```
+    python3 bin/scale_finder.py  -h              
+    Usage: bin/scale_finder.py --notes A B C D F#
                 
 
         -n, --notes:    Specify the notes you want to search relevant scales for. 
@@ -24,6 +25,8 @@ Usage: bin/scale_finder.py --notes A B C D F#
         -x, --xo_mode:  Show 'O' instead of note letters, or pair with -i to show 'X' for notes not in the scale.
         -v, --verbose:  Enable verbose output
         -h, --help:     This help menu
+
+```
                 `
 
 
