@@ -117,13 +117,26 @@ def get_next_note(note):
         position += 1
     return NOTES[position]
 
-def get_note_sequence(note, note_range):
-    """Return the next x number of notes in sequential order."""
+def _note_in_list(note, include_list):
+    if note in include_list:
+        return note
+    else:
+        return ""
+
+def get_note_sequence(note, note_range, include_list=None):
+    """Return the next x number of notes in sequential order. Use 'include_list' to return only notes within a scale."""
     notes = []
-    notes.append(note)
+    if include_list:
+        notes.append(_note_in_list(note, include_list))
+    else:
+        notes.append(note)
+
     for i in range(1, note_range+1):
         note = get_next_note(note)
-        notes.append(note)
+        if include_list:
+            notes.append(_note_in_list(note, include_list))
+        else:
+            notes.append(note)
     return notes
 
 
@@ -231,5 +244,6 @@ if __name__ == "__main__":
     #    sys.exit(1)
 
     #print(scale_from_pattern(root_note, scale, scale_formula))
+    print("[*] Found the following matches:")
     for i in scale_candidate_iter(notes):
-        print(i)
+        print("- %s %s \r\n  notes: %s\r\n" % (i['root_note'], i['scale'], i['notes']))
