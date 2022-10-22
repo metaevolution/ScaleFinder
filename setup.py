@@ -2,10 +2,10 @@
 
 from distutils.core import setup
 
-setup(name='FretFinder',
+setup(name='ScaleFinder',
       version='1.0',
       description='Easily find notes on the guitar',
-      author='Brandon ARcher',
+      author='Brandon Archer',
       author_email='m37a11@gmail.com',
-      packages=['fretfinder']
+      packages=['scalefinder']
      )

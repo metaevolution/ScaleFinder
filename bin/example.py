@@ -1,8 +1,8 @@
-from fretfinder.fretboard import FretBoard
-from fretfinder.fretboard import Tuning
-from fretfinder.fretboard import TUNINGS
-from fretfinder.fretboard import String
-from fretfinder.fretboard import FretBoardASCIIRenderer
+from scalefinder.fretboard import FretBoard
+from scalefinder.fretboard import Tuning
+from scalefinder.fretboard import TUNINGS
+from scalefinder.fretboard import String
+from scalefinder.fretboard import FretBoardASCIIRenderer
 
 
 if __name__ == "__main__":

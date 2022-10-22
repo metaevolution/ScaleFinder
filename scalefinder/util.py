@@ -1,11 +1,11 @@
-from fretfinder.const import bcolors
-from fretfinder.const import SCALE_FORMULAS
-from fretfinder.const import MAJOR_SCALE_FORMULA
-from fretfinder.const import NOTES
-from fretfinder.const import SYMBOL_SHARP
-from fretfinder.const import SYMBOL_FLAT
-from fretfinder.const import SYMBOL_AUGMENTED
-from fretfinder.const import SYMBOL_DIMINISHED
+from scalefinder.const import bcolors
+from scalefinder.const import SCALE_FORMULAS
+from scalefinder.const import MAJOR_SCALE_FORMULA
+from scalefinder.const import NOTES
+from scalefinder.const import SYMBOL_SHARP
+from scalefinder.const import SYMBOL_FLAT
+from scalefinder.const import SYMBOL_AUGMENTED
+from scalefinder.const import SYMBOL_DIMINISHED
 
 
 def get_previous_note_iter(note):

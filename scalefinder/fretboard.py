@@ -1,9 +1,9 @@
 import pprint
 
-from fretfinder.util import get_note_sequence
-from fretfinder.util import scale_from_pattern
-from fretfinder.const import SCALE_FORMULAS
-from fretfinder.const import bcolors
+from scalefinder.util import get_note_sequence
+from scalefinder.util import scale_from_pattern
+from scalefinder.const import SCALE_FORMULAS
+from scalefinder.const import bcolors
 
 TUNINGS = [
     {'name': '(6-String Guitar) E standard', 'notes': ['E', 'A', 'D', 'G', 'B', 'E']}, 

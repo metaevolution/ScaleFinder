@@ -3,13 +3,13 @@
 import sys
 import getopt
 
-from fretfinder.util import scale_candidate_iter
-from fretfinder.const import bcolors
-from fretfinder.fretboard import FretBoard
-from fretfinder.fretboard import Tuning
-from fretfinder.fretboard import TUNINGS
-from fretfinder.fretboard import String
-from fretfinder.fretboard import FretBoardASCIIRenderer
+from scalefinder.util import scale_candidate_iter
+from scalefinder.const import bcolors
+from scalefinder.fretboard import FretBoard
+from scalefinder.fretboard import Tuning
+from scalefinder.fretboard import TUNINGS
+from scalefinder.fretboard import String
+from scalefinder.fretboard import FretBoardASCIIRenderer
 
 if __name__ == "__main__":
     # defaults
@@ -35,7 +35,7 @@ if __name__ == "__main__":
         for currentArgument, currentValue in arguments:
     
             if currentArgument in ("-h", "--Help"):
-                print(f"""Usage: {sys.argv[0]} --notes \"A B C D F#\
+                print(f"""Usage: {sys.argv[0]} --notes A B C D F#
                 
 
         -n, --notes:    Specify the notes you want to search relevant scales for. 
