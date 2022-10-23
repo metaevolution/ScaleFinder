@@ -71,5 +71,26 @@ class TestNoteSequence(unittest.TestCase):
         result = get_note_sequence("C", 12, ['A','C#','G'], inverted=True)
         self.assertEqual(result, ['(C)', '', '(D)', '(D#)', '(E)', '(F)', '(F#)', '', '(G#)', '', '(A#)', '(B)', '(C)'])
 
+    def test_note_squence_w_length(self):
+        result = get_note_sequence("C", 24, ['A'])
+        self.assertEqual(result, ['', '', '', '', '', '', '', '', '', 'A', '', '', '', '', '', '', '', '', '', '', '', 'A', '', '',  ''])
+
+    def test_note_degrees_wo_list(self): # This should ignore the scale degrees command.
+        result = get_note_sequence("C", 12, None, False, True)
+        self.assertEqual(result, ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'C'])
+
+    def test_note_degrees_w_list(self):
+        result = get_note_sequence("C", 12, ['A','G#'], False, True)
+        self.assertEqual(result, ['', '', '', '', '', '', '', '', 2, 1, '', '', ''])
+
+    def test_note_xomode_wo_list(self): # This should ignore the scale degrees command.
+        result = get_note_sequence("C", 12, None, False, False, True)
+        self.assertEqual(result, ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'C'])
+
+    def test_note_xomode_w_list(self):
+        result = get_note_sequence("C", 12, ['A','G#'], False, False, True)
+        self.assertEqual(result, ['', '', '', '', '', '', '', '', 'O', 'O', '', '', ''])
+    
+
 if __name__ == '__main__':
     unittest.main()
