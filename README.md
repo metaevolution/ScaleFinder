@@ -137,6 +137,11 @@ Python 3.x or higher
 
 ```
 
+# Tests 
+```
+python3 -m unittest tests/*.py
+```
+
 
 
 
