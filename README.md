@@ -3,64 +3,61 @@
 
 # Example Output
 ```
-> python bin/scale_finder.py  -n "A B G# D E" 
+> python3 bin/scale_finder.py -n "C E G A F#"  
 
-[*] Found the following scales that include the notes ['A', 'B', 'G#', 'D', 'E']:
+[*] Found the following scales that include the notes ['C', 'E', 'G', 'A', 'F#']:
 
-0. D lydian
-1. A major
-2. E mixolydian
-3. B dorian
-4. F# aeolian
-5. C# phrygian
-6. G# locrian
-7. A melodic minor
-8. B melodic minor second mode
+0. C lydian
+1. G major
+2. D mixolydian
+3. A dorian
+4. E aeolian
+5. B phrygian
+6. F# locrian
+7. G melodic minor
+8. A melodic minor second mode
 9. C lydian augmented
-10. D lydian dominant
-11. E melodic minor fifth mode
-12. F# locrian #2
-13. G# altered
-14. E mixolydian pentatonic
-15. A minor hexatonic
-16. B composite blues
-17. D composite blues
-18. E composite blues
-19. D dorian #4
-20. D lydian diminished
-21. A harmonic minor
-22. C# neopolitan minor
-23. D romanian minor
-24. A harmonic major
-25. E spanish
-26. C# spanish heptatonic
-27. E spanish heptatonic
-28. G# todi raga
-29. B kafi raga
-30. E kafi raga
-31. D# purvi raga
-32. D# persian
-33. A bebop
-34. E bebop
-35. A bebop dominant
-36. E bebop dominant
-37. B bebop minor
-38. E bebop minor
-39. A bebop major
-40. C bebop major
-41. C# bebop locrian
-42. G# bebop locrian
-43. A minor bebop
-44. F# minor bebop
-45. A# enigmatic
-46. A minor six diminished
-47. C ionian augmented
-48. A ichikosucho
-49. D ichikosucho
+10. C lydian dominant
+11. D melodic minor fifth mode
+12. E locrian #2
+13. F# altered
+14. A composite blues
+15. C composite blues
+16. D composite blues
+17. A dorian #4
+18. E harmonic minor
+19. B neopolitan minor
+20. A romanian minor
+21. A# diminished
+22. C# diminished
+23. E diminished
+24. G diminished
+25. C hungarian major
+26. B spanish
+27. B spanish heptatonic
+28. F# flamenco
+29. A kafi raga
+30. D bebop
+31. G bebop
+32. D bebop dominant
+33. G bebop dominant
+34. A bebop minor
+35. D bebop minor
+36. G bebop major
+37. B bebop locrian
+38. F# bebop locrian
+39. E minor bebop
+40. G# enigmatic
+41. E minor six diminished
+42. G minor six diminished
+43. G ionian augmented
+44. C lydian #9
+45. C ichikosucho
+46. G ichikosucho
 
-[*] Found scales that include the notes ['A', 'B', 'G#', 'D', 'E']:
+[*] Found scales that include the notes ['C', 'E', 'G', 'A', 'F#']:
 
-[*] Please enter the corresponding number for the scale you want to see on the fretboard, or 'n' to exit: 10
+[*] Please enter the corresponding number for the scale you want to see on the fretboard, or 'n' to exit: 3
 
 0. (6-String Guitar) E standard
 1. (6-String Guitar) Drop D
@@ -88,16 +85,28 @@
 '
 [*] Please select the tuning to use:  0
 
-[Tuning: (6-String Guitar) E standard] [E, A, D, G, B, E]
-[Scale: D lydian dominant ['D', 'E', 'F#', 'G#', 'A', 'B', 'C']]
+[Tuning: (6-String Guitar) E standard] ['E', 'A', 'D', 'G', 'B', 'E']
+Scale: [A dorian] 
+Formula: [1 2 3b 4 5 6 7b] 
+Notes: ['A', 'B', 'C', 'D', 'E', 'F#', 'G']
 
- Str  |  0   |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  10  |  11  |  12  |  13  |  14  |  15  |  16  |  17  |  18  |  19  |  20  |  21  |  22  |  23  |  24  |
- -E-  |--E---|------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+
- -B-  |--B---|--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+
- -G-  |------|--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+
- -D-  |--D---|------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+
- -A-  |--A---|------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+
- -E-  |--E---|------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+------+--G#--+--A---+------+--B---+--C---+------+--D---+------+--E---+
+ Str  |  0   |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  10  |  11  |  12  |
+ -E-  |--E---|------+--F#--+--G---+------+--A---+------+--B---+--C---+------+--D---+------+--E---+
+ -B-  |--B---|--C---+------+--D---+------+--E---+------+--F#--+--G---+------+--A---+------+--B---+
+ -G-  |--G---|------+--A---+------+--B---+--C---+------+--D---+------+--E---+------+--F#--+--G---+
+ -D-  |--D---|------+--E---+------+--F#--+--G---+------+--A---+------+--B---+--C---+------+--D---+
+ -A-  |--A---|------+--B---+--C---+------+--D---+------+--E---+------+--F#--+--G---+------+--A---+
+ -E-  |--E---|------+--F#--+--G---+------+--A---+------+--B---+--C---+------+--D---+------+--E---+
+
+[Scale Chords]
+   Triad Notes:   Scale Degrees:
+1 ['A', 'C', 'E'] [1, 3, 5]
+2 ['B', 'D', 'F#'] [2, 4, 6]
+3 ['C', 'E', 'G'] [3, 5, 7]
+4 ['D', 'F#', 'A'] [4, 6, 1]
+5 ['E', 'G', 'B'] [5, 7, 2]
+6 ['F#', 'A', 'C'] [6, 1, 3]
+7 ['G', 'B', 'D'] [7, 2, 4]
 ```
 
 # Requirments
@@ -127,13 +136,16 @@ Python 3.x or higher
         DISPLAY:
 
         -d, --degrees:      Show scale degrees instead of note names. 
-        -i, --invert:       Shows notes that are NOT in the selected scale.
-        -x, --xo_mode:      Show 'O' instead of note letters, or pair with -i to show 'X' for notes not in the scale.
+        -x, --minesweeper:  Shows notes that are NOT in the selected scale.
+        --frets:            (Default 12) Adjust the number of frets display. Useful for smaller screens.
+        --fret_width:       (Default 6) Adjust the fretboard width. Useful for smaller screens.
+        --no_strings:       Hide String letters to the left of the fretboard.
 
         MISC:
 
         -v, --verbose:      Enable verbose output
         -h, --help:         This help menu
+                
 
 ```
 
