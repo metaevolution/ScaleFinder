@@ -28,7 +28,7 @@ def get_next_note(note):
         position += 1
     return NOTES[position]
 
-def _note_in_list(note, include_list, inverted=False, degrees=False, xo_mode=False):
+def _note_in_list(note, include_list, inverted=False, degrees=False, xo_mode=False): # TODO: Refactor this method
     if not inverted:
         if note in include_list:
             if degrees:
@@ -51,7 +51,8 @@ def _note_in_list(note, include_list, inverted=False, degrees=False, xo_mode=Fal
             else:
                 return ""   
 
-def get_note_sequence(note, note_range, include_list=None, inverted=False, degrees=False, xo_mode=False):
+
+def get_note_sequence(note, note_range, include_list=None, inverted=False, degrees=False, xo_mode=False): # TODO: Refactor: include_list should be scale
     """Return the next x number of notes in sequential order. Use 'include_list' to return only notes within a scale."""
     notes = []
     note = note.upper()
@@ -68,6 +69,18 @@ def get_note_sequence(note, note_range, include_list=None, inverted=False, degre
             notes.append(note)
     return notes
 
+def get_scale_triads(scale):
+    """"""
+    seq = get_note_sequence(scale[0], 50, scale)
+    seq = list(filter(None, seq)) # remove empty and leave only notes of scale
+    chords = []
+    for i in range(0,7):
+        root = i
+        third = i+2
+        fifth = third+2
+        chords.append({'notes': [seq[root], seq[third], seq[fifth]], 
+                    'degrees': [root+1, third+1, fifth+1]})
+    return chords
 
 def get_relative_note(note, symbol):
     """Return the note sharp or flat of the provided note"""
@@ -132,7 +145,6 @@ def scale_from_pattern(root_note, scale_name, scale_pattern):
     return(scale)
 
 
-
 def generate_scales_iter(root_notes, scale_formulas):
     
     for k,v in scale_formulas.items():
@@ -149,7 +161,7 @@ def generate_scales(root_notes, scale_formulas):
     return scales
 
 
-def scale_candidate_iter(submitted_notes, root_note=None):
+def scale_candidate_iter(submitted_notes, root_note=None, name_filter=None):
     """Find scales that contain all of the notes passed to function."""
     for k,v in SCALE_FORMULAS.items():
         for j in NOTES:

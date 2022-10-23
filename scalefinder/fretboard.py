@@ -1,7 +1,11 @@
 import pprint
 
-from scalefinder.util import get_note_sequence
-from scalefinder.util import scale_from_pattern
+
+from scalefinder.scales import Scale, Note, note_sequence
+from scalefinder.scales import get_note_sequence
+#from scalefinder.util import scale_from_pattern
+from scalefinder.scales import construct_scale
+from scalefinder.scales import get_scale_triads
 from scalefinder.const import SCALE_FORMULAS
 from scalefinder.const import bcolors
 
@@ -32,13 +36,13 @@ TUNINGS = [
 ]
 
 
-class String():
+#class String():
 
-    def __init__(self, pitch):
-        self.pitch = pitch
+#    def __init__(self, pitch):
+#        self.pitch = pitch
 
-    def __repr__(self):
-        return self.pitch
+#    def __repr__(self):
+#        return f"'{self.pitch}'"
 
 
 class Tuning():
@@ -56,7 +60,7 @@ class Tuning():
 
 class FretBoardASCIIRenderer():
 
-    def __init__(self, fretboard, fret_width=6, show_tuning=True):
+    def __init__(self, fretboard, fret_width=6, show_tuning=True, show_degree=False, show_inverted=False, minesweeper_mode=False):
         self.row = "-"
         self.header_row = " "
         self.column = "|"
@@ -64,6 +68,9 @@ class FretBoardASCIIRenderer():
         self.corner = "+"
         self.header_corner = "|"
         self.show_tune = show_tuning
+        self.show_inverted = show_inverted
+        self.show_degree = show_degree
+        self.minesweeper_mode = minesweeper_mode
         self.fret_width = fret_width
         self.strings = len(fretboard.tuning.strings)
         self.frets = fretboard.frets
@@ -80,11 +87,10 @@ class FretBoardASCIIRenderer():
         return s1
 
     def render(self):
-        """Create ASCII representation of fretboard."""
-        self.fretboard.generate() 
+        """Create an ASCII representation of a fretboard."""
         output = ""
         output += f"{bcolors.OKGREEN}\r\n[Tuning: {self.fretboard.tuning.name}] {str(self.fretboard.tuning.strings[::-1])}\r{bcolors.ENDC}"
-        output += f"{bcolors.OKCYAN}\r\n[Scale: {self.fretboard.root_note} {self.fretboard.scale_name} {self.fretboard.scale_notes}]\r\n\r\n{bcolors.ENDC}"
+        output += f"{bcolors.OKCYAN}\r\nScale: [{self.fretboard.scale.root_note} {self.fretboard.scale.name}] \r\nFormula: [{self.fretboard.scale.formula}] \r\nNotes: {[x.note for x in self.fretboard.scale.notes]}\r\n\r\n{bcolors.ENDC}"
         if not self.show_tune:
             header = "|"
         else:
@@ -104,44 +110,53 @@ class FretBoardASCIIRenderer():
                 line = "|"
             else:
                 line = self._center(f"-{self.fretboard.tuning.strings[n]}-", self.fret_width, " ") + "|"
-            n+=1
+            n += 1
             for c in r:
                 if i == 0: # use a different symbol for nut.
                     s = self.nut
                 else:
                     s = self.corner
-                i+=1
-                line += self._center(c, self.fret_width, self.row) + s
- 
+                i += 1
+                if self.show_degree:
+                    a = c.scale_degree
+                else:
+                    a = c.note
+                if a:
+                    b = a
+                else:
+                    b = ""
+                line += self._center(b, self.fret_width, self.row) + s
+
             output += line + "\r\n"
-        print(output)
+        n = 1
+        output += "\r\n"
+        output += "[Scale Chords]\r\n"
+        output += "   Triad Notes:   Scale Degrees:\r\n"
+        for i in self.fretboard.scale.get_scale_chords():
+            output += f"{n} {[x.note for x in i]} {[x.scale_degree for x in i]}\r\n"
+            n += 1
+        return output
         
 
 class FretBoard():
-    """Data model for fretboard."""
-    def __init__(self, tuning, frets=24, inverted=False, degrees=False, xo_mode=False):
+    """Data model for a fretboard."""
+    def __init__(self, tuning, frets=24):
         self.frets = frets
         self.tuning = tuning
         self.fretboard = []
-        self.scale_notes = None
-        self.show_inverted = inverted
-        self.show_scale_degrees = degrees
-        self.xo_mode = xo_mode
+        self.scale = None
 
-    def set_scale(self, root_note, scale_name):
-        self.scale_name = scale_name
-        self.root_note = root_note
-        self.scale_notes = scale_from_pattern(root_note, scale_name, SCALE_FORMULAS[scale_name])
+        #self.show_inverted = inverted
+        #self.show_scale_degrees = degrees
+        #self.xo_mode = xo_mode
 
-    def generate(self):
-        for s in self.tuning.strings:
-            notes = get_note_sequence(s.pitch, self.frets, self.scale_notes, self.show_inverted, self.show_scale_degrees, self.xo_mode)
-            self.fretboard.append(notes)   
-        return self.fretboard
+    def set_scale(self, scale):
+        self.fretboard = []
+        self.scale = scale
+        for string in self.tuning.strings:
+            notes = note_sequence(string, self.frets, self.scale)
+            self.fretboard.append(notes)  
 
-    #def get_notes_on_string(self, string_index):
-    #    """Return the note at string/fret coordinate."""
-    #    print(get_note_sequence(self.tuning.strings[string_index].pitch, self.frets))
 
     def __repr__(self):
         return str(self.fretboard)
@@ -150,18 +165,12 @@ class FretBoard():
 if __name__ == "__main__":
     
     import sys
-    root_note = sys.argv[1]
-    scale_name = sys.argv[2]
-    tuning = sys.argv[3]
+    t = TUNINGS[0]
+    t1 = Tuning(t['name'])
+    t['notes'].reverse() # reverse the strings list so that they display on the fretboard in correct order
+    for n in t['notes']:
+        t1.add_string(n)
 
-    for t in TUNINGS:
-        if tuning == t['name']:
-            t1 = Tuning(tuning)
-            t['notes'].reverse() # reverse the strings list so that they display on the fretboard in correct order
-            for n in t['notes']:
-                t1.add_string(String(n))
-            break
-
-    f1 = FretBoard(t1, 22)
-    f1.set_scale(root_note, scale_name)
-    FretBoardASCIIRenderer(f1).render()
+    f1 = FretBoard(t1, 12)
+    f1.set_scale(Scale("C Major", "C", "1 2 3 4 5 6 7"))
+    print(FretBoardASCIIRenderer(f1).render())
