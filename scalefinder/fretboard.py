@@ -72,55 +72,76 @@ class FretBoardASCIIRenderer():
         s1 += symbol * (max_width-len(s1))   
         return s1
 
-    def render(self):
-        """Create an ASCII representation of a fretboard."""
+    def _title_area(self):
         output = ""
         output += f"{bcolors.OKGREEN}\r\n[Tuning: {self.fretboard.tuning.name}] {str(self.fretboard.tuning.strings[::-1])}\r{bcolors.ENDC}"
         output += f"{bcolors.OKCYAN}\r\nScale: [{self.fretboard.scale.root_note} {self.fretboard.scale.name}] \r\nFormula: [{self.fretboard.scale.formula}] \r\nNotes: {[x.note for x in self.fretboard.scale.notes]}\r\n\r\n{bcolors.ENDC}"
-        if not self.show_string_names:
-            header = "|"
-        else:
-            header = self._center("Str" , self.fret_width, " ") + "|"
+        return output
+
+    def _fretboard_header(self, show_string_names=True):
+        if not show_string_names:
+            output = "|"
+        else: 
+            output = self._center("Str" , self.fret_width, " ") + "|"
         for c in range(0, self.frets+1):
-            if c == 1: # use a different symbol for nut.
+            if c == 1: # use a different symbol to indicate nut.
                 s = self.nut
             else:
                 s = self.header_corner
-            header += self._center(c, self.fret_width, self.header_row) + s
-
-        output += header + "\r\n"
-        n = 0
-        for r in self.fretboard.fretboard:
-            i = 0
-            if not self.show_string_names:
-                line = "|"
-            else:
-                line = self._center(f"-{self.fretboard.tuning.strings[n]}-", self.fret_width, " ") + "|"
+            output += self._center(c, self.fret_width, self.header_row) + s   
+        return output + "\r\n" 
+        
+    def _chords_section(self):
+        output = "\r\n"
+        output += "[Scale Chords]\r\n"
+        output += "   Triad Notes:   Scale Degrees:\r\n"
+        n = 1
+        for i in self.fretboard.scale.get_scale_chords():
+            output += f"{n} {[x.note for x in i]} {[x.scale_degree for x in i]}\r\n"
             n += 1
-            for c in r:
+        return output
+
+    def _fretboard_section(self):
+        output = ""
+
+        # Left side 
+        n = 0
+        for string in self.fretboard.fretboard:
+            line = ""
+
+            if self.show_string_names:
+                line += self._center(f"-{self.fretboard.tuning.strings[n]}-", self.fret_width, " ") + "|"
+            else:
+                line += "|"
+            n += 1
+            # draw the rest of the string
+            i = 0
+            for fret in string:
                 if i == 0: # use a different symbol for nut.
                     s = self.nut
                 else:
                     s = self.corner
                 i += 1
-                if self.show_degree:
-                    a = c.scale_degree
-                else:
-                    a = c.note
-                if a:
-                    b = a
-                else:
-                    b = ""
-                line += self._center(b, self.fret_width, self.row) + s
 
+                # draw the note on the string
+                if self.show_degree:
+                    note = fret.scale_degree
+                else:
+                    note = fret.note
+                if not note:
+                    note = ""
+                line += self._center(note, self.fret_width, self.row) + s
+                #n += 1
             output += line + "\r\n"
-        n = 1
-        output += "\r\n"
-        output += "[Scale Chords]\r\n"
-        output += "   Triad Notes:   Scale Degrees:\r\n"
-        for i in self.fretboard.scale.get_scale_chords():
-            output += f"{n} {[x.note for x in i]} {[x.scale_degree for x in i]}\r\n"
-            n += 1
+        return output
+
+    def render(self):
+        """Create an ASCII representation of a fretboard."""
+        output = ""
+        output += self._title_area()
+        output += self._fretboard_header(self.show_string_names)
+        output += self._fretboard_section()
+        output += self._chords_section()
         return output
         
 
