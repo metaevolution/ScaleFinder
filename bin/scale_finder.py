@@ -19,7 +19,7 @@ if __name__ == "__main__":
     xo_mode = False
     frets = 12
     fret_width = 6
-    show_tuning = True
+    show_strings = True
     show_scale_degree = False
     filter_by_root_note = False
     filter_by_scale_name = False
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     options = "vhin:dxr:sf:"
     
     # Long options
-    long_options = ["notes=", "invert", "verbose", "help", "degrees", "xo_mode", "root_note=", "show_tuning","filter=", "frets=", "fret_width="]
+    long_options = ["notes=", "invert", "verbose", "help", "degrees", "xo_mode", "root_note=", "no_strings","filter=", "frets=", "fret_width="]
     
     try:
         # Parsing argument
@@ -55,10 +55,10 @@ if __name__ == "__main__":
         -d, --degrees:      Show scale degrees instead of note names. 
         -i, --invert:       Shows notes that are NOT in the selected scale.
         -x, --minesweeper:  Show 'O' instead of note letters, or pair with -i to show 'X' for notes not in the scale.
-        -s, --strings:      Show String letters to the left of the fretboard.
         -f, --filter:       Filter by scales that contain user provided text (e.g. -f pentatonic).
         --frets:            (Default 12) Adjust the number of frets display. Useful for smaller screens.
         --fret_width:       (Default 6) Adjust the fretboard width. Useful for smaller screens.
+        --no_strings:       Hide String letters to the left of the fretboard.
 
         MISC:
 
@@ -102,6 +102,10 @@ if __name__ == "__main__":
             elif currentArgument in ("-s", "--show_tuning"):
                 print(f"{bcolors.WARNING}[Option Enabled] Showing tuning in fretboard output{bcolors.ENDC}")
                 show_tuning = True
+
+            elif currentArgument in ("--no_strings"):
+                print(f"{bcolors.WARNING}[Option Enabled] Hide string names in fretboard output{bcolors.ENDC}")
+                show_strings = False
 
 
     except getopt.error as err:
@@ -148,4 +152,7 @@ if __name__ == "__main__":
     #f1 = FretBoard(t1, 24, inverted, degrees, xo_mode)
     f1 = FretBoard(t1, frets)
     f1.set_scale(Scale(scale['scale'], scale['root_note'], scale['formula']))
-    print(FretBoardASCIIRenderer(f1, fret_width, show_tuning=show_tuning, show_degree=show_scale_degree).render())
+    print(FretBoardASCIIRenderer(f1, fret_width, 
+            show_string_names=show_strings, 
+            show_degree=show_scale_degree
+        ).render())

@@ -45,7 +45,7 @@ class Tuning():
 
 class FretBoardASCIIRenderer():
 
-    def __init__(self, fretboard, fret_width=6, show_tuning=True, 
+    def __init__(self, fretboard, fret_width=6, show_string_names=True, 
                 show_degree=False, show_inverted=False, minesweeper_mode=False):
         self.row = "-"
         self.header_row = " "
@@ -53,7 +53,7 @@ class FretBoardASCIIRenderer():
         self.nut = "|"
         self.corner = "+"
         self.header_corner = "|"
-        self.show_tune = show_tuning
+        self.show_string_names = show_string_names
         self.show_inverted = show_inverted
         self.show_degree = show_degree
         self.minesweeper_mode = minesweeper_mode
@@ -77,7 +77,7 @@ class FretBoardASCIIRenderer():
         output = ""
         output += f"{bcolors.OKGREEN}\r\n[Tuning: {self.fretboard.tuning.name}] {str(self.fretboard.tuning.strings[::-1])}\r{bcolors.ENDC}"
         output += f"{bcolors.OKCYAN}\r\nScale: [{self.fretboard.scale.root_note} {self.fretboard.scale.name}] \r\nFormula: [{self.fretboard.scale.formula}] \r\nNotes: {[x.note for x in self.fretboard.scale.notes]}\r\n\r\n{bcolors.ENDC}"
-        if not self.show_tune:
+        if not self.show_string_names:
             header = "|"
         else:
             header = self._center("Str" , self.fret_width, " ") + "|"
@@ -90,9 +90,9 @@ class FretBoardASCIIRenderer():
 
         output += header + "\r\n"
         n = 0
-        for r in self.fretboard.fretboard: # TODO: Fix this awkward fretboard.fretboard reference.
+        for r in self.fretboard.fretboard:
             i = 0
-            if not self.show_tune:
+            if not self.show_string_names:
                 line = "|"
             else:
                 line = self._center(f"-{self.fretboard.tuning.strings[n]}-", self.fret_width, " ") + "|"
