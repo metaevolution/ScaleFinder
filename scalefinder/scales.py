@@ -1,7 +1,3 @@
-import pprint
-from symtable import Symbol
-
-from scalefinder.const import bcolors
 from scalefinder.const import MAJOR_SCALE_FORMULA
 from scalefinder.const import NOTES
 from scalefinder.const import SCALE_FORMULAS
