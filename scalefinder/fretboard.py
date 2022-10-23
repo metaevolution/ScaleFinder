@@ -1,11 +1,5 @@
-import pprint
-
-
-from scalefinder.scales import Scale, Note, note_sequence
-from scalefinder.scales import get_note_sequence
-#from scalefinder.util import scale_from_pattern
-from scalefinder.scales import construct_scale
-from scalefinder.scales import get_scale_triads
+from scalefinder.scales import Scale
+from scalefinder.scales import note_sequence
 from scalefinder.const import SCALE_FORMULAS
 from scalefinder.const import bcolors
 
@@ -36,15 +30,6 @@ TUNINGS = [
 ]
 
 
-#class String():
-
-#    def __init__(self, pitch):
-#        self.pitch = pitch
-
-#    def __repr__(self):
-#        return f"'{self.pitch}'"
-
-
 class Tuning():
 
     def __init__(self, name):
@@ -60,7 +45,8 @@ class Tuning():
 
 class FretBoardASCIIRenderer():
 
-    def __init__(self, fretboard, fret_width=6, show_tuning=True, show_degree=False, show_inverted=False, minesweeper_mode=False):
+    def __init__(self, fretboard, fret_width=6, show_tuning=True, 
+                show_degree=False, show_inverted=False, minesweeper_mode=False):
         self.row = "-"
         self.header_row = " "
         self.column = "|"
