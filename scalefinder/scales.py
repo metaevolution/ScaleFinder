@@ -16,7 +16,7 @@ class Note():
     scale_degree = None
     is_root_note = False
 
-    def __init__(self, note, scale_degree=0, is_root_note=False, pattern=None):
+    def __init__(self, note, scale_degree=None, is_root_note=False, pattern=None):
         self.note = note
         self.scale_degree = scale_degree
         self.is_root_note = is_root_note
@@ -101,7 +101,7 @@ class Scale():
                 return x
 
     def _scale_notes_filter(self, note):
-        if (note.scale_degree > 0):
+        if (note.scale_degree):
             return True
         else:
             return False

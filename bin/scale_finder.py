@@ -13,14 +13,13 @@ from scalefinder.fretboard import FretBoardASCIIRenderer
 
 if __name__ == "__main__":
     # defaults
-    inverted = False
     degrees = False
     verbose = False
-    xo_mode = False
     frets = 12
     fret_width = 6
     show_strings = True
     show_scale_degree = False
+    minesweeper_mode = False
     filter_by_root_note = False
     filter_by_scale_name = False
     notes = ""
@@ -28,10 +27,10 @@ if __name__ == "__main__":
     argumentList = sys.argv[1:]
     
     # Options
-    options = "vhin:dxr:sf:"
+    options = "vhn:dxr:sf:"
     
     # Long options
-    long_options = ["notes=", "invert", "verbose", "help", "degrees", "xo_mode", "root_note=", "no_strings","filter=", "frets=", "fret_width="]
+    long_options = ["notes=", "verbose", "help", "degrees", "xo_mode", "root_note=", "no_strings","filter=", "frets=", "fret_width=","minesweeper"]
     
     try:
         # Parsing argument
@@ -53,8 +52,7 @@ if __name__ == "__main__":
         DISPLAY:
 
         -d, --degrees:      Show scale degrees instead of note names. 
-        -i, --invert:       Shows notes that are NOT in the selected scale.
-        -x, --minesweeper:  Show 'O' instead of note letters, or pair with -i to show 'X' for notes not in the scale.
+        -x, --minesweeper:  Shows notes that are NOT in the selected scale.
         -f, --filter:       Filter by scales that contain user provided text (e.g. -f pentatonic).
         --frets:            (Default 12) Adjust the number of frets display. Useful for smaller screens.
         --fret_width:       (Default 6) Adjust the fretboard width. Useful for smaller screens.
@@ -82,10 +80,6 @@ if __name__ == "__main__":
 
             elif currentArgument in ("--fret_width"):
                 fret_width = int(currentValue)
-                
-            elif currentArgument in ("-i", "--invert", ):
-                print(f"{bcolors.WARNING}[Option Enabled] inverted output mode{bcolors.ENDC}")
-                inverted = True
 
             elif currentArgument in ("-v", "--verbose"):
                 print(f"{bcolors.WARNING}[Option Enabled] verbose output mode{bcolors.ENDC}")
@@ -95,13 +89,9 @@ if __name__ == "__main__":
                 print(f"{bcolors.WARNING}[Option Enabled] scale degree output mode{bcolors.ENDC}")
                 show_scale_degree = True
             
-            elif currentArgument in ("-x", "--xo_mode"):
-                print(f"{bcolors.WARNING}[Option Enabled] XO output mode{bcolors.ENDC}")
-                xo_mode = True
-
-            elif currentArgument in ("-s", "--show_tuning"):
-                print(f"{bcolors.WARNING}[Option Enabled] Showing tuning in fretboard output{bcolors.ENDC}")
-                show_tuning = True
+            elif currentArgument in ("-x", "--minesweeper"):
+                print(f"{bcolors.WARNING}[Option Enabled] Minesweeper output mode{bcolors.ENDC}")
+                minesweeper_mode = True
 
             elif currentArgument in ("--no_strings"):
                 print(f"{bcolors.WARNING}[Option Enabled] Hide string names in fretboard output{bcolors.ENDC}")
@@ -149,10 +139,10 @@ if __name__ == "__main__":
     for n in t['notes']:
         t1.add_string(n)
 
-    #f1 = FretBoard(t1, 24, inverted, degrees, xo_mode)
     f1 = FretBoard(t1, frets)
     f1.set_scale(Scale(scale['scale'], scale['root_note'], scale['formula']))
     print(FretBoardASCIIRenderer(f1, fret_width, 
             show_string_names=show_strings, 
-            show_degree=show_scale_degree
+            show_degree=show_scale_degree, 
+            minesweeper_mode=minesweeper_mode
         ).render())

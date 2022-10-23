@@ -76,6 +76,8 @@ class FretBoardASCIIRenderer():
         output = ""
         output += f"{bcolors.OKGREEN}\r\n[Tuning: {self.fretboard.tuning.name}] {str(self.fretboard.tuning.strings[::-1])}\r{bcolors.ENDC}"
         output += f"{bcolors.OKCYAN}\r\nScale: [{self.fretboard.scale.root_note} {self.fretboard.scale.name}] \r\nFormula: [{self.fretboard.scale.formula}] \r\nNotes: {[x.note for x in self.fretboard.scale.notes]}\r\n\r\n{bcolors.ENDC}"
+        if self.minesweeper_mode:
+            output += f"{bcolors.WARNING}[Minesweeper Mode: Only showing notes not in the scale]{bcolors.ENDC}\r\n\r\n"
         return output
 
     def _fretboard_header(self, show_string_names=True):
@@ -124,14 +126,12 @@ class FretBoardASCIIRenderer():
                 i += 1
 
                 # draw the note on the string
-                if self.show_degree:
-                    note = fret.scale_degree
+                if not self.minesweeper_mode:
+                    note = [fret.scale_degree if self.show_degree and fret.scale_degree else fret.note][0]
                 else:
-                    note = fret.note
-                if not note:
-                    note = ""
+                    note = ["" if fret.scale_degree else "X"][0]
+
                 line += self._center(note, self.fret_width, self.row) + s
-                #n += 1
             output += line + "\r\n"
         return output
 
