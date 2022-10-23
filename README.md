@@ -1,6 +1,36 @@
 # ScaleFinder
 ## Quickly find a scale on the guitar by providing a few starting notes.
 
+# Usage
+```
+    python3 bin/scale_finder.py  -h        
+```
+```      
+    Usage: bin/scale_finder.py --notes A B C D F#
+                
+        INPUTS:
+
+        -n, --notes:        Specify the notes you want to search relevant scales for. 
+                            Separate multiple notes with spaces and surround with double quotes "". 
+                            Use '#' for sharp, and 'b' for flat. e.g. 'Gb', 'A#' etc.
+        -r, --root_note:    Limit suggestions to scales with the provided root note.
+
+        DISPLAY:
+
+        -d, --degrees:      Show scale degrees instead of note names. 
+        -x, --minesweeper:  Shows notes that are NOT in the selected scale.
+        --frets:            (Default 12) Adjust the number of frets display. Useful for smaller screens.
+        --fret_width:       (Default 6) Adjust the fretboard width. Useful for smaller screens.
+        --no_strings:       Hide String letters to the left of the fretboard.
+
+        MISC:
+
+        -v, --verbose:      Enable verbose output
+        -h, --help:         This help menu
+                
+
+```
+
 # Example Output
 ```
 > python3 bin/scale_finder.py -n "C E G A F#"  
@@ -125,35 +155,7 @@ Or using Virtualenv
     > python3 setup.py install
 ```
 
-# Usage
-```
-    python3 bin/scale_finder.py  -h        
-```
-```      
-    Usage: bin/scale_finder.py --notes A B C D F#
-                
-        INPUTS:
 
-        -n, --notes:        Specify the notes you want to search relevant scales for. 
-                            Separate multiple notes with spaces and surround with double quotes "". 
-                            Use '#' for sharp, and 'b' for flat. e.g. 'Gb', 'A#' etc.
-        -r, --root_note:    Limit suggestions to scales with the provided root note.
-
-        DISPLAY:
-
-        -d, --degrees:      Show scale degrees instead of note names. 
-        -x, --minesweeper:  Shows notes that are NOT in the selected scale.
-        --frets:            (Default 12) Adjust the number of frets display. Useful for smaller screens.
-        --fret_width:       (Default 6) Adjust the fretboard width. Useful for smaller screens.
-        --no_strings:       Hide String letters to the left of the fretboard.
-
-        MISC:
-
-        -v, --verbose:      Enable verbose output
-        -h, --help:         This help menu
-                
-
-```
 
 # Tests 
 ```
