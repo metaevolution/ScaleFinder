@@ -3,6 +3,8 @@ import unittest
 from scalefinder.util import get_previous_note
 from scalefinder.util import get_next_note
 from scalefinder.util import get_note_sequence
+from scalefinder.util import get_relative_note
+from scalefinder.util import calculate_major_scale
 
 class TestGetPreviousNote(unittest.TestCase):
 
@@ -90,7 +92,46 @@ class TestNoteSequence(unittest.TestCase):
     def test_note_xomode_w_list(self):
         result = get_note_sequence("C", 12, ['A','G#'], False, False, True)
         self.assertEqual(result, ['', '', '', '', '', '', '', '', 'O', 'O', '', '', ''])
-    
+
+class TestRelativeNote(unittest.TestCase):
+
+    def test_relative_note(self):
+        result = get_relative_note("B","b")
+        self.assertEqual(result, "A#")
+
+    def test_relative_note_lower(self):
+        result = get_relative_note("b","b")
+        self.assertEqual(result, "A#")
+
+    def test_relative_note_upper_symbol(self):
+        result = get_relative_note("b","B")
+        self.assertEqual(result, "A#")
+
+    def test_relative_note_end(self):
+        result = get_relative_note("G","#")
+        self.assertEqual(result, "A")
+
+    def test_relative_note_end(self):
+        result = get_relative_note("A","b")
+        self.assertEqual(result, "G#")
+
+class TestCalcMajorScale(unittest.TestCase):
+
+    def test_calculate_major_scale(self):
+        result = calculate_major_scale("B")
+        self.assertEqual(result, ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'])    
+        
+    def test_calculate_major_scale_lower(self):
+        result = calculate_major_scale("b")
+        self.assertEqual(result, ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'])  
+
+    def test_calculate_major_scale_end(self):
+        result = calculate_major_scale("G#")
+        self.assertEqual(result, ['G#', 'A#', 'C', 'C#', 'D#', 'F', 'G'])    
+
+    def test_calculate_major_scale_invalid(self): 
+        with self.assertRaises(ValueError):
+            calculate_major_scale("L#")
 
 if __name__ == '__main__':
     unittest.main()

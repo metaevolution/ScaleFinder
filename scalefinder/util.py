@@ -71,6 +71,8 @@ def get_note_sequence(note, note_range, include_list=None, inverted=False, degre
 
 def get_relative_note(note, symbol):
     """Return the note sharp or flat of the provided note"""
+    note = note.upper()
+    symbol = symbol.lower()
     position = NOTES.index(note)
     if symbol == SYMBOL_SHARP or symbol == SYMBOL_AUGMENTED:
         if position == (len(NOTES) - 1):  # if at 11th position, start at position 0 (0 indexed)  
@@ -87,6 +89,7 @@ def get_relative_note(note, symbol):
 
 def calculate_major_scale(root_note):
     """Returns the notes of the major scale for provided root note."""
+    root_note = root_note.upper()
     FORMULA = [x for x in MAJOR_SCALE_FORMULA]
     note_len = len(NOTES)
     root_index = NOTES.index(root_note)
