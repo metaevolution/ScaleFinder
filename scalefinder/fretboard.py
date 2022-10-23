@@ -71,14 +71,16 @@ class FretBoardASCIIRenderer():
         self.fretboard = fretboard
 
     def _center(self, value, max_width, symbol):
+        """Center ASCII Text"""
         padding = ((max_width - len(str(value))) / 2)
-        s = symbol * int(padding)
-        s += str(value)
-        s += symbol * int(padding)
-        s += symbol * (max_width-len(s))
-        return s
+        s1 = symbol * int(padding)
+        s1 += str(value)
+        s1 += symbol * int(padding)
+        s1 += symbol * (max_width-len(s1))   
+        return s1
 
     def render(self):
+        """Create ASCII representation of fretboard."""
         self.fretboard.generate() 
         output = ""
         output += f"{bcolors.OKGREEN}\r\n[Tuning: {self.fretboard.tuning.name}] {str(self.fretboard.tuning.strings[::-1])}\r{bcolors.ENDC}"
@@ -116,7 +118,7 @@ class FretBoardASCIIRenderer():
         
 
 class FretBoard():
-
+    """Data model for fretboard."""
     def __init__(self, tuning, frets=24, inverted=False, degrees=False, xo_mode=False):
         self.frets = frets
         self.tuning = tuning

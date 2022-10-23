@@ -1,3 +1,4 @@
+from turtle import bgcolor
 from scalefinder.const import bcolors
 from scalefinder.const import SCALE_FORMULAS
 from scalefinder.const import MAJOR_SCALE_FORMULA
@@ -8,9 +9,10 @@ from scalefinder.const import SYMBOL_AUGMENTED
 from scalefinder.const import SYMBOL_DIMINISHED
 
 
-def get_previous_note_iter(note):
+def get_previous_note(note):
     """Return the next lower note in pitch"""
-    position = NOTES.index(note)
+
+    position = NOTES.index(note.upper())
     if position == 0:  # if at 0 position, start at position 11 (0 indexed)  
         position = 11
     else: 
@@ -19,7 +21,7 @@ def get_previous_note_iter(note):
 
 def get_next_note(note):
     """Return the next higher note in pitch"""
-    position = NOTES.index(note)
+    position = NOTES.index(note.upper())
     if position == (len(NOTES) - 1):  # if at 11th position, start at position 0 (0 indexed)  
         position = 0
     else: 
@@ -42,16 +44,17 @@ def _note_in_list(note, include_list, inverted=False, degrees=False, xo_mode=Fal
             if xo_mode:
                 return "X"
             else:
-                return ""
+                return note
         else:
             if xo_mode:
                 return ""
             else:
-                return "(%s)" % note     
+                return ""   
 
 def get_note_sequence(note, note_range, include_list=None, inverted=False, degrees=False, xo_mode=False):
     """Return the next x number of notes in sequential order. Use 'include_list' to return only notes within a scale."""
     notes = []
+    note = note.upper()
     if include_list:
         notes.append(_note_in_list(note, include_list, inverted, degrees, xo_mode))
     else:
