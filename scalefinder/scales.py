@@ -10,22 +10,13 @@ from scalefinder.const import SYMBOL_FLAT
 from scalefinder.const import SYMBOL_AUGMENTED
 from scalefinder.const import SYMBOL_DIMINISHED
 
-
 class Note():
-
-    note = ""
-    scale_degree = None
-    is_root_note = False
 
     def __init__(self, note, scale_degree=None, is_root_note=False, pattern=None):
         self.note = note
         self.scale_degree = scale_degree
         self.is_root_note = is_root_note
         self.pattern = pattern
-
-    #def __repr__(self) -> str:
-    #    return f"[Note: {self.note} Root?:{self.is_root_note} Degree:{self.scale_degree} Pattern:{self.pattern}]"
-
 
 class Scale():
 
@@ -155,7 +146,6 @@ def note_sequence(starting_note, number_of_notes=50, scale=None):  # TODO: Move 
         else:
             notes.append(note)
     return notes
-
 
 def get_next_note(note): 
     """Return the next higher note in pitch"""

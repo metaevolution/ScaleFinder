@@ -1,6 +1,5 @@
 from scalefinder.scales import Scale
 from scalefinder.scales import note_sequence
-from scalefinder.const import SCALE_FORMULAS
 from scalefinder.const import bcolors
 
 TUNINGS = [
@@ -153,17 +152,12 @@ class FretBoard():
         self.fretboard = []
         self.scale = None
 
-        #self.show_inverted = inverted
-        #self.show_scale_degrees = degrees
-        #self.xo_mode = xo_mode
-
     def set_scale(self, scale):
         self.fretboard = []
         self.scale = scale
         for string in self.tuning.strings:
             notes = note_sequence(string, self.frets, self.scale)
             self.fretboard.append(notes)  
-
 
     def __repr__(self):
         return str(self.fretboard)
