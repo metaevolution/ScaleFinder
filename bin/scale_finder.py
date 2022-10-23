@@ -3,7 +3,6 @@
 import sys
 import getopt
 
-
 from scalefinder.scales import Scale
 from scalefinder.scales import get_scale_candidates
 from scalefinder.const import bcolors
