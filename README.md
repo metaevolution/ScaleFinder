@@ -55,8 +55,6 @@
 45. C ichikosucho
 46. G ichikosucho
 
-[*] Found scales that include the notes ['C', 'E', 'G', 'A', 'F#']:
-
 [*] Please enter the corresponding number for the scale you want to see on the fretboard, or 'n' to exit: 3
 
 0. (6-String Guitar) E standard
@@ -114,6 +112,14 @@ Python 3.x or higher
 
 # Setup 
 ```   
+    > git clone https://github.com/metaevolution/ScaleFinder.git
+    > cd ScaleFinder
+    > python3 setup.py install
+```
+Or using Virtualenv
+```   
+    > python3 -m virtualenv .venv
+    > source  .venv/bin/activate
     > git clone https://github.com/metaevolution/ScaleFinder.git
     > cd ScaleFinder
     > python3 setup.py install
