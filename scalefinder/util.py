@@ -44,7 +44,7 @@ def _note_in_list(note, include_list, inverted=False, degrees=False, xo_mode=Fal
             if xo_mode:
                 return "X"
             else:
-                return note
+                return f"({note})"
         else:
             if xo_mode:
                 return ""
