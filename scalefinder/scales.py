@@ -4,6 +4,7 @@ from symtable import Symbol
 from scalefinder.const import bcolors
 from scalefinder.const import MAJOR_SCALE_FORMULA
 from scalefinder.const import NOTES
+from scalefinder.const import SCALE_FORMULAS
 from scalefinder.const import SYMBOL_SHARP
 from scalefinder.const import SYMBOL_FLAT
 from scalefinder.const import SYMBOL_AUGMENTED
@@ -100,6 +101,9 @@ class Scale():
             if x.note == note:
                 return x
 
+    def get_notes_as_list(self):
+        return [note.note for note in self.notes]
+
     def _scale_notes_filter(self, note):
         if (note.scale_degree):
             return True
@@ -153,7 +157,7 @@ def note_sequence(starting_note, number_of_notes=50, scale=None):  # TODO: Move 
     return notes
 
 
-def get_next_note(note): # TODO: Add previous note function
+def get_next_note(note): 
     """Return the next higher note in pitch"""
     position = NOTES.index(note.upper())
     if position == (len(NOTES) - 1):  # if at 11th position, start at position 0 (0 indexed)  
@@ -161,6 +165,28 @@ def get_next_note(note): # TODO: Add previous note function
     else: 
         position += 1
     return NOTES[position]
+
+def get_previous_note(note):
+    """Return the next lower note in pitch"""
+    position = NOTES.index(note.upper())
+    if position == 0:  # if at 0 position, start at position 11 (0 indexed)  
+        position = 11
+    else: 
+        position -= 1
+    return NOTES[position]
+
+def get_scale_candidates(submitted_notes, root_note=None, name_filter=None):
+    """Find scales that contain all of the notes passed to function."""
+    for scale_name, scale_formula in SCALE_FORMULAS.items():
+        for rn in NOTES:
+            scale = Scale(scale_name, rn, scale_formula)
+            notes = scale.get_notes_as_list()
+            if all(elem in notes for elem in submitted_notes):
+                if root_note:
+                    if rn == root_note:
+                        yield {'scale': scale_name, 'formula': scale_formula, 'notes': notes, 'root_note': rn}
+                else:
+                    yield {'scale': scale_name, 'formula': scale_formula, 'notes': notes, 'root_note': rn}
 
 if __name__ == "__main__":
     s = Scale("C Major","C","1 2 3 4b 5 6 7")

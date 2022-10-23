@@ -3,13 +3,15 @@
 import sys
 import getopt
 
+
 from scalefinder.scales import Scale
-from scalefinder.util import scale_candidate_iter
+from scalefinder.scales import get_scale_candidates
 from scalefinder.const import bcolors
 from scalefinder.fretboard import FretBoard
 from scalefinder.fretboard import Tuning
 from scalefinder.fretboard import TUNINGS
 from scalefinder.fretboard import FretBoardASCIIRenderer
+
 
 if __name__ == "__main__":
     # defaults
@@ -106,7 +108,8 @@ if __name__ == "__main__":
     print(f"{bcolors.WARNING}\r\n[*] Found the following scales that include the notes %s:\r\n{bcolors.ENDC}" % (notes))
     n = 0 
     suggested_scales = []
-    for i in scale_candidate_iter(notes, filter_by_root_note):
+    #for i in scale_candidate_iter(notes, filter_by_root_note):
+    for i in get_scale_candidates(notes, filter_by_root_note):
         suggested_scales.append(i)
         #print("%s. %s %s" % (n, i['root_note'], i['scale']))
         if verbose:
