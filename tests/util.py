@@ -69,7 +69,7 @@ class TestNoteSequence(unittest.TestCase):
 
     def test_note_squence_w_list_inverted(self):
         result = get_note_sequence("C", 12, ['A','C#','G'], inverted=True)
-        self.assertEqual(result, ['C', '', 'D', 'D#', 'E', 'F', 'F#', '', 'G#', '', 'A#', 'B', 'C'])
+        self.assertEqual(result, ['(C)', '', '(D)', '(D#)', '(E)', '(F)', '(F#)', '', '(G#)', '', '(A#)', '(B)', '(C)'])
 
 if __name__ == '__main__':
     unittest.main()
