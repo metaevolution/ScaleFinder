@@ -3,7 +3,7 @@
 
 # Usage
 ```      
-    Usage: scale_finder --notes A B C D F#
+    Usage: > scale_finder --notes A B C D F#
                 
         INPUTS:
 
