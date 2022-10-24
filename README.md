@@ -3,7 +3,7 @@
 
 # Usage
 ```
-    python3 bin/scale_finder.py  -h        
+    > scale_finder  -h        
 ```
 ```      
     Usage: bin/scale_finder.py --notes A B C D F#
