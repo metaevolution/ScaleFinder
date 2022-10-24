@@ -3,19 +3,20 @@
 
 # Usage
 ```      
-    Usage: > scale_finder --notes "A B C D F#"
+ scale_finder --notes "A B C D F#"
                 
         INPUTS:
 
         -n, --notes:        Specify the notes you want to search relevant scales for. 
                             Separate multiple notes with spaces and surround with double quotes "". 
-                            Use '#' for sharp, and 'b' for flat. e.g. 'Gb', 'A#' etc.
+                            Use '#' for sharp. Note: Currently all notes are represented as '#' not flats.
         -r, --root_note:    Limit suggestions to scales with the provided root note.
 
         DISPLAY:
 
         -d, --degrees:      Show scale degrees instead of note names. 
         -x, --minesweeper:  Shows notes that are NOT in the selected scale.
+        -f, --filter:       Filter by scales that contain user provided text (e.g. -f pentatonic).
         --frets:            (Default 12) Adjust the number of frets display. Useful for smaller screens.
         --fret_width:       (Default 6) Adjust the fretboard width. Useful for smaller screens.
         --no_strings:       Hide String letters to the left of the fretboard.
@@ -24,8 +25,6 @@
 
         -v, --verbose:      Enable verbose output
         -h, --help:         This help menu
-                
-
 ```
 
 # Example Output
