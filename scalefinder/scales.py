@@ -168,7 +168,6 @@ def get_scale_candidates(submitted_notes, root_note=None, name_filter=None):
 
     if name_filter:
         formulas = [(scale_name, scale_formula) for scale_name, scale_formula in formulas if name_filter.lower() in scale_name.lower()]
-    print(formulas)
  
     for scale_name, scale_formula in formulas:
         for rn in NOTES:
