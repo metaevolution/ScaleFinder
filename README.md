@@ -33,7 +33,7 @@
 
 # Example Output
 ```
-> python3 bin/scale_finder.py -n "C E G A F#"  
+> scale_finder -n "C E G A F#"  
 
 [*] Found the following scales that include the notes ['C', 'E', 'G', 'A', 'F#']:
 

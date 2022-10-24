@@ -94,8 +94,8 @@ class FretBoardASCIIRenderer():
         
     def _chords_section(self):
         output = "\r\n"
-        output += "[Scale Chords]\r\n"
-        output += "   Triad Notes:   Scale Degrees:\r\n"
+        output += f"{bcolors.OKCYAN}[Scale Chords]\r\n{bcolors.ENDC}\r\n"
+        output += "Triad Notes:      Scale Degrees:\r\n"
         n = 1
         for i in self.fretboard.scale.get_scale_chords():
             output += f"{n} {[x.note for x in i]} {[x.scale_degree for x in i]}\r\n"
@@ -129,7 +129,6 @@ class FretBoardASCIIRenderer():
                     note = [fret.scale_degree if self.show_degree and fret.scale_degree else fret.note][0]
                 else:
                     note = ["" if fret.scale_degree else "X"][0]
-
                 line += self._center(note, self.fret_width, self.row) + s
             output += line + "\r\n"
         return output

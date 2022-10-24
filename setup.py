@@ -7,5 +7,6 @@ setup(name='ScaleFinder',
       description='Easily find scales on the guitar',
       author='Brandon Archer',
       author_email='m37a11@gmail.com',
-      packages=['scalefinder']
+      packages=['scalefinder'],
+      scripts=['bin/scale_finder']
      )
