@@ -108,7 +108,7 @@ if __name__ == "__main__":
     n = 0 
     suggested_scales = []
     #for i in scale_candidate_iter(notes, filter_by_root_note):
-    for i in get_scale_candidates(notes, filter_by_root_note):
+    for i in get_scale_candidates(notes, filter_by_root_note, filter_by_scale_name):
         suggested_scales.append(i)
         #print("%s. %s %s" % (n, i['root_note'], i['scale']))
         if verbose:

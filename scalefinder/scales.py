@@ -161,12 +161,20 @@ def get_previous_note(note):
         position -= 1
     return NOTES[position]
 
+
 def get_scale_candidates(submitted_notes, root_note=None, name_filter=None):
     """Find scales that contain all of the notes passed to function."""
-    for scale_name, scale_formula in SCALE_FORMULAS.items():
+    formulas = SCALE_FORMULAS.items()
+
+    if name_filter:
+        formulas = [(scale_name, scale_formula) for scale_name, scale_formula in formulas if name_filter.lower() in scale_name.lower()]
+    print(formulas)
+ 
+    for scale_name, scale_formula in formulas:
         for rn in NOTES:
             scale = Scale(scale_name, rn, scale_formula)
             notes = scale.get_notes_as_list()
+
             if all(elem in notes for elem in submitted_notes):
                 if root_note:
                     if rn == root_note:
