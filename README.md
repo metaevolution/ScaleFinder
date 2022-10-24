@@ -2,11 +2,8 @@
 ## Quickly find a scale on the guitar by providing a few starting notes.
 
 # Usage
-```
-    > scale_finder  -h        
-```
 ```      
-    Usage: bin/scale_finder.py --notes A B C D F#
+    Usage: scale_finder --notes A B C D F#
                 
         INPUTS:
 
